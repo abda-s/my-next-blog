@@ -46,7 +46,7 @@ async function processMarkdownFiles() {
 
         // Create markdown image syntax with URL encoded spaces
         const markdownImage =
-          "![](/images/" + imageName.replace(/ /g, "%20") + ")";
+          "![](/my-next-blog/images/" + imageName.replace(/ /g, "%20") + ")";
 
         // Replace Obsidian syntax with markdown image
         content = content.replaceAll(originalSyntax, markdownImage);
