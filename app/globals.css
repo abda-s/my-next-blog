@@ -1,3 +1,4 @@
+/* Force a rebuild of the CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
