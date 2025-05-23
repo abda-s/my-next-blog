@@ -14,7 +14,7 @@ Write-Host "Running npm scripts..."
 # npm run build
 try {
 git add .
-git commit -m "Deploy to gh-pages"
+git commit -m "Deploy to gh-pages - $(Get-Date -Format G)"
     git subtree split --prefix out -b gh-pages-deploy
 } catch {
     Write-Error "Subtree split failed."
