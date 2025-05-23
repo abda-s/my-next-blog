@@ -6,17 +6,17 @@
 8:I[6213,[],"MetadataBoundary"]
 a:I[6213,[],"ViewportBoundary"]
 c:I[4835,[],""]
-:HL["/_next/static/css/a343d0272bc8adf4.css","style"]
-:HL["/_next/static/css/5eacd01f773eed7f.css","style"]
-0:{"P":null,"b":"U3XbKLhuSiydPKxX2puxY","p":"","c":["","posts","Understanding-UART-and-Serial-Communication",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","Understanding-UART-and-Serial-Communication","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a343d0272bc8adf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","header",null,{"className":"bg-gray-800 shadow-md","children":["$","nav",null,{"className":"container mx-auto px-4 py-4 flex justify-between items-center","children":[["$","$L2",null,{"href":"/","className":"text-2xl font-bold text-white hover:text-blue-400 transition-colors","children":"My Blog"}],["$","div",null,{"className":"flex space-x-6","children":[["$","$L2",null,{"href":"/","className":"text-gray-300 hover:text-white transition-colors","children":"Home"}],["$","$L2",null,{"href":"/about","className":"text-gray-300 hover:text-white transition-colors","children":"About"}],["$","$L2",null,{"href":"/contact","className":"text-gray-300 hover:text-white transition-colors","children":"Contact"}],["$","$L2",null,{"href":"/all-posts","className":"text-gray-300 hover:text-white transition-colors","children":"Posts"}]]}]]}]}],["$","main",null,{"className":"container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","Understanding-UART-and-Serial-Communication","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","P_L3mp8uUSxXL2jkhC5kj",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+:HL["/my-next-blog/_next/static/css/a343d0272bc8adf4.css","style"]
+:HL["/my-next-blog/_next/static/css/5eacd01f773eed7f.css","style"]
+0:{"P":null,"b":"tE0wV9d996VJSJT2ePihA","p":"/my-next-blog","c":["","posts","Understanding-UART-and-Serial-Communication",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","Understanding-UART-and-Serial-Communication","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/my-next-blog/_next/static/css/a343d0272bc8adf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","header",null,{"className":"bg-gray-800 shadow-md","children":["$","nav",null,{"className":"container mx-auto px-4 py-4 flex justify-between items-center","children":[["$","$L2",null,{"href":"/","className":"text-2xl font-bold text-white hover:text-blue-400 transition-colors","children":"My Blog"}],["$","div",null,{"className":"flex space-x-6","children":[["$","$L2",null,{"href":"/","className":"text-gray-300 hover:text-white transition-colors","children":"Home"}],["$","$L2",null,{"href":"/about","className":"text-gray-300 hover:text-white transition-colors","children":"About"}],["$","$L2",null,{"href":"/contact","className":"text-gray-300 hover:text-white transition-colors","children":"Contact"}],["$","$L2",null,{"href":"/all-posts","className":"text-gray-300 hover:text-white transition-colors","children":"Posts"}]]}]]}]}],["$","main",null,{"className":"container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","Understanding-UART-and-Serial-Communication","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/my-next-blog/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","YCss0XVycTgPtUk5LdODp",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
 b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 9:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"My Blog"}],["$","meta","2",{"name":"description","content":"A personal blog built with Next.js"}]]
 7:null
 d:I[3704,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],""]
 e:I[8722,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],"default"]
-f:T1a13,<h1>Data Transmission</h1>
+f:T1a61,<h1>Data Transmission</h1>
 <p>Data transmission can be categorized into two main types: <strong>Serial</strong> and <strong>Parallel</strong>. Serial communication, in particular, has several subtypes, including <strong>Asynchronous</strong>, <strong>Synchronous</strong>, and <strong>Isochronous</strong>. In this post, we’ll focus on <strong>UART (Universal Asynchronous Receiver-Transmitter)</strong>, which is an asynchronous method of communication. Unlike synchronous communication, UART does not require devices to share the same clock cycles or be synchronized.</p>
-<p><img src="/images/Data%20transmission.png" alt=""></p>
+<p><img src="/my-next-blog/images/Data%20transmission.png" alt=""></p>
 <hr>
 <h2>Serial vs. Parallel Transmission</h2>
 <ul>
@@ -26,7 +26,7 @@ f:T1a13,<h1>Data Transmission</h1>
 </li>
 </ul>
 <p>Both methods enable devices to communicate, but they differ in their approach. Serial transmission is often preferred for its simplicity and lower cost, while parallel transmission is used when speed is critical.</p>
-<p><img src="/images/parallel%20vs%20serail.png" alt=""></p>
+<p><img src="/my-next-blog/images/parallel%20vs%20serail.png" alt=""></p>
 <h3>Key Terms:</h3>
 <ul>
 <li><strong>MSB (Most Significant Bit)</strong>: The bit with the highest value in a byte (e.g., 2^7).</li>
@@ -46,7 +46,7 @@ f:T1a13,<h1>Data Transmission</h1>
 <blockquote>
 <p><strong>Note</strong>: Asynchronous transmission is &quot;asynchronous at the byte level,&quot; but the bits within each byte are still synchronized.</p>
 </blockquote>
-<p><img src="/images/serial%20byte.png" alt=""></p>
+<p><img src="/my-next-blog/images/serial%20byte.png" alt=""></p>
 <hr>
 <h2>UART: Universal Asynchronous Receiver-Transmitter</h2>
 <p>UART is a hardware device that facilitates asynchronous serial communication. It uses two wires:</p>
@@ -54,7 +54,7 @@ f:T1a13,<h1>Data Transmission</h1>
 <li><strong>Tx (Transmit)</strong>: Sends data from the transmitting device.</li>
 <li><strong>Rx (Receive)</strong>: Receives data at the receiving device.</li>
 </ul>
-<p><img src="/images/Pasted%20image%2020250215052600.png" alt=""></p>
+<p><img src="/my-next-blog/images/Pasted%20image%2020250215052600.png" alt=""></p>
 <p>The communication speed, known as the <strong>baud rate</strong>, must be agreed upon by both devices.</p>
 <hr>
 <h3>Baud Rate: How It Works</h3>
@@ -80,7 +80,7 @@ f:T1a13,<h1>Data Transmission</h1>
 <li>Not a protocol but refers to the voltage level used by UART.</li>
 <li>Example: USB-to-TTL converters.</li>
 </ul>
-<p><img src="/images/TTL.png" alt=""></p>
+<p><img src="/my-next-blog/images/TTL.png" alt=""></p>
 <h4>RS-232:</h4>
 <ul>
 <li>Uses higher voltage levels (+/- 12V) for long-range communication.</li>
@@ -91,7 +91,7 @@ f:T1a13,<h1>Data Transmission</h1>
 </li>
 <li>Active low logic.</li>
 </ul>
-<p><img src="/images/RS232.png" alt=""></p>
+<p><img src="/my-next-blog/images/RS232.png" alt=""></p>
 <hr>
 <h3>References:</h3>
 <ul>

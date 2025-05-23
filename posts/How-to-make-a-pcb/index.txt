@@ -6,15 +6,15 @@
 8:I[6213,[],"MetadataBoundary"]
 a:I[6213,[],"ViewportBoundary"]
 c:I[4835,[],""]
-:HL["/_next/static/css/a343d0272bc8adf4.css","style"]
-:HL["/_next/static/css/5eacd01f773eed7f.css","style"]
-0:{"P":null,"b":"U3XbKLhuSiydPKxX2puxY","p":"","c":["","posts","How-to-make-a-pcb",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","How-to-make-a-pcb","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a343d0272bc8adf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","header",null,{"className":"bg-gray-800 shadow-md","children":["$","nav",null,{"className":"container mx-auto px-4 py-4 flex justify-between items-center","children":[["$","$L2",null,{"href":"/","className":"text-2xl font-bold text-white hover:text-blue-400 transition-colors","children":"My Blog"}],["$","div",null,{"className":"flex space-x-6","children":[["$","$L2",null,{"href":"/","className":"text-gray-300 hover:text-white transition-colors","children":"Home"}],["$","$L2",null,{"href":"/about","className":"text-gray-300 hover:text-white transition-colors","children":"About"}],["$","$L2",null,{"href":"/contact","className":"text-gray-300 hover:text-white transition-colors","children":"Contact"}],["$","$L2",null,{"href":"/all-posts","className":"text-gray-300 hover:text-white transition-colors","children":"Posts"}]]}]]}]}],["$","main",null,{"className":"container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","How-to-make-a-pcb","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","WeBzBJVyCif7dvv9PtytS",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+:HL["/my-next-blog/_next/static/css/a343d0272bc8adf4.css","style"]
+:HL["/my-next-blog/_next/static/css/5eacd01f773eed7f.css","style"]
+0:{"P":null,"b":"tE0wV9d996VJSJT2ePihA","p":"/my-next-blog","c":["","posts","How-to-make-a-pcb",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","How-to-make-a-pcb","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/my-next-blog/_next/static/css/a343d0272bc8adf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","header",null,{"className":"bg-gray-800 shadow-md","children":["$","nav",null,{"className":"container mx-auto px-4 py-4 flex justify-between items-center","children":[["$","$L2",null,{"href":"/","className":"text-2xl font-bold text-white hover:text-blue-400 transition-colors","children":"My Blog"}],["$","div",null,{"className":"flex space-x-6","children":[["$","$L2",null,{"href":"/","className":"text-gray-300 hover:text-white transition-colors","children":"Home"}],["$","$L2",null,{"href":"/about","className":"text-gray-300 hover:text-white transition-colors","children":"About"}],["$","$L2",null,{"href":"/contact","className":"text-gray-300 hover:text-white transition-colors","children":"Contact"}],["$","$L2",null,{"href":"/all-posts","className":"text-gray-300 hover:text-white transition-colors","children":"Posts"}]]}]]}]}],["$","main",null,{"className":"container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","How-to-make-a-pcb","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/my-next-blog/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","q-nSVUkhigep8jp9-rZ-y",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
 b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 9:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"My Blog"}],["$","meta","2",{"name":"description","content":"A personal blog built with Next.js"}]]
 7:null
 d:I[3704,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],""]
 e:I[8722,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],"default"]
-f:T27f8,<h2>Getting Started with PCB Design and Image Editing</h2>
+f:T2957,<h2>Getting Started with PCB Design and Image Editing</h2>
 <p>To begin, you&#39;ll need a basic understanding of electronics and some image editing skills. Here&#39;s what you&#39;ll need:</p>
 <h3>Downloads</h3>
 <ol>
@@ -26,7 +26,7 @@ f:T27f8,<h2>Getting Started with PCB Design and Image Editing</h2>
 <h3>Drawing the Schematic</h3>
 <p>Our schematic is simple, so we&#39;ll sketch it by hand first:</p>
 <p><strong>Schematic Diagram:</strong></p>
-<p><img src="/images/Pasted%20image%2020241226024552.png" alt=""></p>
+<p><img src="/my-next-blog/images/Pasted%20image%2020241226024552.png" alt=""></p>
 <p><strong>Pin Details:</strong></p>
 <ul>
 <li><strong>M+, M-</strong>: Motor pins.</li>
@@ -45,14 +45,14 @@ f:T27f8,<h2>Getting Started with PCB Design and Image Editing</h2>
 <hr>
 <h3>Basics of KiCad</h3>
 <p>After installing KiCad, open the software. You should see the following interface:</p>
-<p><img src="/images/Pasted%20image%2020241226025807.png" alt=""></p>
+<p><img src="/my-next-blog/images/Pasted%20image%2020241226025807.png" alt=""></p>
 <h4>Creating a New Project in KiCad</h4>
 <ol>
 <li><p>Navigate to <strong>File &gt; New Project</strong> or click the <strong>New Project</strong> icon in the toolbar.</p>
-<p> <img src="/images/Pasted%20image%2020241226025931.png" alt=""></p>
+<p> <img src="/my-next-blog/images/Pasted%20image%2020241226025931.png" alt=""></p>
 </li>
 <li><p>Select the location where you want to save your project and provide a name for it. Once you save, the following screen will appear:</p>
-<p> <img src="/images/Pasted%20image%2020241226081252.png" alt=""></p>
+<p> <img src="/my-next-blog/images/Pasted%20image%2020241226081252.png" alt=""></p>
 </li>
 </ol>
 <h5>Understanding the New Files</h5>
@@ -61,7 +61,7 @@ f:T27f8,<h2>Getting Started with PCB Design and Image Editing</h2>
 <li><p><strong>.kicad_sch</strong>: This file contains the schematic diagram of the project.</p>
 </li>
 <li><p><strong>.kicad_pcb</strong>: This file contains the PCB layout of the project.</p>
-<p>  <img src="/images/Pasted%20image%2020241226081419.png" alt=""></p>
+<p>  <img src="/my-next-blog/images/Pasted%20image%2020241226081419.png" alt=""></p>
 </li>
 </ul>
 <p>We’ll begin by working on the schematic. Once it is completed, we’ll move on to the PCB layout.</p>
@@ -69,7 +69,7 @@ f:T27f8,<h2>Getting Started with PCB Design and Image Editing</h2>
 <h4>Starting with the Schematic</h4>
 <ol>
 <li><p>Open the <strong>.kicad_sch</strong> file by double-clicking it. This will open the schematic editor, and the following screen will appear:</p>
-<p> <img src="/images/Pasted%20image%2020241226083410.png" alt=""></p>
+<p> <img src="/my-next-blog/images/Pasted%20image%2020241226083410.png" alt=""></p>
 </li>
 </ol>
 <h5>Overview of the Schematic Editor Interface</h5>
@@ -100,11 +100,11 @@ f:T27f8,<h2>Getting Started with PCB Design and Image Editing</h2>
 </ul>
 <hr>
 <h3>Adding Components to the Schematic</h3>
-<p>To add components, click on the following icon:<br><img src="/images/Pasted%20image%2020241226084528.png" alt=""></p>
-<p>After a brief loading screen, this window will appear:<br><img src="/images/Pasted%20image%2020241226084706.png" alt=""></p>
+<p>To add components, click on the following icon:<br><img src="/my-next-blog/images/Pasted%20image%2020241226084528.png" alt=""></p>
+<p>After a brief loading screen, this window will appear:<br><img src="/my-next-blog/images/Pasted%20image%2020241226084706.png" alt=""></p>
 <p>In the search field, type the name of the component you&#39;d like to add. For example, to add a resistor:</p>
 <ul>
-<li>Type <strong>R</strong> in the search field, and the resistor symbol will appear:<br>  <img src="/images/Pasted%20image%2020241226084855.png" alt=""></li>
+<li>Type <strong>R</strong> in the search field, and the resistor symbol will appear:<br>  <img src="/my-next-blog/images/Pasted%20image%2020241226084855.png" alt=""></li>
 <li>Select the resistor from the results, click <strong>OK</strong>, and place it on the canvas.</li>
 </ul>
 <p>Next, follow the same steps to add a diode.</p>
@@ -113,24 +113,24 @@ f:T27f8,<h2>Getting Started with PCB Design and Image Editing</h2>
 <p>For certain components, like the 2N2222 transistor, you may not find them in KiCad’s default library. Let’s go through the steps to add a new component to your library.</p>
 <h4>Using SnapEDA to Download Components</h4>
 <ol>
-<li>Open <a href="https://www.snapeda.com/">SnapEDA</a> and search for the component by name:<br> <img src="/images/Pasted%20image%2020241226092718.png" alt=""></li>
+<li>Open <a href="https://www.snapeda.com/">SnapEDA</a> and search for the component by name:<br> <img src="/my-next-blog/images/Pasted%20image%2020241226092718.png" alt=""></li>
 <li>Select the result that matches the look of your desired component.</li>
 </ol>
-<p>Here’s what the component’s page looks like:<br><img src="/images/Pasted%20image%2020241226092920.png" alt=""></p>
+<p>Here’s what the component’s page looks like:<br><img src="/my-next-blog/images/Pasted%20image%2020241226092920.png" alt=""></p>
 <ul>
 <li><strong>Symbol</strong>: Used in the schematic editor.</li>
 <li><strong>Footprint</strong>: Used in the PCB layout.</li>
 </ul>
 <h4>Downloading the Symbol and Footprint</h4>
 <ol>
-<li>Click the <strong>Download Symbol and Footprint</strong> button. A window will pop up:<br> <img src="/images/Pasted%20image%2020241226101900.png" alt=""></li>
+<li>Click the <strong>Download Symbol and Footprint</strong> button. A window will pop up:<br> <img src="/my-next-blog/images/Pasted%20image%2020241226101900.png" alt=""></li>
 <li>Select <strong>KiCad</strong> as the format.</li>
 </ol>
 <blockquote>
 <p><strong>Note</strong>: You will need to log in or create an account to continue.</p>
 </blockquote>
 <ol start="3">
-<li><p>Choose the appropriate version. For example:<br> <img src="/images/Pasted%20image%2020241226103113.png" alt=""><br> If you&#39;re using KiCad version 6 or later, select <strong>V6 &amp; Later</strong>.</p>
+<li><p>Choose the appropriate version. For example:<br> <img src="/my-next-blog/images/Pasted%20image%2020241226103113.png" alt=""><br> If you&#39;re using KiCad version 6 or later, select <strong>V6 &amp; Later</strong>.</p>
 </li>
 <li><p>After downloading the <code>.zip</code> file, create a folder in your documents directory named <code>KiCad-lib</code>. This folder will store all your KiCad symbols and footprints.</p>
 </li>
@@ -143,28 +143,28 @@ f:T27f8,<h2>Getting Started with PCB Design and Image Editing</h2>
 <hr>
 <h3>Importing the Symbol into KiCad</h3>
 <ol>
-<li><p>Open KiCad and go to <strong>Preferences &gt; Manage Symbol Libraries</strong>:<br> <img src="/images/Pasted%20image%2020241229073019.png" alt=""></p>
+<li><p>Open KiCad and go to <strong>Preferences &gt; Manage Symbol Libraries</strong>:<br> <img src="/my-next-blog/images/Pasted%20image%2020241229073019.png" alt=""></p>
 </li>
-<li><p>Click on <strong>Add existing library to table</strong>:<br> <img src="/images/Pasted%20image%2020241229073157.png" alt=""></p>
+<li><p>Click on <strong>Add existing library to table</strong>:<br> <img src="/my-next-blog/images/Pasted%20image%2020241229073157.png" alt=""></p>
 </li>
-<li><p>Navigate to the folder where you extracted the file (<code>KiCad-lib</code>) and select the symbol file:<br> <img src="/images/Pasted%20image%2020241229073249.png" alt=""></p>
+<li><p>Navigate to the folder where you extracted the file (<code>KiCad-lib</code>) and select the symbol file:<br> <img src="/my-next-blog/images/Pasted%20image%2020241229073249.png" alt=""></p>
 </li>
 <li><p>The library will appear at the end of the table. Click <strong>OK</strong> to save the changes.</p>
 </li>
 </ol>
 <hr>
 <h3>Adding the Imported Component to the Schematic</h3>
-<p>Now, when you add a symbol and search for <code>2N2222</code>, it will appear in the list:<br><img src="/images/Pasted%20image%2020241229073505.png" alt=""></p>
+<p>Now, when you add a symbol and search for <code>2N2222</code>, it will appear in the list:<br><img src="/my-next-blog/images/Pasted%20image%2020241229073505.png" alt=""></p>
 <p>Select it, and you’re ready to place the component on your schematic!</p>
-<p>after adding all the components the resistor, the diode and the transistor it should look like this:<br><img src="/images/Pasted%20image%2020241229074606.png" alt=""></p>
+<p>after adding all the components the resistor, the diode and the transistor it should look like this:<br><img src="/my-next-blog/images/Pasted%20image%2020241229074606.png" alt=""></p>
 <p>now how can rotate the component it&#39;s pretty easy just select the component and press <code>R</code> on the keyboard let me arrange the parts </p>
-<p>here is the parts arranged<br><img src="/images/Pasted%20image%2020241229074806.png" alt=""><br>now we have to connect all the parts together with wires so lets do that now</p>
-<p>you can press <code>W</code> on the keboard or ckilck this icon on the right tool bar:<br><img src="/images/Pasted%20image%2020241229074957.png" alt=""></p>
-<p>connect the parts together like this:<br><img src="/images/Pasted%20image%2020241229075122.png" alt=""></p>
-<p>now we need the <code>VCC</code> and <code>GND</code> lets add them with the add symbol as we did with the components and search for VCC and GND<br>after adding them and connecting them with wires here is it<br><img src="/images/Pasted%20image%2020241229075353.png" alt=""><br>now we can add the connectors for the input and the output<br>I connected the VCC and GND to them as shown in below<br><img src="/images/Pasted%20image%2020241229075628.png" alt=""></p>
+<p>here is the parts arranged<br><img src="/my-next-blog/images/Pasted%20image%2020241229074806.png" alt=""><br>now we have to connect all the parts together with wires so lets do that now</p>
+<p>you can press <code>W</code> on the keboard or ckilck this icon on the right tool bar:<br><img src="/my-next-blog/images/Pasted%20image%2020241229074957.png" alt=""></p>
+<p>connect the parts together like this:<br><img src="/my-next-blog/images/Pasted%20image%2020241229075122.png" alt=""></p>
+<p>now we need the <code>VCC</code> and <code>GND</code> lets add them with the add symbol as we did with the components and search for VCC and GND<br>after adding them and connecting them with wires here is it<br><img src="/my-next-blog/images/Pasted%20image%2020241229075353.png" alt=""><br>now we can add the connectors for the input and the output<br>I connected the VCC and GND to them as shown in below<br><img src="/my-next-blog/images/Pasted%20image%2020241229075628.png" alt=""></p>
 <p>now we can connect the rest with wires but it will make a mess so we are going to use labels it&#39;s cleaner and more organized </p>
-<p>to add a one press on your keyboard <code>CTRL + L</code> or click this icon on the right tool bar<br><img src="/images/Pasted%20image%2020241229075851.png" alt=""></p>
-<p>after click on it will give you a page to name it<br><img src="/images/Pasted%20image%2020241229080018.png" alt=""><br>i named it M+ and i will connect it </p>
-<p>and i will add M- and connect it<br><img src="/images/Pasted%20image%2020241229080201.png" alt=""></p>
-<p>now we have to connect them to the input connector so we have to copy and past them the the input connector, and i did it for every thing M+,M-,PWM and laser_readings<br><img src="/images/Pasted%20image%2020241229080615.png" alt=""></p>
+<p>to add a one press on your keyboard <code>CTRL + L</code> or click this icon on the right tool bar<br><img src="/my-next-blog/images/Pasted%20image%2020241229075851.png" alt=""></p>
+<p>after click on it will give you a page to name it<br><img src="/my-next-blog/images/Pasted%20image%2020241229080018.png" alt=""><br>i named it M+ and i will connect it </p>
+<p>and i will add M- and connect it<br><img src="/my-next-blog/images/Pasted%20image%2020241229080201.png" alt=""></p>
+<p>now we have to connect them to the input connector so we have to copy and past them the the input connector, and i did it for every thing M+,M-,PWM and laser_readings<br><img src="/my-next-blog/images/Pasted%20image%2020241229080615.png" alt=""></p>
 5:[["$","$Ld",null,{"src":"https://polyfill.io/v3/polyfill.min.js?features=es6"}],["$","$Ld",null,{"id":"MathJax-config","dangerouslySetInnerHTML":{"__html":"\n            window.MathJax = {\n              tex: {\n                inlineMath: [['$', '$']],\n                displayMath: [['$$', '$$']],\n                processEscapes: true\n              },\n              options: {\n                ignoreHtmlClass: 'no-mathjax',\n                processHtmlClass: 'mathjax'\n              }\n            };\n          "}}],["$","$Ld",null,{"id":"MathJax-script","async":true,"src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"}],["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-3xl md:text-4xl font-bold text-white mb-2","children":"How to make a pcb"}],["$","p",null,{"className":"text-gray-400","children":"12/25/2024"}]]}],["$","$Le",null,{"html":"$f"}],["$","div",null,{"className":"mt-12 pt-6 border-t border-gray-700","children":["$","$L2",null,{"href":"/","className":"text-blue-400 hover:text-blue-300 inline-flex items-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","className":"h-5 w-5 mr-2","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to all posts"]}]}]]}]]
