@@ -1,0 +1,68 @@
+1:"$Sreact.fragment"
+2:I[8173,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],""]
+3:I[5244,[],""]
+4:I[3866,[],""]
+6:I[6213,[],"OutletBoundary"]
+8:I[6213,[],"MetadataBoundary"]
+a:I[6213,[],"ViewportBoundary"]
+c:I[4835,[],""]
+:HL["/_next/static/css/a343d0272bc8adf4.css","style"]
+:HL["/_next/static/css/5eacd01f773eed7f.css","style"]
+0:{"P":null,"b":"U3XbKLhuSiydPKxX2puxY","p":"","c":["","posts","Fixing-My-Ethernet-Cable-Issue",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","Fixing-My-Ethernet-Cable-Issue","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a343d0272bc8adf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","header",null,{"className":"bg-gray-800 shadow-md","children":["$","nav",null,{"className":"container mx-auto px-4 py-4 flex justify-between items-center","children":[["$","$L2",null,{"href":"/","className":"text-2xl font-bold text-white hover:text-blue-400 transition-colors","children":"My Blog"}],["$","div",null,{"className":"flex space-x-6","children":[["$","$L2",null,{"href":"/","className":"text-gray-300 hover:text-white transition-colors","children":"Home"}],["$","$L2",null,{"href":"/about","className":"text-gray-300 hover:text-white transition-colors","children":"About"}],["$","$L2",null,{"href":"/contact","className":"text-gray-300 hover:text-white transition-colors","children":"Contact"}],["$","$L2",null,{"href":"/all-posts","className":"text-gray-300 hover:text-white transition-colors","children":"Posts"}]]}]]}]}],["$","main",null,{"className":"container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","Fixing-My-Ethernet-Cable-Issue","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","t8lML75748cspsgqKfald",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"My Blog"}],["$","meta","2",{"name":"description","content":"A personal blog built with Next.js"}]]
+7:null
+d:I[3704,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],""]
+e:I[8722,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],"default"]
+f:Tfb7,<h2>The Setup</h2>
+<p>My father brought an electrician home to wire an Ethernet cable from the router to my room. He ran the cable inside the wall, and everything seemed fine at first. However, when he crimped the RJ-45 connectors, he messed up, and the cable wasn’t working on my laptop. That meant I had to fix it myself.</p>
+<p>To do this, I needed:</p>
+<ul>
+<li>An Ethernet cable tester</li>
+<li>An Ethernet crimper</li>
+<li>RJ-45 plugs</li>
+</ul>
+<p>Here’s a photo of each item:</p>
+<p><img src="/images/Drawing%202025-02-28%2005.37.43.excalidraw.png" alt=""></p>
+<h2>Understanding the Ethernet Cable Tester</h2>
+<p>Before jumping in, I had to figure out how the Ethernet cable tester actually works. I watched a few YouTube videos and learned that it’s just a connectivity tester. An Ethernet cable has eight wires, and the tester checks each one sequentially. If the wire is properly connected, its corresponding LED blinks. If an LED doesn’t blink, that wire isn’t connected properly, meaning the cable is faulty.</p>
+<p>To get comfortable with the tester, I tried it on an already working cable.</p>
+<p><img src="/images/IMG-20250228-WA0021.jpg" alt=""></p>
+<p>The LED numbers correspond to the pin numbers in the RJ-45 plug. Here’s an image showing the correct pin numbering:</p>
+<p><img src="/images/wmremove-transformed.png" alt=""></p>
+<h2>Diagnosing the Issue</h2>
+<p>Now that I understood how the tester works, I tested the cable the electrician installed. I connected the first part of the tester in the living room and the second part in my bedroom.</p>
+<p><img src="/images/Pasted%20image%2020250228061200.png" alt=""></p>
+<p>Here’s a video showing that all LEDs turned on except for number 7. That’s why the cable wasn’t working.</p>
+<p><img src="/images/Timeline%201%201.gif" alt=""></p>
+<h2>Fixing the Ethernet Cable</h2>
+<p>To fix the issue, I had to replace the RJ-45 connectors on both ends of the cable. Initially, I only replaced the end in the living room and tested it again. If that fixed the issue, I wouldn’t need to replace the bedroom end. But in the end, I had to change both.</p>
+<p>Here’s the YouTube video that helped me with the process: <a href="https://youtu.be/T1Cp9F8qto8?si=mocguZS7ddZXiqb7">Watch it here</a>.</p>
+<h3>Replacing the RJ-45 Plug</h3>
+<h4>Step 1: Cutting the Old RJ-45 Plug</h4>
+<p><img src="/images/IMG-20250228-WA0011.jpg" alt=""></p>
+<h4>Step 2: Removing the Outer Plastic Sheath</h4>
+<p><img src="/images/IMG-20250228-WA0007.jpg" alt=""></p>
+<h4>Step 3: Untwisting the Wires and Cutting Excess Plastic</h4>
+<p><img src="/images/IMG-20250228-WA0006.jpg" alt=""></p>
+<h4>Step 4: Arranging the Wires in the Correct Order</h4>
+<p>The correct color order follows the T568A standard:</p>
+<p><img src="/images/T568Aworking-3434845376.png" alt=""></p>
+<p>Here’s how it looked after arranging them:</p>
+<p><img src="/images/IMG-20250228-WA0004.jpg" alt=""></p>
+<h4>Step 5: Cutting and Crimping the Wires</h4>
+<p>After cutting the wires to the correct length, I used the crimper to attach the new RJ-45 plug.</p>
+<p>Here’s the final result:</p>
+<p><img src="/images/IMG-20250228-WA0001.jpg" alt=""></p>
+<p>I repeated the same process in my bedroom:</p>
+<p><img src="/images/IMG-20250228-WA0002.jpg" alt=""></p>
+<h2>Testing the Fixed Cable</h2>
+<p>I tested the cable again using the tester.</p>
+<p>Now, it was time for the moment of truth. I tested the cable one more time using the Ethernet tester, and…</p>
+<p><img src="/images/Timeline%202.gif" alt=""></p>
+<p>Success! The tester confirmed that all the LEDs were lighting up correctly.</p>
+<p>To be completely sure, I connected one end to the router and the other to my laptop. It worked!</p>
+<p><img src="/images/WhatsApp%20Image%202025-02-28%20at%2006.57.16_a9c1cdcd.jpg" alt=""></p>
+<h3>Conclusion</h3>
+<p>This was a fun hands-on experience, and I learned a lot about networking cables, testers, and crimping RJ-45 connectors. Hopefully, this helps anyone dealing with similar issues!</p>
+5:[["$","$Ld",null,{"src":"https://polyfill.io/v3/polyfill.min.js?features=es6"}],["$","$Ld",null,{"id":"MathJax-config","dangerouslySetInnerHTML":{"__html":"\n            window.MathJax = {\n              tex: {\n                inlineMath: [['$', '$']],\n                displayMath: [['$$', '$$']],\n                processEscapes: true\n              },\n              options: {\n                ignoreHtmlClass: 'no-mathjax',\n                processHtmlClass: 'mathjax'\n              }\n            };\n          "}}],["$","$Ld",null,{"id":"MathJax-script","async":true,"src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"}],["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-3xl md:text-4xl font-bold text-white mb-2","children":"Fixing My Ethernet Cable Issue"}],["$","p",null,{"className":"text-gray-400","children":"2/26/2025"}]]}],["$","$Le",null,{"html":"$f"}],["$","div",null,{"className":"mt-12 pt-6 border-t border-gray-700","children":["$","$L2",null,{"href":"/","className":"text-blue-400 hover:text-blue-300 inline-flex items-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","className":"h-5 w-5 mr-2","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to all posts"]}]}]]}]]

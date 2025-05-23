@@ -1,0 +1,477 @@
+1:"$Sreact.fragment"
+2:I[8173,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],""]
+3:I[5244,[],""]
+4:I[3866,[],""]
+6:I[6213,[],"OutletBoundary"]
+8:I[6213,[],"MetadataBoundary"]
+a:I[6213,[],"ViewportBoundary"]
+c:I[4835,[],""]
+:HL["/_next/static/css/a343d0272bc8adf4.css","style"]
+:HL["/_next/static/css/5eacd01f773eed7f.css","style"]
+0:{"P":null,"b":"U3XbKLhuSiydPKxX2puxY","p":"","c":["","posts","Starting-a-blog",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","Starting-a-blog","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a343d0272bc8adf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","header",null,{"className":"bg-gray-800 shadow-md","children":["$","nav",null,{"className":"container mx-auto px-4 py-4 flex justify-between items-center","children":[["$","$L2",null,{"href":"/","className":"text-2xl font-bold text-white hover:text-blue-400 transition-colors","children":"My Blog"}],["$","div",null,{"className":"flex space-x-6","children":[["$","$L2",null,{"href":"/","className":"text-gray-300 hover:text-white transition-colors","children":"Home"}],["$","$L2",null,{"href":"/about","className":"text-gray-300 hover:text-white transition-colors","children":"About"}],["$","$L2",null,{"href":"/contact","className":"text-gray-300 hover:text-white transition-colors","children":"Contact"}],["$","$L2",null,{"href":"/all-posts","className":"text-gray-300 hover:text-white transition-colors","children":"Posts"}]]}]]}]}],["$","main",null,{"className":"container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","Starting-a-blog","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ZPTNMCITo0K-ePG219qdb",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"My Blog"}],["$","meta","2",{"name":"description","content":"A personal blog built with Next.js"}]]
+7:null
+d:I[3704,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],""]
+e:I[8722,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],"default"]
+f:T5313,<p>This image illustrates the workflow of this blog.</p>
+<p><img src="/images/Starting%20a%20blog%20with%20Hugo.png" alt=""></p>
+<h2>Setting Up</h2>
+<p>Before starting, ensure that you have <strong>Git</strong>, <strong>Go</strong> and <strong>Python</strong> installed on your system.</p>
+<h2>Create Folder for Posts</h2>
+<p>First, create a folder in your Obsidian vault named <code>posts</code>.</p>
+<p><img src="/images/Pasted%20image%2020241206164602.png" alt=""></p>
+<h2>Install Hugo</h2>
+<p>Next, install Hugo and add it to your environment variables.<br>Link: <a href="https://gohugo.io/installation/">https://gohugo.io/installation/</a></p>
+<pre><code class="language-powershell">## Verify Hugo works
+hugo version
+
+## Create a new site 
+hugo new site websitename
+cd websitename
+</code></pre>
+<h2>Initialize Git Repository</h2>
+<p>After creating your Hugo site, initialize a Git repository:</p>
+<pre><code class="language-powershell">git init
+</code></pre>
+<h2>Download a Hugo Theme</h2>
+<p>Go to <a href="https://themes.gohugo.io/">Hugo Themes</a> and download a theme of your choice. For this example, we’ll use the theme <strong>Hugo Ficurinia</strong> from <a href="https://gitlab.com/gabmus/hugo-ficurinia">GitLab</a>.</p>
+<p>Use the following command to add the Hugo theme to your site:</p>
+<pre><code class="language-powershell">git submodule add -f [the repo link of the theme] themes/[name of the theme]
+</code></pre>
+<p> For me I did this:</p>
+<pre><code class="language-powershell">git submodule add -f https://gitlab.com/gabmus/hugo-ficurinia.git themes/hugo-ficurinia
+</code></pre>
+<h2>Example Theme Configuration</h2>
+<p>Most themes come with an example configuration, which is typically the best way to get started. For the <strong>hugo-ficurinia</strong> theme:</p>
+<pre><code class="language-toml">baseURL = &quot;/&quot;
+theme = &quot;hugo-ficurinia&quot;
+title = &quot;Abdullah Salameh&#39;s Blog&quot;
+languageCode = &quot;en&quot;
+defaultContentLanguage = &quot;en&quot;
+# this will be included in the footer after the current year the site is last
+# built, followed by the (c) symbol
+# you can use markdown inside this field
+paginate = 5  # number of articles per page in the index
+summaryLength = 50  # number of words for article summaries
+[params]
+    author = &quot;Abdullah Salameh&quot;
+    description = &quot;A description for my website&quot;  # this will be added as metadata
+    posts = &quot;posts&quot;  # content directory where to find home page posts; default searches in &quot;posts&quot; and &quot;post&quot;
+    showPostsLink = true  # show or hide the link to the simple post list
+    extraContentDirs = []  # other content directories to render similarly to the home page
+    showcaseDir = &quot;showcase&quot;  # create a content directory that shows a special showcase section in the home page
+    # shows a specified single page as a home page, instead of the traditional articles list
+    # requires setting `homeSinglePage`
+    # goes well with extraContentDirs
+    showSinglePageAsHome = false
+    homeSinglePage = &quot;/home&quot;
+    # It&#39;s best to put these icons in the &quot;static&quot; folder of your site
+    logo = &quot;/logo.svg&quot;
+    favicon = &quot;/favicon.png&quot;  # 32x32
+    faviconIco = &quot;/favicon.ico&quot;  # 32x32
+    appletouch = &quot;/apple-touch-icon.png&quot;  # 180x180
+    svgicon = &quot;/logo.svg&quot;
+    icon512 = &quot;/icon512.png&quot;  # 512x512 png image
+    logoRightOfTitle = false  # positions the logo to the right of the title; default: false
+    showTags = true  # show the Tags menu item; default true
+    showRss = false  # show the link for the RSS feed; default true
+    imageInArticlePreview = true  # show images in article preview; default false
+    fitImageInArticlePreview = false  # make article preview images fit the article preview instead of getting cropped
+    articleSummary = true  # show a summary in article preview; default true
+    
+    fontFamily = &quot;JetBrains Mono&quot;  # changes the font, default &quot;JetBrains Mono&quot;
+    titleFontFamily = &quot;JetBrains Mono&quot;  # font used for titles and headings
+    monospaceFontFamily = &quot;JetBrains Mono&quot;  # changes the monospace font for code, default &quot;JetBrains Mono&quot;
+    # multipliers applied to font sizes, useful for custom fonts that may be too big or too small
+    titleFontSizeMultiplier = 1.0
+    mainFontSizeMultiplier = 1.0
+    monoFontSizeMultiplier = 1.0
+    contentWidth = &quot;1000px&quot;  # maximum width of the site content, css syntax
+    paperCards = true  # enable paper card style; default false
+    buttonTags = false  # enable button tag style; default false
+    tagsInArticlePreview = true  # enable tags list in the article preview card
+    gridView = true  # show post list as a grid. goes well with paperCards
+    bigArticleTitle = false  # makes the title in the single article view bigger
+    navtype = &quot;standard&quot;  # changes the style of the pagination, available styles are: &quot;standard&quot;, &quot;circles&quot;
+    enableShadow = false  # shows a shadow around some elements
+    menuStyle = &quot;buttons&quot;  # changes the style of the main site navigation menu, available styles are: &quot;standard&quot;, &quot;buttons&quot;
+    inputStyle = &quot;standard&quot; # changes the style of inputs (like the searchbar), available styles are: &quot;standard&quot;, &quot;buttons&quot;
+    enableSearch = true  # enable search page
+    searchbarEverywhere = true  # if the searchbar should be shown in every page; requires enableSearch
+    searchMenuLink = false  # add a search link to the navigation menu; requires enableSearch
+    mobileHamburgerNav = false  # alternative hamburger menu layout for the main nav menu when screen is small
+    enableFeatured = false  # enable a particular view for articles marked as featured (featured: true in the article frontmatter)
+    underlineTitleLinks = false  # show an underline also for links that are titles
+    # enable comments support with commento using the script from your server
+    commento = &quot;https://example.com/js/commento.js&quot;
+    # enable comments support with cactus comments (cactus.chat)
+    cactusCommentsSiteName = &quot;example.com&quot;
+    cactusCommentsServerName = &quot;cactus.chat&quot;
+    cactusCommentsHomeserver = &quot;https://matrix.cactus.chat:8448&quot;
+    # enable analytics using Plausible
+    plausibleScriptUrl = &quot;https://something.com/...&quot;
+    plausibleDomain = &quot;example.com&quot;
+    # enable analytics using Umami
+    umamiScriptUrl = &quot;https://something.com/...&quot;
+    umamiWebsiteId = &quot;example-tracking-code&quot;
+    enableShareOnFediverse = false  # enable a button at the end of an article to share it on the fediverse
+    tocBeforeImage = false  # show the table of contents before the main article image; default false
+    # WARNING: deprecated! Use [[menu.icons]] instead, look below
+    # links = [
+    #     [&quot;GitLab&quot;, &quot;https://gitlab.com/gabmus&quot;],
+    #     [&quot;GNOME&quot;, &quot;https://gitlab.gnome.org/gabmus&quot;],
+    #     [&quot;YouTube&quot;, &quot;https://youtube.com/TechPillsNet&quot;]
+    # ]
+    # you can customize all of the colors in this theme
+    # Colors are defined in data/colors.yml
+    # alternative sidebar layout
+    enableSidebarLayout = false
+    tocInSidebar = false  # if the sidebar is enbabled, show the TOC in the sidebar
+    # redirect to baseURL if current URL host doesn&#39;t match
+    # useful if deploying in gitlab pages with custom domain and don&#39;t want
+    # the username.gitlab.io/website url to persist
+    # this requires you to set baseURL (see above)
+    forceRedirect = false
+    infiniteScrolling = false  # activates infinite scrolling instead of regular pagination
+                               # NOTE: you need to enable JSON output for this to work!
+                               #       look at the [outputs] section below
+    enableFooterColumns = false  # activates footer columns, as described below
+    enableJumbotron = false  # enables jumbotron, as described below
+    # related articles will be selected randomly based on tags and shown at
+    # the bottom of the article, after the comments
+    enableRelatedArticles = true
+    relatedArticlesNum = 2  # how many related articles to show
+    randomRelated = false  # sorts related articles in random order (randomized at built time)
+[menu]
+    # these links will be added to the main navigation menu, sorted by weight
+    # other elements in this menu are added automatically from the &quot;pages&quot; folder
+    # the folder it will look into can be customized with the pages variable
+    # in params above
+    [[menu.main]]
+        identifier = &quot;about&quot;
+        name = &quot;About&quot;
+        url = &quot;/about/&quot;
+        weight = 10
+    # these links (menu.icons) will be added as icon links below the main nav
+    [[menu.icons]]
+        identifier = &quot;github&quot;
+        name = &quot;Github&quot;
+        url = &quot;https://github.com/abda-s&quot;
+        weight = 10
+    [[menu.icons]]
+        identifier = &quot;linkedin&quot;
+        name = &quot;LinkedIn&quot;
+        url = &quot;https://www.linkedin.com/in/abdullah-salameh/&quot;
+        weight = 20
+# this section is necessary if you want infinite scrolling
+# it allows to output the article list as paged JSON so that &quot;pages&quot; can be retrieved via javascript
+[outputs]
+    home = [&quot;HTML&quot;, &quot;JSON&quot;]
+</code></pre>
+<p>you can use the previous configuration in your <code>hugo.toml</code> file:</p>
+<p><img src="/images/Pasted%20image%2020241206143800.png" alt=""></p>
+<h2>Test the Hugo Site Locally</h2>
+<p>Run the Hugo server to test if everything is set up correctly:</p>
+<pre><code class="language-powershell">hugo server -t [themename]
+</code></pre>
+<p>It&#39;s working but there isn&#39;t any posts <img src="/images/Pasted%20image%2020241206144110.png" alt=""></p>
+<h2>Add Posts</h2>
+<p>If everything is working but you don’t see any posts, create a <code>posts</code> folder inside the <code>content</code> directory:</p>
+<pre><code class="language-powershell">cd content
+mkdir posts
+</code></pre>
+<h2>Sync Obsidian Notes with Hugo Posts</h2>
+<p>To sync your Obsidian notes with the Hugo posts folder, use the <code>robocopy</code> command:</p>
+<pre><code class="language-powershell">robocopy [sourcepath] [destination] /mir
+</code></pre>
+<p><img src="/images/Pasted%20image%2020241206144306.png" alt=""></p>
+<h2>Add Metadata for New Posts</h2>
+<p>When starting a new post, make sure to add the following metadata at the top of your markdown file:</p>
+<pre><code>---
+title: blogtitle
+date: 2024-11-06
+draft: false
+tags:
+  - tag1
+  - tag2
+---
+</code></pre>
+<p><img src="/images/Pasted%20image%2020241206175820.png" alt=""></p>
+<h2>Add Images to Hugo</h2>
+<p>When you add images to your Obsidian notes, they won’t appear in the Hugo site because the image source is only in Obsidian. To fix this, use the following Python script to copy the images to the Hugo static folder.</p>
+<pre><code class="language-python">import os
+import re
+import shutil
+
+# Paths (using raw strings to handle Windows backslashes correctly)
+posts_dir = r&quot;C:\Users\3adas\Documents\salamehBlog\content\posts&quot;
+attachments_dir = r&quot;C:\Users\3adas\OneDrive\Notes\files&quot;
+static_images_dir = r&quot;C:\Users\3adas\Documents\salamehBlog\static\images&quot;
+
+# Step 1: Process each markdown file in the posts directory
+for filename in os.listdir(posts_dir):
+    if filename.endswith(&quot;.md&quot;):
+        filepath = os.path.join(posts_dir, filename)
+        
+        with open(filepath, &quot;r&quot;, encoding=&quot;utf-8&quot;) as file:
+            content = file.read()
+        
+        # Step 2: Find all image links in the format ![[image.extension]]
+        images = re.findall(r&#39;\[\[([^]]+\.(png|jpg|jpeg|gif|bmp|webp|svg))\]\]&#39;, content, re.IGNORECASE)
+        
+        # Step 3: Replace image links and ensure URLs are correctly formatted
+        for image, _ in images:  # `_` is unused, it contains the extension from the regex group
+            # Prepare the Markdown-compatible link with %20 replacing spaces
+            markdown_image = f&quot;![Image Description](/images/{image.replace(&#39; &#39;, &#39;%20&#39;)})&quot;
+            content = content.replace(f&quot;![[{image}]]&quot;, markdown_image)
+            
+            # Step 4: Copy the image to the Hugo static/images directory if it exists
+            image_source = os.path.join(attachments_dir, image)
+            if os.path.exists(image_source):
+                shutil.copy(image_source, static_images_dir)
+
+        # Step 5: Write the updated content back to the markdown file
+        with open(filepath, &quot;w&quot;, encoding=&quot;utf-8&quot;) as file:
+            file.write(content)
+
+print(&quot;Markdown files processed and images copied successfully.&quot;)
+</code></pre>
+<h3>Run the Python Script</h3>
+<p>Save the above Python script as <code>images.py</code> in the root folder of your Hugo site. Run the script using:</p>
+<pre><code class="language-powershell">python images.py
+</code></pre>
+<h2>Upload the Code to GitHub</h2>
+<p>To upload your Hugo site to GitHub, follow these steps:</p>
+<h3>Step 1: Create a New Repository</h3>
+<ol>
+<li><p>Click the <strong>plus icon</strong> in GitHub.<br> <img src="/images/Pasted%20image%2020241206145729.png" alt=""></p>
+</li>
+<li><p>Select <strong>New repository</strong> from the dropdown menu.<br> <img src="/images/Pasted%20image%2020241206145803.png" alt=""></p>
+</li>
+<li><p>Name your repository. For example, you could use <code>salamehBlog</code>, Set the repository to <strong>Public</strong>.<br> <img src="/images/Pasted%20image%2020241206150019.png" alt=""></p>
+</li>
+<li><p>Click <strong>Create repository</strong>.<br> <img src="/images/Pasted%20image%2020241206150113.png" alt=""></p>
+</li>
+</ol>
+<hr>
+<h3>Step 2: Push Your Code to GitHub</h3>
+<ol>
+<li>Add the remote origin for your repository:</li>
+</ol>
+<pre><code class="language-powershell">git remote add origin https://github.com/username/salamehBlog.git
+</code></pre>
+<ol start="2">
+<li>Build the website:</li>
+</ol>
+<pre><code class="language-powershell">hugo
+</code></pre>
+<ol start="3">
+<li>Add all files to the staging area:</li>
+</ol>
+<pre><code class="language-powershell">git add .
+</code></pre>
+<ol start="4">
+<li>Commit your changes:</li>
+</ol>
+<pre><code class="language-powershell">git commit -m &quot;Initial commit&quot;
+</code></pre>
+<ol start="5">
+<li>Push the code to GitHub:</li>
+</ol>
+<pre><code class="language-powershell">git push -u origin main
+</code></pre>
+<ol start="6">
+<li>Create a new branch for GitHub pages to deploy from</li>
+</ol>
+<pre><code class="language-powershell">git subtree split --prefix public -b gh-pages-deploy
+git push origin gh-pages-deploy:gh-pages --force
+git branch -D gh-pages-deploy
+</code></pre>
+<p>After completing these steps, your Hugo website will be successfully uploaded to GitHub and ready for deployment.</p>
+<h2>Deployment</h2>
+<ol>
+<li><p>Navigate to the <strong>Settings</strong> of your GitHub repository.</p>
+</li>
+<li><p>Select <strong>Pages</strong> from the left-hand menu.</p>
+</li>
+<li><p>Choose the <code>gh-pages</code> branch and set your custom domain.<br> <img src="/images/Pasted%20image%2020241206182531.png" alt=""></p>
+</li>
+<li><p>In the <code>public</code> folder of your Hugo project, create a file named <code>CNAME</code>.<br> <img src="/images/Pasted%20image%2020241206182922.png" alt=""></p>
+</li>
+<li><p>Add your custom domain (e.g., <code>blog.salameh.top</code>) inside the <code>CNAME</code> file.</p>
+</li>
+</ol>
+<h2>Automation Script</h2>
+<p>Now that everything is set up, we need to address the challenge of running multiple commands each time we want to publish a post. This process is prone to human error and can be cumbersome. To streamline this, we’ll create a PowerShell script that automates the entire workflow.</p>
+<ol>
+<li><strong>Create the Script</strong><br> In the root folder of your blog, create a new file named <code>updateblog.ps1</code> and paste the following code into it:</li>
+</ol>
+<pre><code class="language-powershell"># PowerShell Script for Windows
+
+# Set variables for Obsidian to Hugo copy
+$sourcePath = &quot;C:\Users\3adas\OneDrive\Notes\posts&quot;
+$destinationPath = &quot;C:\Users\3adas\Documents\salamehBlog\content\posts&quot;
+
+# Set Github repo 
+$myrepo = &quot;reponame&quot;
+
+# Set error handling
+$ErrorActionPreference = &quot;Stop&quot;
+Set-StrictMode -Version Latest
+
+# Change to the script&#39;s directory
+$ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
+Set-Location $ScriptDir
+
+# Check for required commands
+$requiredCommands = @(&#39;git&#39;, &#39;hugo&#39;)
+
+# Check for Python command (python or python3)
+if (Get-Command &#39;python&#39; -ErrorAction SilentlyContinue) {
+    $pythonCommand = &#39;python&#39;
+} elseif (Get-Command &#39;python3&#39; -ErrorAction SilentlyContinue) {
+    $pythonCommand = &#39;python3&#39;
+} else {
+    Write-Error &quot;Python is not installed or not in PATH.&quot;
+    exit 1
+}
+
+foreach ($cmd in $requiredCommands) {
+    if (-not (Get-Command $cmd -ErrorAction SilentlyContinue)) {
+        Write-Error &quot;$cmd is not installed or not in PATH.&quot;
+        exit 1
+    }
+}
+
+# Step 1: Check if Git is initialized, and initialize if necessary
+if (-not (Test-Path &quot;.git&quot;)) {
+    Write-Host &quot;Initializing Git repository...&quot;
+    git init
+    git remote add origin $myrepo
+} else {
+    Write-Host &quot;Git repository already initialized.&quot;
+    $remotes = git remote
+    if (-not ($remotes -contains &#39;origin&#39;)) {
+        Write-Host &quot;Adding remote origin...&quot;
+        git remote add origin $myrepo
+    }
+}
+
+# Step 2: Sync posts from Obsidian to Hugo content folder using Robocopy
+Write-Host &quot;Syncing posts from Obsidian...&quot;
+
+if (-not (Test-Path $sourcePath)) {
+    Write-Error &quot;Source path does not exist: $sourcePath&quot;
+    exit 1
+}
+
+if (-not (Test-Path $destinationPath)) {
+    Write-Error &quot;Destination path does not exist: $destinationPath&quot;
+    exit 1
+}
+
+# Use Robocopy to mirror the directories
+$robocopyOptions = @(&#39;/MIR&#39;, &#39;/Z&#39;, &#39;/W:5&#39;, &#39;/R:3&#39;)
+$robocopyResult = robocopy $sourcePath $destinationPath @robocopyOptions
+
+if ($LASTEXITCODE -ge 8) {
+    Write-Error &quot;Robocopy failed with exit code $LASTEXITCODE&quot;
+    exit 1
+}
+
+# Step 3: Process Markdown files with Python script to handle image links
+Write-Host &quot;Processing image links in Markdown files...&quot;
+if (-not (Test-Path &quot;images.py&quot;)) {
+    Write-Error &quot;Python script images.py not found.&quot;
+    exit 1
+}
+
+# Execute the Python script
+try {
+    &amp; $pythonCommand images.py
+} catch {
+    Write-Error &quot;Failed to process image links.&quot;
+    exit 1
+}
+
+# Step 4: Build the Hugo site
+Write-Host &quot;Building the Hugo site...&quot;
+try {
+    hugo
+} catch {
+    Write-Error &quot;Hugo build failed.&quot;
+    exit 1
+}
+
+# Step 5: Add changes to Git, including handling deletions
+Write-Host &quot;Staging changes for Git...&quot;
+
+# Detect changes and include deletions
+$gitStatus = git status --porcelain
+
+if (-not $gitStatus) {
+    Write-Host &quot;No changes to stage.&quot;
+} else {
+    # Stage all changes, including deletions
+    Write-Host &quot;Staging all changes, including deletions...&quot;
+    git add --all
+}
+
+
+# Step 6: Commit changes with a dynamic message
+$commitMessage = &quot;synced posts on $(Get-Date -Format &#39;yyyy-MM-dd HH:mm:ss&#39;)&quot;
+$hasStagedChanges = (git diff --cached --name-only) -ne &quot;&quot;
+if (-not $hasStagedChanges) {
+    Write-Host &quot;No changes to commit.&quot;
+} else {
+    Write-Host &quot;Committing changes...&quot;
+    git commit -m &quot;$commitMessage&quot;
+}
+
+# Step 7: Push all changes to the main branch
+Write-Host &quot;Deploying to GitHub Master...&quot;
+try {
+    git push origin master
+} catch {
+    Write-Error &quot;Failed to push to Master branch.&quot;
+    exit 1
+}
+
+# Step 8: Push the public folder to the gh-pages branch using subtree split and force push
+Write-Host &quot;Deploying to GitHub pages...&quot;
+
+# Check if the temporary branch exists and delete it
+$branchExists = git branch --list &quot;gh-pages-deploy&quot;
+if ($branchExists) {
+    git branch -D gh-pages-deploy
+}
+
+# Perform subtree split
+try {
+    git subtree split --prefix public -b gh-pages-deploy
+} catch {
+    Write-Error &quot;Subtree split failed.&quot;
+    exit 1
+}
+
+# Push to gh-pages branch with force
+try {
+    git push origin gh-pages-deploy:gh-pages --force
+} catch {
+    Write-Error &quot;Failed to push to hostinger branch.&quot;
+    git branch -D gh-pages-deploy
+    exit 1
+}
+
+# Delete the temporary branch
+git branch -D gh-pages-deploy
+
+Write-Host &quot;All done! Site synced, processed, committed, built, and deployed.&quot;
+</code></pre>
+<ol start="2">
+<li><strong>Run the Script</strong><br> Each time you want to sync or upload a new post, simply execute the script:</li>
+</ol>
+<pre><code class="language-powershell">.\updateblog.ps1
+</code></pre>
+5:[["$","$Ld",null,{"src":"https://polyfill.io/v3/polyfill.min.js?features=es6"}],["$","$Ld",null,{"id":"MathJax-config","dangerouslySetInnerHTML":{"__html":"\n            window.MathJax = {\n              tex: {\n                inlineMath: [['$', '$']],\n                displayMath: [['$$', '$$']],\n                processEscapes: true\n              },\n              options: {\n                ignoreHtmlClass: 'no-mathjax',\n                processHtmlClass: 'mathjax'\n              }\n            };\n          "}}],["$","$Ld",null,{"id":"MathJax-script","async":true,"src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"}],["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-3xl md:text-4xl font-bold text-white mb-2","children":"Starting a blog"}],["$","p",null,{"className":"text-gray-400","children":"12/6/2024"}]]}],["$","$Le",null,{"html":"$f"}],["$","div",null,{"className":"mt-12 pt-6 border-t border-gray-700","children":["$","$L2",null,{"href":"/","className":"text-blue-400 hover:text-blue-300 inline-flex items-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","className":"h-5 w-5 mr-2","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to all posts"]}]}]]}]]
