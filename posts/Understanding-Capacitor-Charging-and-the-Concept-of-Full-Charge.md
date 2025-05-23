@@ -12,8 +12,8 @@ When analyzing capacitors, we often hear that a capacitor is "fully charged" whe
 
 ## Observations from the Simulation
 
-![](/images/Pasted%20image%2020250121022953.png)
-![](/images/Pasted%20image%2020250121023020.png)
+![](/my-new-blog/images/Pasted%20image%2020250121022953.png)
+![](/my-new-blog/images/Pasted%20image%2020250121023020.png)
 
 
 In a recent calculation, the capacitor was expected to be fully charged in 0.25 seconds. However, the voltage across the capacitor at this point was 11.923 V instead of the expected 12 V. The error was calculated as:
@@ -32,7 +32,7 @@ This matches the theoretical prediction. While the capacitor seems nearly charge
 
 ## Theoretical Explanation
 
-![](/images/Pasted%20image%2020250121015614.png)
+![](/my-new-blog/images/Pasted%20image%2020250121015614.png)
 
 
 The voltage across a charging capacitor is given by the equation:
@@ -47,12 +47,12 @@ where:
 
 As time passes, $$e^{-t/RC}$$ gets closer to zero. 
 
-![](/images/Pasted%20image%2020250121015737.png)
+![](/my-new-blog/images/Pasted%20image%2020250121015737.png)
 This means it would take infinite time for the capacitor to reach exactly Vmax. In practice, we consider the capacitor "fully charged" when it’s close enough to Vmax, such as 99.3% at 5τ.
 
 ## The Simulation Discrepancy
 
-![](/images/Pasted%20image%2020250121020039.png)
+![](/my-new-blog/images/Pasted%20image%2020250121020039.png)
 
 Interestingly, the simulation showed the capacitor reaching exactly 12 V, which seems to go against the theory. Why did this happen?
 

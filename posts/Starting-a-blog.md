@@ -9,7 +9,7 @@ description: Set up a blog with Hugo and Obsidian by installing Hugo, initializi
 ---
 This image illustrates the workflow of this blog.
 
-![](/images/Starting%20a%20blog%20with%20Hugo.png)
+![](/my-new-blog/images/Starting%20a%20blog%20with%20Hugo.png)
 ## Setting Up 
 
 Before starting, ensure that you have **Git**, **Go** and **Python** installed on your system.
@@ -18,7 +18,7 @@ Before starting, ensure that you have **Git**, **Go** and **Python** installed o
 
 First, create a folder in your Obsidian vault named `posts`.
 
-![](/images/Pasted%20image%2020241206164602.png)
+![](/my-new-blog/images/Pasted%20image%2020241206164602.png)
 
 ## Install Hugo
 
@@ -190,7 +190,7 @@ summaryLength = 50  # number of words for article summaries
 
 you can use the previous configuration in your `hugo.toml` file:
 
-![](/images/Pasted%20image%2020241206143800.png)
+![](/my-new-blog/images/Pasted%20image%2020241206143800.png)
 ## Test the Hugo Site Locally
 
 Run the Hugo server to test if everything is set up correctly:
@@ -199,7 +199,7 @@ Run the Hugo server to test if everything is set up correctly:
 hugo server -t [themename]
 ```
 
-It's working but there isn't any posts ![](/images/Pasted%20image%2020241206144110.png)
+It's working but there isn't any posts ![](/my-new-blog/images/Pasted%20image%2020241206144110.png)
 ## Add Posts
 
 If everything is working but you don’t see any posts, create a `posts` folder inside the `content` directory:
@@ -217,7 +217,7 @@ To sync your Obsidian notes with the Hugo posts folder, use the `robocopy` comma
 robocopy [sourcepath] [destination] /mir
 ```
 
-![](/images/Pasted%20image%2020241206144306.png)
+![](/my-new-blog/images/Pasted%20image%2020241206144306.png)
 ## Add Metadata for New Posts
 
 When starting a new post, make sure to add the following metadata at the top of your markdown file:
@@ -233,7 +233,7 @@ tags:
 ---
 ```
 
-![](/images/Pasted%20image%2020241206175820.png)
+![](/my-new-blog/images/Pasted%20image%2020241206175820.png)
 ## Add Images to Hugo
 
 When you add images to your Obsidian notes, they won’t appear in the Hugo site because the image source is only in Obsidian. To fix this, use the following Python script to copy the images to the Hugo static folder.
@@ -294,16 +294,16 @@ To upload your Hugo site to GitHub, follow these steps:
 ### Step 1: Create a New Repository
 
 1. Click the **plus icon** in GitHub.  
-    ![](/images/Pasted%20image%2020241206145729.png)
+    ![](/my-new-blog/images/Pasted%20image%2020241206145729.png)
     
 2. Select **New repository** from the dropdown menu.  
-    ![](/images/Pasted%20image%2020241206145803.png)
+    ![](/my-new-blog/images/Pasted%20image%2020241206145803.png)
     
 3. Name your repository. For example, you could use `salamehBlog`, Set the repository to **Public**.
-    ![](/images/Pasted%20image%2020241206150019.png)
+    ![](/my-new-blog/images/Pasted%20image%2020241206150019.png)
     
 4. Click **Create repository**.  
-    ![](/images/Pasted%20image%2020241206150113.png)
+    ![](/my-new-blog/images/Pasted%20image%2020241206150113.png)
     
 
 ---
@@ -351,10 +351,10 @@ After completing these steps, your Hugo website will be successfully uploaded to
 2. Select **Pages** from the left-hand menu.
     
 3. Choose the `gh-pages` branch and set your custom domain.  
-    ![](/images/Pasted%20image%2020241206182531.png)
+    ![](/my-new-blog/images/Pasted%20image%2020241206182531.png)
     
 4. In the `public` folder of your Hugo project, create a file named `CNAME`.
-	![](/images/Pasted%20image%2020241206182922.png)
+	![](/my-new-blog/images/Pasted%20image%2020241206182922.png)
 1. Add your custom domain (e.g., `blog.salameh.top`) inside the `CNAME` file.
 
 ##  Automation Script

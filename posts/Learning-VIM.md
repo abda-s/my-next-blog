@@ -11,7 +11,7 @@ Everything is based on this [video](https://youtu.be/RZ4p-saaQkc).
 
 ## Installing VIM
 First, check if it’s installed by typing `vi` or `vim` in the terminal. If you see the following output:
-![](/images/Pasted%20image%2020241205183304.png)
+![](/my-new-blog/images/Pasted%20image%2020241205183304.png)
 it means the program is installed. Otherwise, you’ll need to install it using your Linux package manager.
 
 If you're on Ubuntu, use the following commands:
@@ -150,7 +150,7 @@ These modes make Vim incredibly versatile, catering to diverse editing needs and
 In Vim, you can combine multiple commands to perform actions in sequence on text or the file you're editing. This allows for powerful, efficient editing without needing to switch modes repeatedly.
 
 ### Commands Cheat Sheet
-![](/images/Pasted%20image%2020241205211919.png)
+![](/my-new-blog/images/Pasted%20image%2020241205211919.png)
 ### Using Command Combinations
 You can combine commands by using **command prefixes**, which allow you to perform multiple actions in a single command.
 

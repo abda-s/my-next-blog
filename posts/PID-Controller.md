@@ -10,7 +10,7 @@ PID controllers are the most common control method in modern control systems. Th
 
 ## The Basic Feedback Control Concept
 
-![](/images/Pasted%20image%2020250409062703.png)
+![](/my-new-blog/images/Pasted%20image%2020250409062703.png)
 
 Let's start by understanding the standard feedback control architecture. In this setup:
 
@@ -26,7 +26,7 @@ This feedback loop continuously works to bring the actual output closer to our d
 
 When designing a controller, we should first consider the simplest approach that might work. What's simpler than taking the error and multiplying it by a constant gain value?
 
-![](/images/Pasted%20image%2020250409062649.png)
+![](/my-new-blog/images/Pasted%20image%2020250409062649.png)
 
 This gives us our first control law:
 
@@ -38,7 +38,7 @@ This is called proportional control - the "P" in PID. It simply takes the error 
 
 PID enhances the basic proportional concept by adding two additional terms, making the control more responsive and accurate:
 
-![](/images/Pasted%20image%2020250409062601.png)
+![](/my-new-blog/images/Pasted%20image%2020250409062601.png)
 
 The complete PID control law is:
 
@@ -56,8 +56,8 @@ Let's examine each component individually to understand its behavior and purpose
 
 ## Proportional Control Explained
 
-![](/images/Pasted%20image%2020250410154931.png)
-![](/images/Pasted%20image%2020250410162758.png)
+![](/my-new-blog/images/Pasted%20image%2020250410154931.png)
+![](/my-new-blog/images/Pasted%20image%2020250410162758.png)
 
 Consider what happens when we have only proportional control:
 
@@ -75,9 +75,9 @@ As the system begins to respond, the error decreases. However, as the error gets
 For example, if we're controlling a motor to reach a specific angle, each reduction in error leads to a proportional reduction in the voltage applied to the motor. Eventually, we might reach a point where the applied voltage is too small to overcome the motor's internal resistance and friction. This results in a steady-state error - the system stabilizes at a point close to, but not exactly at, our target.
 
 ## Integral Control Explained
-![](/images/Pasted%20image%2020250413212833.png)
+![](/my-new-blog/images/Pasted%20image%2020250413212833.png)
 
-![](/images/Pasted%20image%2020250413214953.png)
+![](/my-new-blog/images/Pasted%20image%2020250413214953.png)
 
 Now let's examine just the integral term: $K_i \int_{0}^{t} e(\tau) d\tau$
 
@@ -95,7 +95,7 @@ As the error goes negative after overshooting, the integral begins accumulating 
 
 The most crucial insight about integral control is that it guarantees zero steady-state error. Here's why:
 
-![](/images/Pasted%20image%2020250413215100.png)
+![](/my-new-blog/images/Pasted%20image%2020250413215100.png)
 
 If a non-zero steady-state error were to exist, the integral term would continue accumulating indefinitely. The control signal would grow without bound, eventually becoming strong enough to move the system toward the reference.
 
@@ -105,8 +105,8 @@ This is why integral control is essential for eliminating steady-state errors - 
 
 ## Derivative Control Explained
 
-![](/images/Pasted%20image%2020250413220903.png)
-![](/images/Pasted%20image%2020250413225647.png)
+![](/my-new-blog/images/Pasted%20image%2020250413220903.png)
+![](/my-new-blog/images/Pasted%20image%2020250413225647.png)
 
 The derivative term examines the rate of change of the error: $K_d \frac{de(t)}{dt}$
 
@@ -126,7 +126,7 @@ This is why derivative control doesn't help with steady-state error - it only co
 
 ## The Complete PID Controller
 
-![](/images/Pasted%20image%2020250413230346.png)
+![](/my-new-blog/images/Pasted%20image%2020250413230346.png)
 
 Now that we understand each term individually, let's see how they work together in a complete PID controller.
 

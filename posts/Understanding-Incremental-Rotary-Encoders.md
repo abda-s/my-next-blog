@@ -36,13 +36,13 @@ These signals indicate movement and direction when the shaft rotates. Some encod
 
 Here is an image illustrating signals **A**, **B**, and **Z**:
 
-![](/images/moving_disc_with_slits-1771498052.png)
+![](/my-new-blog/images/moving_disc_with_slits-1771498052.png)
 
 ## Quadrature Outputs
 
 Incremental encoders employ a **quadrature encoder** to generate their _A_ and _B_ output signals. The pulses from these outputs are quadrature-encoded, meaning that _A_ and _B_ are phase-shifted by 90 degrees when the encoder moves at a constant speed.
 
-![](/images/Quadrature_Diagram.psd.png)
+![](/my-new-blog/images/Quadrature_Diagram.psd.png)
 
 At any given moment, the phase difference between the _A_ and _B_ signals indicates the encoder's rotation direction:
 
@@ -51,9 +51,9 @@ At any given moment, the phase difference between the _A_ and _B_ signals indica
 - A phase difference of **−90°** corresponds to **counterclockwise rotation**.
     
 
-![](/images/quadrature-969270470.jpg)
+![](/my-new-blog/images/quadrature-969270470.jpg)
 
-![](/images/Incremental_directional_encoder.gif)
+![](/my-new-blog/images/Incremental_directional_encoder.gif)
 
 ### Quadrature Encoding Table
 
