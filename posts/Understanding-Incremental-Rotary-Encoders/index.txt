@@ -1,0 +1,186 @@
+1:"$Sreact.fragment"
+2:I[8173,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],""]
+3:I[5244,[],""]
+4:I[3866,[],""]
+6:I[6213,[],"OutletBoundary"]
+8:I[6213,[],"MetadataBoundary"]
+a:I[6213,[],"ViewportBoundary"]
+c:I[4835,[],""]
+:HL["/_next/static/css/a343d0272bc8adf4.css","style"]
+:HL["/_next/static/css/5eacd01f773eed7f.css","style"]
+0:{"P":null,"b":"U3XbKLhuSiydPKxX2puxY","p":"","c":["","posts","Understanding-Incremental-Rotary-Encoders",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","Understanding-Incremental-Rotary-Encoders","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a343d0272bc8adf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","header",null,{"className":"bg-gray-800 shadow-md","children":["$","nav",null,{"className":"container mx-auto px-4 py-4 flex justify-between items-center","children":[["$","$L2",null,{"href":"/","className":"text-2xl font-bold text-white hover:text-blue-400 transition-colors","children":"My Blog"}],["$","div",null,{"className":"flex space-x-6","children":[["$","$L2",null,{"href":"/","className":"text-gray-300 hover:text-white transition-colors","children":"Home"}],["$","$L2",null,{"href":"/about","className":"text-gray-300 hover:text-white transition-colors","children":"About"}],["$","$L2",null,{"href":"/contact","className":"text-gray-300 hover:text-white transition-colors","children":"Contact"}],["$","$L2",null,{"href":"/all-posts","className":"text-gray-300 hover:text-white transition-colors","children":"Posts"}]]}]]}]}],["$","main",null,{"className":"container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","Understanding-Incremental-Rotary-Encoders","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","YfupO7kRR-pwl1j43OSKl",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"My Blog"}],["$","meta","2",{"name":"description","content":"A personal blog built with Next.js"}]]
+7:null
+d:I[3704,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],""]
+e:I[8722,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],"default"]
+f:T1e91,<p>A <strong>rotary encoder</strong> is a device that converts the angular position of a shaft into analog or digital output signals. These encoders are commonly used in industrial automation, robotics, and consumer electronics.</p>
+<h2>Types of Rotary Encoders</h2>
+<p>There are two main types of rotary encoders:</p>
+<h3>Absolute Encoders</h3>
+<p>An <strong>absolute encoder</strong> maintains position information even when power is removed. It provides the current angular position of the shaft at any given moment.</p>
+<h3>Incremental Encoders</h3>
+<p>An <strong>incremental encoder</strong>, on the other hand, does not retain position information when powered off. It provides motion data based on changes from an initial reference point. To determine an absolute position, the system must first move to a known reference angle.</p>
+<p>In this article, we will focus on <strong>incremental encoders</strong> and provide a simple ESP32 code to interface with them.</p>
+<h2>How Incremental Encoders Work</h2>
+<p>Incremental encoders have two main output signals:</p>
+<ul>
+<li><strong>A (Channel A)</strong></li>
+<li><strong>B (Channel B)</strong></li>
+</ul>
+<p>These signals indicate movement and direction when the shaft rotates. Some encoders also include a third signal, <strong>Z</strong>, which serves as a reference point for position calibration.</p>
+<h3>Signal Representation</h3>
+<p>Here is an image illustrating signals <strong>A</strong>, <strong>B</strong>, and <strong>Z</strong>:</p>
+<p><img src="/images/moving_disc_with_slits-1771498052.png" alt=""></p>
+<h2>Quadrature Outputs</h2>
+<p>Incremental encoders employ a <strong>quadrature encoder</strong> to generate their <em>A</em> and <em>B</em> output signals. The pulses from these outputs are quadrature-encoded, meaning that <em>A</em> and <em>B</em> are phase-shifted by 90 degrees when the encoder moves at a constant speed.</p>
+<p><img src="/images/Quadrature_Diagram.psd.png" alt=""></p>
+<p>At any given moment, the phase difference between the <em>A</em> and <em>B</em> signals indicates the encoder&#39;s rotation direction:</p>
+<ul>
+<li><p>A phase difference of <strong>+90°</strong> corresponds to <strong>clockwise rotation</strong>.</p>
+</li>
+<li><p>A phase difference of <strong>−90°</strong> corresponds to <strong>counterclockwise rotation</strong>.</p>
+</li>
+</ul>
+<p><img src="/images/quadrature-969270470.jpg" alt=""></p>
+<p><img src="/images/Incremental_directional_encoder.gif" alt=""></p>
+<h3>Quadrature Encoding Table</h3>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th><code>outputA</code></th>
+<th><code>outputB</code></th>
+<th>Rotation Direction</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>LOW</td>
+<td>LOW</td>
+<td>Start Position</td>
+</tr>
+<tr>
+<td>2</td>
+<td>HIGH</td>
+<td>LOW</td>
+<td>Clockwise</td>
+</tr>
+<tr>
+<td>3</td>
+<td>HIGH</td>
+<td>HIGH</td>
+<td>Clockwise</td>
+</tr>
+<tr>
+<td>4</td>
+<td>LOW</td>
+<td>HIGH</td>
+<td>Clockwise</td>
+</tr>
+<tr>
+<td>5</td>
+<td>LOW</td>
+<td>LOW</td>
+<td>Next Step</td>
+</tr>
+<tr>
+<td>6</td>
+<td>LOW</td>
+<td>HIGH</td>
+<td>Counterclockwise</td>
+</tr>
+<tr>
+<td>7</td>
+<td>HIGH</td>
+<td>HIGH</td>
+<td>Counterclockwise</td>
+</tr>
+<tr>
+<td>8</td>
+<td>HIGH</td>
+<td>LOW</td>
+<td>Counterclockwise</td>
+</tr>
+<tr>
+<td>9</td>
+<td>LOW</td>
+<td>LOW</td>
+<td>Next Step</td>
+</tr>
+</tbody></table>
+<h2>Resolution of an Incremental Encoder</h2>
+<p>The <strong>resolution</strong> of an incremental encoder determines its precision. It is specified as:</p>
+<ul>
+<li><strong>Pulses per Revolution (PPR)</strong> for rotary encoders.</li>
+<li><strong>Pulses per Unit Distance (e.g., mm)</strong> for linear encoders.</li>
+</ul>
+<p>Each signal edge (rising and falling transitions of <em>A</em> and <em>B</em>) represents a detected position change. Since each full cycle has four edges (rising <em>A</em>, rising <em>B</em>, falling <em>A</em>, falling <em>B</em>), the measurement resolution is <strong>one-fourth of a full <em>A</em> or <em>B</em> output cycle</strong>.</p>
+<p>For example, a <strong>1000 pulse-per-revolution (PPR) rotary encoder</strong> has:</p>
+<ul>
+<li>Per-cycle measurement resolution = <strong>360° / 1000 cycles = 0.36° per pulse</strong></li>
+<li>Effective resolution = <strong>0.36° / 4 = 0.09° per edge</strong></li>
+</ul>
+<h2>ESP32 Code for Incremental Encoder</h2>
+<p>Below is a simple <strong>ESP32 Arduino</strong> code to read an incremental rotary encoder:</p>
+<pre><code class="language-cpp">#define outputA 17
+#define outputB 16
+
+volatile int counter = 0;
+volatile int aLastState;  
+
+void IRAM_ATTR handleEncoder() {
+  int aState = digitalRead(outputA);
+  if (aState != aLastState) {
+    if (digitalRead(outputB) != aState) {
+      counter++;
+    } else {
+      counter--;
+    }
+  }
+  aLastState = aState;
+}
+
+void setup() {
+  pinMode(outputA, INPUT);
+  pinMode(outputB, INPUT);
+  Serial.begin(9600);
+  aLastState = digitalRead(outputA);
+  attachInterrupt(digitalPinToInterrupt(outputA), handleEncoder, CHANGE);
+}
+
+void loop() {
+  static int lastCounter = 0;
+  if (lastCounter != counter) {
+    Serial.print(&quot;Position: &quot;);
+    Serial.println(counter);
+    lastCounter = counter;
+  }
+}
+</code></pre>
+<h3>Why Use an Interrupt Instead of <code>digitalRead</code> in the Loop?</h3>
+<p>Using an <strong>interrupt function</strong> (<code>attachInterrupt</code>) allows the microcontroller to <strong>immediately detect</strong> changes in the encoder signal without continuously checking in the <code>loop()</code>. If we used <code>digitalRead</code> in the loop, we might miss some pulses, especially if the encoder rotates quickly. Interrupts ensure <strong>real-time response</strong> to changes in the encoder&#39;s state, leading to more accurate readings.</p>
+<h3>Understanding <code>volatile</code> and <code>IRAM_ATTR</code></h3>
+<ul>
+<li><p><strong><code>volatile</code></strong>: This keyword tells the compiler that a variable can be modified by an interrupt, preventing optimization that might lead to incorrect behavior.</p>
+</li>
+<li><p><strong><code>IRAM_ATTR</code></strong>: This attribute ensures that the interrupt handler function (<code>handleEncoder</code>) is stored in <strong>IRAM (Instruction RAM)</strong> for faster execution, which is crucial for real-time processing.</p>
+</li>
+</ul>
+<h3>Why Can&#39;t We Use <code>Serial.print</code> in <code>handleEncoder</code>?</h3>
+<p>The <code>handleEncoder</code> function is an <strong>Interrupt Service Routine (ISR)</strong>, which should execute as quickly as possible. Using <code>Serial.print</code> inside an ISR can cause issues because:</p>
+<ul>
+<li><strong>Serial communication is slow</strong> compared to ISR execution speed.</li>
+<li><strong>Serial functions use interrupts internally</strong>, which may conflict with the encoder ISR.</li>
+<li><strong>Delays in ISR execution can cause missed pulses</strong>, leading to inaccurate readings.</li>
+</ul>
+<h2>Conclusion</h2>
+<p>Incremental rotary encoders are fundamental in position and motion sensing applications. Understanding how they generate quadrature signals allows precise control and tracking of rotary motion. With an ESP32 and a simple interrupt-driven approach, you can easily integrate an incremental encoder into your projects.</p>
+<h2>References</h2>
+<ul>
+<li><a href="https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/">https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rotary_encoder">https://en.wikipedia.org/wiki/Rotary_encoder</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Incremental_encoder">https://en.wikipedia.org/wiki/Incremental_encoder</a></li>
+<li><a href="https://esp32io.com/tutorials/esp32-rotary-encoder">https://esp32io.com/tutorials/esp32-rotary-encoder</a></li>
+</ul>
+5:[["$","$Ld",null,{"src":"https://polyfill.io/v3/polyfill.min.js?features=es6"}],["$","$Ld",null,{"id":"MathJax-config","dangerouslySetInnerHTML":{"__html":"\n            window.MathJax = {\n              tex: {\n                inlineMath: [['$', '$']],\n                displayMath: [['$$', '$$']],\n                processEscapes: true\n              },\n              options: {\n                ignoreHtmlClass: 'no-mathjax',\n                processHtmlClass: 'mathjax'\n              }\n            };\n          "}}],["$","$Ld",null,{"id":"MathJax-script","async":true,"src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"}],["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-3xl md:text-4xl font-bold text-white mb-2","children":"Understanding Incremental Rotary Encoders"}],["$","p",null,{"className":"text-gray-400","children":"3/29/2025"}]]}],["$","$Le",null,{"html":"$f"}],["$","div",null,{"className":"mt-12 pt-6 border-t border-gray-700","children":["$","$L2",null,{"href":"/","className":"text-blue-400 hover:text-blue-300 inline-flex items-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","className":"h-5 w-5 mr-2","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to all posts"]}]}]]}]]

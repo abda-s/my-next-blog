@@ -1,0 +1,52 @@
+1:"$Sreact.fragment"
+2:I[8173,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],""]
+3:I[5244,[],""]
+4:I[3866,[],""]
+6:I[6213,[],"OutletBoundary"]
+8:I[6213,[],"MetadataBoundary"]
+a:I[6213,[],"ViewportBoundary"]
+c:I[4835,[],""]
+:HL["/_next/static/css/a343d0272bc8adf4.css","style"]
+:HL["/_next/static/css/5eacd01f773eed7f.css","style"]
+0:{"P":null,"b":"U3XbKLhuSiydPKxX2puxY","p":"","c":["","posts","VirtualBox-Clipboard-Issues-on-Ubuntu",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","VirtualBox-Clipboard-Issues-on-Ubuntu","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a343d0272bc8adf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","header",null,{"className":"bg-gray-800 shadow-md","children":["$","nav",null,{"className":"container mx-auto px-4 py-4 flex justify-between items-center","children":[["$","$L2",null,{"href":"/","className":"text-2xl font-bold text-white hover:text-blue-400 transition-colors","children":"My Blog"}],["$","div",null,{"className":"flex space-x-6","children":[["$","$L2",null,{"href":"/","className":"text-gray-300 hover:text-white transition-colors","children":"Home"}],["$","$L2",null,{"href":"/about","className":"text-gray-300 hover:text-white transition-colors","children":"About"}],["$","$L2",null,{"href":"/contact","className":"text-gray-300 hover:text-white transition-colors","children":"Contact"}],["$","$L2",null,{"href":"/all-posts","className":"text-gray-300 hover:text-white transition-colors","children":"Posts"}]]}]]}]}],["$","main",null,{"className":"container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","VirtualBox-Clipboard-Issues-on-Ubuntu","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","mIHCpBzXSY4rGudphJSaA",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"My Blog"}],["$","meta","2",{"name":"description","content":"A personal blog built with Next.js"}]]
+7:null
+d:I[3704,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],""]
+e:I[8722,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],"default"]
+f:T8d7,<p>I&#39;m running Ubuntu on VirtualBox on a Windows host. Despite setting up everything I could think of, the clipboard functionality refuses to cooperate. Here’s a breakdown of my situation and the steps I’ve tried so far.</p>
+<h4>What’s Set Up:</h4>
+<ol>
+<li><p><strong>Guest Additions Installed</strong>:<br> The <code>vbox_GAs_6.1.36</code> icon appears correctly, and shared folders between the VirtualBox guest and the Windows host work without a hitch.</p>
+</li>
+<li><p><strong>Extension Pack Installed</strong>:<br> I’ve installed <code>Oracle_VM_VirtualBox_Extension_Pack.vbox-extpack-6.1.36a</code>.</p>
+</li>
+<li><p><strong>Clipboard Settings</strong>:<br> Clipboard sharing is set to <em>Bidirectional</em> under the <strong>Devices</strong> menu.</p>
+</li>
+<li><p><strong>Drag and Drop</strong>:<br> Set to <em>Bidirectional</em> as well, but it doesn’t work either.</p>
+</li>
+</ol>
+<h4>The Problem:</h4>
+<ul>
+<li>Copying text from Google Chrome on the host and pasting it into Firefox within the VirtualBox guest doesn’t work.</li>
+<li>Copying text from Notepad on the host and pasting it into LibreOffice Writer on the guest also fails.</li>
+</ul>
+<h4>What I’ve Tried:</h4>
+<p>I’ve double-checked all settings and even reinstalled Guest Additions, but the clipboard issue persists.</p>
+<h4>Possible Solution:</h4>
+<p>If you’re facing a similar problem, the following commands might resolve it:</p>
+<ol>
+<li><p><strong>Update and Install Necessary Packages</strong><br> Run the following commands in your Ubuntu terminal:</p>
+<pre><code class="language-bash">sudo apt-get update
+sudo apt-get install virtualbox-guest-x11
+sudo apt install linux-headers-$(uname -r) build-essential dkms
+</code></pre>
+</li>
+<li><p><strong>Enable Clipboard Support</strong><br> Once the above packages are installed, run:</p>
+<pre><code class="language-bash">sudo VBoxClient --clipboard
+</code></pre>
+<p> Then, restart your virtual machine, after restarting the VM if it still does not work do the same command again and it will work inshallah:</p>
+</li>
+</ol>
+<p>These steps should enable clipboard functionality. If it still doesn’t work, double-check that the Guest Additions installation was successful and matches your VirtualBox version.</p>
+5:[["$","$Ld",null,{"src":"https://polyfill.io/v3/polyfill.min.js?features=es6"}],["$","$Ld",null,{"id":"MathJax-config","dangerouslySetInnerHTML":{"__html":"\n            window.MathJax = {\n              tex: {\n                inlineMath: [['$', '$']],\n                displayMath: [['$$', '$$']],\n                processEscapes: true\n              },\n              options: {\n                ignoreHtmlClass: 'no-mathjax',\n                processHtmlClass: 'mathjax'\n              }\n            };\n          "}}],["$","$Ld",null,{"id":"MathJax-script","async":true,"src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"}],["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-3xl md:text-4xl font-bold text-white mb-2","children":"VirtualBox Clipboard Issues on Ubuntu"}],["$","p",null,{"className":"text-gray-400","children":"12/9/2024"}]]}],["$","$Le",null,{"html":"$f"}],["$","div",null,{"className":"mt-12 pt-6 border-t border-gray-700","children":["$","$L2",null,{"href":"/","className":"text-blue-400 hover:text-blue-300 inline-flex items-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","className":"h-5 w-5 mr-2","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to all posts"]}]}]]}]]

@@ -1,0 +1,121 @@
+1:"$Sreact.fragment"
+2:I[8173,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],""]
+3:I[5244,[],""]
+4:I[3866,[],""]
+6:I[6213,[],"OutletBoundary"]
+8:I[6213,[],"MetadataBoundary"]
+a:I[6213,[],"ViewportBoundary"]
+c:I[4835,[],""]
+:HL["/_next/static/css/a343d0272bc8adf4.css","style"]
+:HL["/_next/static/css/5eacd01f773eed7f.css","style"]
+0:{"P":null,"b":"U3XbKLhuSiydPKxX2puxY","p":"","c":["","posts","Running-ROS-on-Raspberry-Pi",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","Running-ROS-on-Raspberry-Pi","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a343d0272bc8adf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","header",null,{"className":"bg-gray-800 shadow-md","children":["$","nav",null,{"className":"container mx-auto px-4 py-4 flex justify-between items-center","children":[["$","$L2",null,{"href":"/","className":"text-2xl font-bold text-white hover:text-blue-400 transition-colors","children":"My Blog"}],["$","div",null,{"className":"flex space-x-6","children":[["$","$L2",null,{"href":"/","className":"text-gray-300 hover:text-white transition-colors","children":"Home"}],["$","$L2",null,{"href":"/about","className":"text-gray-300 hover:text-white transition-colors","children":"About"}],["$","$L2",null,{"href":"/contact","className":"text-gray-300 hover:text-white transition-colors","children":"Contact"}],["$","$L2",null,{"href":"/all-posts","className":"text-gray-300 hover:text-white transition-colors","children":"Posts"}]]}]]}]}],["$","main",null,{"className":"container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","Running-ROS-on-Raspberry-Pi","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","80AlIng7M0XDH3KCTA8yZ",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"My Blog"}],["$","meta","2",{"name":"description","content":"A personal blog built with Next.js"}]]
+7:null
+d:I[3704,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],""]
+e:I[8722,["173","static/chunks/173-adb53e817c3964da.js","92","static/chunks/92-e400dea55de176cd.js","858","static/chunks/app/posts/%5Bslug%5D/page-bf040f8c48734b16.js"],"default"]
+f:T1c48,<p><strong>Note</strong>: I&#39;m still working on this! 😊</p>
+<p>To run ROS on a Raspberry Pi, we need to install Ubuntu because ROS isn&#39;t officially supported on Raspberry Pi OS. Given the hardware limitations of the Raspberry Pi 3 with only 1GB of RAM, it&#39;s not powerful enough to handle Ubuntu Core efficiently. Instead, we need to install <strong>Ubuntu Server</strong>, which is a lightweight alternative that can better accommodate the limited resources of the Raspberry Pi.</p>
+<h2>Installing Ubuntu Server on Raspberry Pi</h2>
+<h3>1. Download the Raspberry Pi Imager</h3>
+<p>First, go to the <a href="https://www.raspberrypi.com/software/">official website</a> and download the Raspberry Pi Imager.<br><img src="/images/1.png" alt=""></p>
+<h3>2. Install the Imager</h3>
+<p>After downloading the imager, open the file to start the installation process. Click <strong>Install</strong> and then <strong>Next</strong> when prompted.<br><img src="/images/2.png" alt=""></p>
+<h3>3. Launch the App</h3>
+<p>Once the imager is installed, open the application.<br><img src="/images/Pasted%20image%2020241202212428.png" alt="">    </p>
+<h3>4. Select Your Device</h3>
+<p>Choose the device you want to use. In my case, it&#39;s the <strong>Raspberry Pi 3</strong>.</p>
+<h3>5. Choose the Operating System</h3>
+<p>When selecting the OS, choose <strong>Other general-purpose OS</strong>.<br><img src="/images/Pasted%20image%2020241202212609.png" alt=""><br>Then, select <strong>Ubuntu</strong>.    <img src="/images/Pasted%20image%2020241202212735.png" alt=""><br>Ensure that you select <strong>Ubuntu Server</strong>.<br><img src="/images/Pasted%20image%2020241202212911.png" alt=""><br>Make sure to choose the latest version of Ubuntu Server.    </p>
+<h3>6. Select Storage</h3>
+<p>Choose the storage device you want to use. Keep in mind that all data on the storage will be erased during the installation process, so select the correct device.<br><img src="/images/Pasted%20image%2020241202213057.png" alt="">    </p>
+<h3>7. Finalize and Install</h3>
+<p>Once you’ve selected the device and OS, click <strong>Next</strong>. A confirmation screen will appear.<br><img src="/images/Pasted%20image%2020241203011921.png" alt="">	<strong>Note</strong>: Click Edit Settings <em>do not click No</em> you will be fucked down the line	<br><img src="/images/Pasted%20image%2020241203012226.png" alt=""><br>In the <strong>GENERAL</strong> tab, enter your desired username and password. Changing the wireless LAN settings here won&#39;t affect the settings in the OS, so you can skip that part if needed.	In the</p>
+<p><strong>SERVICES</strong> tab, ensure that <strong>Enable SSH</strong> is checked, and select <strong>Password Authentication</strong>.	 <img src="/images/Pasted%20image%2020241203012505.png" alt=""><br>Once done, click <strong>Save</strong>, confirm with <strong>Yes</strong>, and wait for the download to complete.</p>
+<p>Now you have Ubuntu Server installed on your SD card!</p>
+<h3>8. Booting the Raspberry Pi</h3>
+<p>Take the SD card that you&#39;ve prepared with Ubuntu Server and insert it into the Raspberry Pi. Connect the Raspberry Pi to a monitor, keyboard, and power source, then power it up. The system will perform some initial setup tasks, which you can ignore. After a short time, the Raspberry Pi will prompt you to log in. </p>
+<ul>
+<li>Use the same username and password you entered earlier to login.<br>You should now be logged into Ubuntu Server on your Raspberry Pi and ready to proceed with setting up ROS or other tasks.</li>
+</ul>
+<h2>Connecting Ubuntu Server to Wi-Fi</h2>
+<p>Connecting Ubuntu Server to Wi-Fi without a GUI can be done using the terminal and a tool like <code>netplan</code>, which is included by default in recent Ubuntu versions. Here’s the easiest way to get connected:</p>
+<h3>1. Identify Your Wireless Interface:</h3>
+<ul>
+<li>Run the following command to list your network interfaces:</li>
+</ul>
+<pre><code class="language-bash">ip link
+</code></pre>
+<ul>
+<li>Look for an interface name like <code>wlan0</code> or <code>wlp3s0</code> (this is your wireless interface).</li>
+</ul>
+<h3>2. Edit the Netplan Configuration:</h3>
+<ul>
+<li>Open the Netplan configuration file for your system. The file is usually located <code>/etc/netplan/</code>. Use the following command to find it:</li>
+</ul>
+<pre><code class="language-bash">ls /etc/netplan/
+</code></pre>
+<ul>
+<li>Open the configuration file (replace <code>filename.yaml</code> with the actual file name):</li>
+</ul>
+<pre><code class="language-bash">sudo nano /etc/netplan/filename.yaml
+</code></pre>
+<h3>3. Add Wi-Fi Configuration:</h3>
+<ul>
+<li>Update the file to include your Wi-Fi settings. Here&#39;s an example configuration:</li>
+</ul>
+<pre><code class="language-yaml">network:
+  version: 2
+  wifis:
+    wlan0:  # Replace with your interface name
+      dhcp4: true
+      access-points:
+        &quot;YourWiFiSSID&quot;:
+          password: YourWiFiPassword
+</code></pre>
+<ul>
+<li>make sure you copy the spaces and tabs correctly</li>
+</ul>
+<h3>4. Apply the Configuration:</h3>
+<ul>
+<li>Save and close the file (<code>Ctrl+O</code>, <code>Enter</code>, and <code>Ctrl+X</code> in <code>nano</code>).</li>
+<li>Apply the new configuration:</li>
+</ul>
+<pre><code class="language-bash">sudo netplan apply
+</code></pre>
+<h3>5. Test the Connection:</h3>
+<ul>
+<li>Check if you are connected to Wi-Fi:</li>
+</ul>
+<pre><code class="language-bash">ip a
+</code></pre>
+<ul>
+<li>Look for an IP address under your wireless interface.</li>
+</ul>
+<h2>Starting the SSH server</h2>
+<p>we will start the ssh server to remotely access the raspberry pi</p>
+<h3>Enable the SSH server</h3>
+<p>You have two options but if you did as i said in the installation the ssh server should be already installed</p>
+<h4>While flashing a fresh OS image</h4>
+<ol>
+<li>Follow the instructions in the [[Running ROS on Raspberry Pi#7. Finalize and Install]] guide.</li>
+<li>During the <strong>OS Customisation</strong> step, navigate to the <strong>Services</strong> tab.</li>
+<li>Tick the checkbox to <strong>Enable SSH</strong>.</li>
+<li>Select <strong>password authentication</strong> to log in using the same username and password you use while physically using your Raspberry Pi. Select <strong>Allow public-key authentication only</strong> to <a href="https://www.raspberrypi.com/documentation/computers/remote-access.html#configure-ssh-without-a-password">configure an SSH key</a> for passwordless login.</li>
+</ol>
+<ul>
+<li><strong>Note</strong>: I didn&#39;t understand the passwordless login so</li>
+</ul>
+<h4>From the terminal</h4>
+<ol>
+<li>Enter <code>sudo raspi-config</code> in a terminal window.</li>
+<li>Select <code>Interfacing Options</code>.</li>
+<li>Navigate to and select <code>SSH</code>.</li>
+<li>Choose <code>Yes</code>.</li>
+<li>Select <code>Ok</code>.</li>
+<li>Choose <code>Finish</code>.</li>
+</ol>
+<p>&quot;Airbox-E798&quot;:<br>password: HH65Cm6U<br>192.168.1.160<br>user: abda<br>pass: 1231234</p>
+<p>sudo apt install python3-rpi.gpio<br>sudo apt install python3-venv<br>python3 -m venv venv</p>
+<p>u have to enter the env to run the code<br>source venv/bin/activate<br>python -m pip install {bkg name}</p>
+5:[["$","$Ld",null,{"src":"https://polyfill.io/v3/polyfill.min.js?features=es6"}],["$","$Ld",null,{"id":"MathJax-config","dangerouslySetInnerHTML":{"__html":"\n            window.MathJax = {\n              tex: {\n                inlineMath: [['$', '$']],\n                displayMath: [['$$', '$$']],\n                processEscapes: true\n              },\n              options: {\n                ignoreHtmlClass: 'no-mathjax',\n                processHtmlClass: 'mathjax'\n              }\n            };\n          "}}],["$","$Ld",null,{"id":"MathJax-script","async":true,"src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"}],["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-3xl md:text-4xl font-bold text-white mb-2","children":"Running ROS on Raspberry Pi"}],["$","p",null,{"className":"text-gray-400","children":"11/29/2024"}]]}],["$","$Le",null,{"html":"$f"}],["$","div",null,{"className":"mt-12 pt-6 border-t border-gray-700","children":["$","$L2",null,{"href":"/","className":"text-blue-400 hover:text-blue-300 inline-flex items-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","className":"h-5 w-5 mr-2","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to all posts"]}]}]]}]]
