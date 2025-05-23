@@ -16,33 +16,33 @@ To run ROS on a Raspberry Pi, we need to install Ubuntu because ROS isn't offici
 ## Installing Ubuntu Server on Raspberry Pi
 ### 1. Download the Raspberry Pi Imager  
 First, go to the [official website](https://www.raspberrypi.com/software/) and download the Raspberry Pi Imager.
-![](/my-new-blog/images/1.png)
+![](/images/1.png)
     
 ### 2. Install the Imager  
 After downloading the imager, open the file to start the installation process. Click **Install** and then **Next** when prompted.
-![](/my-new-blog/images/2.png)
+![](/images/2.png)
 ### 3. Launch the App  
 Once the imager is installed, open the application.    
-![](/my-new-blog/images/Pasted%20image%2020241202212428.png)    
+![](/images/Pasted%20image%2020241202212428.png)    
 ### 4. Select Your Device  
 Choose the device you want to use. In my case, it's the **Raspberry Pi 3**.
 ### 5. Choose the Operating System  
 When selecting the OS, choose **Other general-purpose OS**.
-![](/my-new-blog/images/Pasted%20image%2020241202212609.png)  
-Then, select **Ubuntu**.    ![](/my-new-blog/images/Pasted%20image%2020241202212735.png)  
+![](/images/Pasted%20image%2020241202212609.png)  
+Then, select **Ubuntu**.    ![](/images/Pasted%20image%2020241202212735.png)  
 Ensure that you select **Ubuntu Server**.
-![](/my-new-blog/images/Pasted%20image%2020241202212911.png) 
+![](/images/Pasted%20image%2020241202212911.png) 
 Make sure to choose the latest version of Ubuntu Server.    
 ### 6. Select Storage  
 Choose the storage device you want to use. Keep in mind that all data on the storage will be erased during the installation process, so select the correct device.    
-![](/my-new-blog/images/Pasted%20image%2020241202213057.png)    
+![](/images/Pasted%20image%2020241202213057.png)    
 ### 7. Finalize and Install  
 Once you’ve selected the device and OS, click **Next**. A confirmation screen will appear.    
-![](/my-new-blog/images/Pasted%20image%2020241203011921.png)	**Note**: Click Edit Settings *do not click No* you will be fucked down the line	
-![](/my-new-blog/images/Pasted%20image%2020241203012226.png)
+![](/images/Pasted%20image%2020241203011921.png)	**Note**: Click Edit Settings *do not click No* you will be fucked down the line	
+![](/images/Pasted%20image%2020241203012226.png)
 In the **GENERAL** tab, enter your desired username and password. Changing the wireless LAN settings here won't affect the settings in the OS, so you can skip that part if needed.	In the
 
-**SERVICES** tab, ensure that **Enable SSH** is checked, and select **Password Authentication**.	 ![](/my-new-blog/images/Pasted%20image%2020241203012505.png)
+**SERVICES** tab, ensure that **Enable SSH** is checked, and select **Password Authentication**.	 ![](/images/Pasted%20image%2020241203012505.png)
 Once done, click **Save**, confirm with **Yes**, and wait for the download to complete.
 
 Now you have Ubuntu Server installed on your SD card!

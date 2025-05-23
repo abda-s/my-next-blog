@@ -10,7 +10,7 @@ draft: "false"
 
 Data transmission can be categorized into two main types: **Serial** and **Parallel**. Serial communication, in particular, has several subtypes, including **Asynchronous**, **Synchronous**, and **Isochronous**. In this post, we’ll focus on **UART (Universal Asynchronous Receiver-Transmitter)**, which is an asynchronous method of communication. Unlike synchronous communication, UART does not require devices to share the same clock cycles or be synchronized.
 
-![](/my-new-blog/images/Data%20transmission.png)
+![](/images/Data%20transmission.png)
 
 ---
 
@@ -22,7 +22,7 @@ Data transmission can be categorized into two main types: **Serial** and **Paral
 
 Both methods enable devices to communicate, but they differ in their approach. Serial transmission is often preferred for its simplicity and lower cost, while parallel transmission is used when speed is critical.
 
-![](/my-new-blog/images/parallel%20vs%20serail.png)
+![](/images/parallel%20vs%20serail.png)
 
 ### Key Terms:
 - **MSB (Most Significant Bit)**: The bit with the highest value in a byte (e.g., 2^7).
@@ -47,7 +47,7 @@ Between bytes, there may be a gap or idle time, which helps the receiver prepare
 
 > **Note**: Asynchronous transmission is "asynchronous at the byte level," but the bits within each byte are still synchronized.
 
-![](/my-new-blog/images/serial%20byte.png)
+![](/images/serial%20byte.png)
 
 ---
 
@@ -57,7 +57,7 @@ UART is a hardware device that facilitates asynchronous serial communication. It
 - **Tx (Transmit)**: Sends data from the transmitting device.
 - **Rx (Receive)**: Receives data at the receiving device.
 
-![](/my-new-blog/images/Pasted%20image%2020250215052600.png)
+![](/images/Pasted%20image%2020250215052600.png)
 
 The communication speed, known as the **baud rate**, must be agreed upon by both devices.
 
@@ -85,7 +85,7 @@ The **baud rate** is a critical parameter in serial communication, especially in
 - Not a protocol but refers to the voltage level used by UART.
 - Example: USB-to-TTL converters.
 
-![](/my-new-blog/images/TTL.png)
+![](/images/TTL.png)
 
 #### RS-232:
 - Uses higher voltage levels (+/- 12V) for long-range communication.
@@ -94,7 +94,7 @@ The **baud rate** is a critical parameter in serial communication, especially in
 	- +3V to +15V represents a "0" bit.
 - Active low logic.
 
-![](/my-new-blog/images/RS232.png)
+![](/images/RS232.png)
 
 ---
 ### References:
