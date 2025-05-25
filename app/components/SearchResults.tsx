@@ -9,14 +9,6 @@ interface SearchResultsProps {
   posts: Post[];
 }
 
-function formatDate(dateString: string) {
-  const date = new Date(dateString);
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  });
-}
 
 function searchPosts(posts: Post[], query: string) {
   if (!query.trim()) return [];

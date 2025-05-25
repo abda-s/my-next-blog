@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react';
-import Link from 'next/link';
+// import Link from 'next/link'; // Removed unused import
 import Pagination from './Pagination';
 import { Post } from '../types';
 import PostCard from './PostCard';
