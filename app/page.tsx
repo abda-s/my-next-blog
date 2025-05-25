@@ -3,8 +3,6 @@ import { getPosts } from './lib/posts';
 import PostsList from './components/PostsList';
 import Hero from './components/Hero';
 
-export const dynamic = 'force-dynamic';
-
 export const metadata: Metadata = {
   title: 'My Blog',
   description: 'Explore my thoughts, ideas, and experiences through these blog posts.',
