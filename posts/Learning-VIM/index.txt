@@ -1,22 +1,23 @@
 1:"$Sreact.fragment"
-2:I[76074,["173","static/chunks/173-824ba44f669ab771.js","88","static/chunks/88-5ddfc2d5ad6aae48.js","177","static/chunks/app/layout-11dacbdd38697ce4.js"],"default"]
+2:I[76074,["173","static/chunks/173-77f509435c11b8ed.js","88","static/chunks/88-c5b9250241c791d2.js","177","static/chunks/app/layout-925eb278f7d3cf6f.js"],"default"]
 3:I[15244,[],""]
 4:I[43866,[],""]
 6:I[86213,[],"OutletBoundary"]
 8:I[86213,[],"MetadataBoundary"]
 a:I[86213,[],"ViewportBoundary"]
 c:I[34835,[],""]
-:HL["/_next/static/css/1898c3acbbc06a56.css","style"]
+:HL["/_next/static/css/08005f69ab48acb2.css","style"]
 :HL["/_next/static/css/5eacd01f773eed7f.css","style"]
-0:{"P":null,"b":"BkEg7aELS-XuqN4tNGRXq","p":"","c":["","posts","Learning-VIM",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","Learning-VIM","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1898c3acbbc06a56.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","$L2",null,{}],["$","main",null,{"className":"container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","Learning-VIM","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","KDS-rTGDQYzE8pgSaBYyM",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"2TUVym5lgfs2kgRjHMk58","p":"","c":["","posts","Learning-VIM",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","Learning-VIM","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/08005f69ab48acb2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","Learning-VIM","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","9Tm9P7PdUPPbleNukCuAJ",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
 b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-9:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Salameh"}],["$","meta","2",{"name":"description","content":"A personal blog built with Next.js"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Salameh"}],["$","meta","2",{"name":"description","content":"A personal blog built with love by Abdullah Salameh"}]]
 7:null
-d:I[53704,["173","static/chunks/173-824ba44f669ab771.js","92","static/chunks/92-3a4bbb0660b93f9c.js","858","static/chunks/app/posts/%5Bslug%5D/page-2594f1be67b20696.js"],""]
-e:I[88722,["173","static/chunks/173-824ba44f669ab771.js","92","static/chunks/92-3a4bbb0660b93f9c.js","858","static/chunks/app/posts/%5Bslug%5D/page-2594f1be67b20696.js"],"default"]
-10:I[48173,["173","static/chunks/173-824ba44f669ab771.js","92","static/chunks/92-3a4bbb0660b93f9c.js","858","static/chunks/app/posts/%5Bslug%5D/page-2594f1be67b20696.js"],""]
-f:T6742,<p>Everything is based on this <a href="https://youtu.be/RZ4p-saaQkc">video</a>.</p>
-<h2>Installing VIM</h2>
+d:I[53704,["173","static/chunks/173-77f509435c11b8ed.js","92","static/chunks/92-f102aec71d93df43.js","858","static/chunks/app/posts/%5Bslug%5D/page-6063ecd1eb4744dd.js"],""]
+e:I[59414,["173","static/chunks/173-77f509435c11b8ed.js","92","static/chunks/92-f102aec71d93df43.js","858","static/chunks/app/posts/%5Bslug%5D/page-6063ecd1eb4744dd.js"],"default"]
+f:I[88722,["173","static/chunks/173-77f509435c11b8ed.js","92","static/chunks/92-f102aec71d93df43.js","858","static/chunks/app/posts/%5Bslug%5D/page-6063ecd1eb4744dd.js"],"default"]
+11:I[48173,["173","static/chunks/173-77f509435c11b8ed.js","92","static/chunks/92-f102aec71d93df43.js","858","static/chunks/app/posts/%5Bslug%5D/page-6063ecd1eb4744dd.js"],""]
+10:T6c2f,<p>Everything is based on this <a href="https://youtu.be/RZ4p-saaQkc">video</a>.</p>
+<h2 id="installing-vim">Installing VIM</h2>
 <p>First, check if it’s installed by typing <code>vi</code> or <code>vim</code> in the terminal. If you see the following output:<br><img src="/images/Pasted%20image%2020241205183304.png" alt=""><br>it means the program is installed. Otherwise, you’ll need to install it using your Linux package manager.</p>
 <p>If you&#39;re on Ubuntu, use the following commands:</p>
 <pre><code class="language-shell">sudo apt install vi 
@@ -24,12 +25,12 @@ f:T6742,<p>Everything is based on this <a href="https://youtu.be/RZ4p-saaQkc">vi
 <p>or </p>
 <pre><code class="language-shell">sudo apt install vim 
 </code></pre>
-<h2>Understanding vim Modes</h2>
+<h2 id="understanding-vim-modes">Understanding vim Modes</h2>
 <p>Vim has several modes, each designed for specific tasks. Vim’s modes are its core strength, allowing efficient text manipulation and navigation. Each mode has a specific purpose, and transitioning between them is seamless.</p>
 <hr>
-<h3>1. Normal Mode</h3>
+<h3 id="1-normal-mode">1. Normal Mode</h3>
 <p><strong>Purpose:</strong> The default mode for navigating and executing commands.<br><strong>How to Enter:</strong> Press <code>Esc</code> from any mode.</p>
-<h4>Features in Normal Mode:</h4>
+<h4 id="features-in-normal-mode">Features in Normal Mode:</h4>
 <ul>
 <li><strong>Cursor Navigation:</strong><ul>
 <li>Use <code>h</code> (left), <code>j</code> (down), <code>k</code> (up), and <code>l</code> (right).</li>
@@ -50,12 +51,12 @@ f:T6742,<p>Everything is based on this <a href="https://youtu.be/RZ4p-saaQkc">vi
 </ul>
 </li>
 </ul>
-<h4>Exiting Normal Mode:</h4>
+<h4 id="exiting-normal-mode">Exiting Normal Mode:</h4>
 <p>You&#39;re always in Normal Mode unless you&#39;ve entered another mode. Press <code>Esc</code> to ensure you&#39;re back.</p>
 <hr>
-<h3>2. Insert Mode</h3>
+<h3 id="2-insert-mode">2. Insert Mode</h3>
 <p><strong>Purpose:</strong> To insert text into the file.<br>In Vim, <strong>capitalized versions of commands often extend or modify the behavior of their lowercase counterparts</strong>, typically operating on a <strong>larger scope</strong> or providing a <strong>slightly different action</strong>. Here’s how capitalized versions of <code>i</code>, <code>a</code>, and <code>o</code> behave and differ from their lowercase equivalents:</p>
-<h4>i vs. I</h4>
+<h4 id="i-vs-i">i vs. I</h4>
 <ul>
 <li><strong><code>i</code> (Insert Mode)</strong>:<ul>
 <li>Enters <strong>Insert Mode</strong> at the <strong>current cursor position</strong>.</li>
@@ -68,13 +69,13 @@ f:T6742,<p>Everything is based on this <a href="https://youtu.be/RZ4p-saaQkc">vi
 </ul>
 </li>
 </ul>
-<h5>Example:</h5>
+<h5 id="example">Example:</h5>
 <pre><code class="language-plaintext">   This is a sentence.  (Cursor on the &quot;T&quot;)
 
 Pressing `i`:  Insert before &quot;T&quot;.
 Pressing `I`:  Insert at the very start of the line (before the &quot;T&quot; and leading spaces).
 </code></pre>
-<h4>a vs. A</h4>
+<h4 id="a-vs-a">a vs. A</h4>
 <ul>
 <li><strong><code>a</code> (Append Mode)</strong>:<ul>
 <li>Enters <strong>Insert Mode</strong> immediately <strong>after the current cursor position</strong>.</li>
@@ -87,13 +88,13 @@ Pressing `I`:  Insert at the very start of the line (before the &quot;T&quot; an
 </ul>
 </li>
 </ul>
-<h5>Example:</h5>
+<h5 id="example-1">Example:</h5>
 <pre><code class="language-plaintext">   This is a sentence.  (Cursor on &quot;T&quot;)
 
 Pressing `a`:  Append after &quot;T&quot;.
 Pressing `A`:  Jump to the end of the line and begin inserting.
 </code></pre>
-<h4>o vs. O</h4>
+<h4 id="o-vs-o">o vs. O</h4>
 <ul>
 <li><strong><code>o</code> (Open Below)</strong>:<ul>
 <li>Opens a <strong>new line below the current line</strong> and enters <strong>Insert Mode</strong>.</li>
@@ -106,7 +107,7 @@ Pressing `A`:  Jump to the end of the line and begin inserting.
 </ul>
 </li>
 </ul>
-<h5>Example:</h5>
+<h5 id="example-2">Example:</h5>
 <pre><code class="language-plaintext">   Line 1
    Line 2 (Cursor here)
    Line 3
@@ -114,7 +115,7 @@ Pressing `A`:  Jump to the end of the line and begin inserting.
 Pressing `o`:  Opens a new line below &quot;Line 2&quot;.
 Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </code></pre>
-<h4>Why Capitalization Matters</h4>
+<h4 id="why-capitalization-matters">Why Capitalization Matters</h4>
 <p>Capitalized commands like <code>I</code>, <code>A</code>, and <code>O</code> are shortcuts for actions that would otherwise require additional steps or motions:</p>
 <ul>
 <li><strong><code>I</code> saves time</strong> by avoiding manual navigation to the start of the line.</li>
@@ -122,22 +123,22 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 <li>**<code>O</code> and <code>o</code> make it easy to insert blank lines without leaving the current context.</li>
 </ul>
 <p>This behavior reflects Vim&#39;s philosophy of providing <strong>shortcuts for repetitive or common editing tasks</strong> while maintaining efficient text editing workflows. By mastering these commands, you can significantly improve your productivity in Vim.</p>
-<h4>Features in Insert Mode:</h4>
+<h4 id="features-in-insert-mode">Features in Insert Mode:</h4>
 <ul>
 <li>Type as you would in a regular text editor.</li>
 <li>Use arrow keys to navigate (though it&#39;s better to return to Normal Mode for navigation).</li>
 </ul>
-<h4>Exiting Insert Mode:</h4>
+<h4 id="exiting-insert-mode">Exiting Insert Mode:</h4>
 <p>Press <code>Esc</code> to return to Normal Mode.</p>
 <hr>
-<h3>3. Visual Mode</h3>
+<h3 id="3-visual-mode">3. Visual Mode</h3>
 <p><strong>Purpose:</strong> To select text for manipulation.<br><strong>How to Enter:</strong></p>
 <ul>
 <li><code>v</code>: Character-wise selection.</li>
 <li><code>V</code>: Line-wise selection.</li>
 <li><code>Ctrl+v</code>: Block/column-wise selection.</li>
 </ul>
-<h4>Features in Visual Mode:</h4>
+<h4 id="features-in-visual-mode">Features in Visual Mode:</h4>
 <ul>
 <li>Highlight text with cursor movement.</li>
 <li>Perform actions like:<ul>
@@ -148,17 +149,17 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </ul>
 </li>
 </ul>
-<h4>Exiting Visual Mode:</h4>
+<h4 id="exiting-visual-mode">Exiting Visual Mode:</h4>
 <p>Press <code>Esc</code> to return to Normal Mode.</p>
 <hr>
-<h3>4. Command-Line Mode</h3>
+<h3 id="4-command-line-mode">4. Command-Line Mode</h3>
 <p><strong>Purpose:</strong> Execute advanced commands like saving, quitting, or search-and-replace.<br><strong>How to Enter:</strong></p>
 <ul>
 <li><code>:</code>: For general commands.</li>
 <li><code>/</code>: For forward search.</li>
 <li><code>?</code>: For backward search.</li>
 </ul>
-<h4>Examples of Commands:</h4>
+<h4 id="examples-of-commands">Examples of Commands:</h4>
 <ul>
 <li><code>:w</code>: Save changes.</li>
 <li><code>:q</code>: Quit.</li>
@@ -166,17 +167,17 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 <li><code>:q!</code>: Quit without saving.</li>
 <li><code>:s/old/new/g</code>: Replace &quot;old&quot; with &quot;new&quot; in the current line.</li>
 </ul>
-<h4>Exiting Command-Line Mode:</h4>
+<h4 id="exiting-command-line-mode">Exiting Command-Line Mode:</h4>
 <p>Press <code>Esc</code> to cancel the current command or after executing it.</p>
 <hr>
 <p>These modes make Vim incredibly versatile, catering to diverse editing needs and workflows. By mastering them, you unlock Vim&#39;s full potential for efficient text editing.</p>
-<h2>Combining Multiple Commands</h2>
+<h2 id="combining-multiple-commands">Combining Multiple Commands</h2>
 <p>In Vim, you can combine multiple commands to perform actions in sequence on text or the file you&#39;re editing. This allows for powerful, efficient editing without needing to switch modes repeatedly.</p>
-<h3>Commands Cheat Sheet</h3>
+<h3 id="commands-cheat-sheet">Commands Cheat Sheet</h3>
 <p><img src="/images/Pasted%20image%2020241205211919.png" alt=""></p>
-<h3>Using Command Combinations</h3>
+<h3 id="using-command-combinations">Using Command Combinations</h3>
 <p>You can combine commands by using <strong>command prefixes</strong>, which allow you to perform multiple actions in a single command.</p>
-<h3>Examples of Command Combinations:</h3>
+<h3 id="examples-of-command-combinations">Examples of Command Combinations:</h3>
 <ol>
 <li><p><strong>Delete Word (<code>diw</code>)</strong>:</p>
 <ul>
@@ -241,7 +242,7 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </ul>
 </li>
 </ol>
-<h3>Combining Commands with Count Prefixes:</h3>
+<h3 id="combining-commands-with-count-prefixes">Combining Commands with Count Prefixes:</h3>
 <p>You can also prefix commands with numbers to apply them a certain number of times.</p>
 <ul>
 <li><strong>Example: <code>5dd</code></strong>:<ul>
@@ -254,9 +255,9 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </li>
 </ul>
 <p>This technique of combining commands and using prefixes significantly enhances Vim&#39;s efficiency, making it easier to manipulate text with fewer keystrokes.</p>
-<h2>The <code>:set</code> Command</h2>
+<h2 id="the-set-command">The <code>:set</code> Command</h2>
 <p>Here are examples of the <code>:set</code> command in Vim, showcasing how to customize the editor&#39;s behavior and appearance:</p>
-<h3>1. Enable Line Numbers</h3>
+<h3 id="1-enable-line-numbers">1. Enable Line Numbers</h3>
 <ul>
 <li><p><strong>Absolute Line Numbers</strong>:</p>
 <pre><code class="language-vim">:set number
@@ -276,7 +277,7 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </li>
 </ul>
 <hr>
-<h3>2. <strong>Highlight Search Results</strong></h3>
+<h3 id="2-highlight-search-results">2. <strong>Highlight Search Results</strong></h3>
 <ul>
 <li><p><strong>Enable Search Highlighting</strong>:</p>
 <pre><code class="language-vim">:set hlsearch
@@ -299,7 +300,7 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </li>
 </ul>
 <hr>
-<h3>3. Auto-Indentation</h3>
+<h3 id="3-auto-indentation">3. Auto-Indentation</h3>
 <ul>
 <li><p><strong>Enable Auto-Indentation</strong>:</p>
 <pre><code class="language-vim">:set smartindent
@@ -322,7 +323,7 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </li>
 </ul>
 <hr>
-<h3>4. Tab and Space Settings</h3>
+<h3 id="4-tab-and-space-settings">4. Tab and Space Settings</h3>
 <ul>
 <li><p><strong>Set Tab Width</strong>:</p>
 <pre><code class="language-vim">:set tabstop=4
@@ -346,7 +347,7 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </li>
 </ul>
 <hr>
-<h3>5. Line Wrapping</h3>
+<h3 id="5-line-wrapping">5. Line Wrapping</h3>
 <ul>
 <li><p><strong>Enable Line Wrapping</strong>:</p>
 <pre><code class="language-vim">:set wrap
@@ -360,7 +361,7 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </li>
 </ul>
 <hr>
-<h3>6. Search Case Sensitivity</h3>
+<h3 id="6-search-case-sensitivity">6. Search Case Sensitivity</h3>
 <ul>
 <li><p><strong>Case-Insensitive Search</strong>:</p>
 <pre><code class="language-vim">:set ignorecase
@@ -379,7 +380,7 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </li>
 </ul>
 <hr>
-<h3>7. Auto-Completion</h3>
+<h3 id="7-auto-completion">7. Auto-Completion</h3>
 <ul>
 <li><p><strong>Enable File Completion</strong>:</p>
 <pre><code class="language-vim">:set wildmenu
@@ -393,7 +394,7 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </li>
 </ul>
 <hr>
-<h3>8. Backup and Swap Files</h3>
+<h3 id="8-backup-and-swap-files">8. Backup and Swap Files</h3>
 <ul>
 <li><p><strong>Disable Swap Files</strong>:</p>
 <pre><code class="language-vim">:set noswapfile
@@ -412,7 +413,7 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </li>
 </ul>
 <hr>
-<h3>9. Status Line Customization</h3>
+<h3 id="9-status-line-customization">9. Status Line Customization</h3>
 <ul>
 <li><p><strong>Enable the Status Line</strong>:</p>
 <pre><code class="language-vim">:set laststatus=2
@@ -425,14 +426,14 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </li>
 </ul>
 <hr>
-<h3>10. Show Line and Column Number</h3>
+<h3 id="10-show-line-and-column-number">10. Show Line and Column Number</h3>
 <ul>
 <li><strong>Enable Line and Column Number Display</strong>:<pre><code class="language-vim">:set ruler
 </code></pre>
   Displays the current line and column number in the status line, so you always know your position in the file.</li>
 </ul>
 <hr>
-<h3>11. Mouse Support</h3>
+<h3 id="11-mouse-support">11. Mouse Support</h3>
 <ul>
 <li><p><strong>Enable Mouse Support</strong>:</p>
 <pre><code class="language-vim">:set mouse=a
@@ -445,14 +446,14 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </li>
 </ul>
 <hr>
-<h3>12. Vim Colorscheme</h3>
+<h3 id="12-vim-colorscheme">12. Vim Colorscheme</h3>
 <ul>
 <li><strong>Set a Colorscheme</strong>:<pre><code class="language-vim">:colorscheme desert
 </code></pre>
   Sets the colorscheme to &quot;desert&quot; (you can replace <code>desert</code> with any other installed colorscheme like <code>elflord</code>, <code>morning</code>, or <code>industry</code>).</li>
 </ul>
 <hr>
-<h3>13. Line Break Characters</h3>
+<h3 id="13-line-break-characters">13. Line Break Characters</h3>
 <ul>
 <li><p><strong>Display Non-printing Characters</strong>:</p>
 <pre><code class="language-vim">:set list
@@ -467,9 +468,9 @@ Pressing `O`:  Opens a new line above &quot;Line 2&quot;.
 </ul>
 <hr>
 <p>These <code>:set</code> commands let you tweak Vim to match your workflow and preferences, from simple appearance changes to more advanced features like auto-indentation or search behaviors. Once you’ve customized your settings, you can even save them in your <code>.vimrc</code> file to make these changes permanent across sessions.</p>
-<h2><code>.vimrc</code> File</h2>
+<h2 id="vimrc-file"><code>.vimrc</code> File</h2>
 <p>The <code>.vimrc</code> file is a configuration file that Vim loads at startup, allowing you to customize Vim’s behavior.<br><strong>Location of the <code>.vimrc</code> file</strong>: <code>~/.vimrc</code></p>
-<h3>Basic Structure</h3>
+<h3 id="basic-structure">Basic Structure</h3>
 <p>The <code>.vimrc</code> file contains Vim commands for settings, keybindings, and other customizations.</p>
 <pre><code class="language-vim">&quot; Enable line numbers
 set number
@@ -503,7 +504,7 @@ autocmd BufRead,BufNewFile *.py set filetype=python
 &quot; Map &#39;jj&#39; to escape Insert mode (useful for avoiding the Esc key)
 inoremap jj &lt;Esc&gt;        &quot; Press &#39;jj&#39; to exit Insert mode
 </code></pre>
-<h4>Explanation of Comments:</h4>
+<h4 id="explanation-of-comments">Explanation of Comments:</h4>
 <ul>
 <li><strong>Line Numbers</strong>: Displays line numbers for easier navigation.</li>
 <li><strong>Syntax Highlighting</strong>: Enables syntax color coding for better readability.</li>
@@ -515,9 +516,9 @@ inoremap jj &lt;Esc&gt;        &quot; Press &#39;jj&#39; to exit Insert mode
 <li><strong>Filetype Settings</strong>: Automatically applies file-specific settings based on file extension (e.g., Python for <code>.py</code> files).</li>
 <li><strong>Key Mapping</strong>: Allows custom key mappings, such as pressing <code>jj</code> to exit Insert mode.</li>
 </ul>
-<h2>Waypoints in Vim</h2>
+<h2 id="waypoints-in-vim">Waypoints in Vim</h2>
 <p><strong>Waypoints</strong> are useful for marking specific places in your file to quickly return to. This can be especially helpful when navigating through large files. In Vim, waypoints are often referred to as <strong>marks</strong>.</p>
-<h3>Setting and Using Marks:</h3>
+<h3 id="setting-and-using-marks">Setting and Using Marks:</h3>
 <ol>
 <li><strong>Set a Mark</strong>:<ul>
 <li>To set a mark, press <code>m</code> followed by a letter (a-z). For example, <code>ma</code> sets a mark named <code>a</code> at the current cursor position.</li>
@@ -532,7 +533,7 @@ inoremap jj &lt;Esc&gt;        &quot; Press &#39;jj&#39; to exit Insert mode
 </ul>
 </li>
 </ol>
-<h3>Example:</h3>
+<h3 id="example-3">Example:</h3>
 <ol>
 <li>Move to a specific line, say line 10.</li>
 <li>Set a mark with <code>ma</code> (mark &quot;a&quot;).</li>
@@ -540,18 +541,18 @@ inoremap jj &lt;Esc&gt;        &quot; Press &#39;jj&#39; to exit Insert mode
 <li>Return to the mark by typing <code>&#39;a</code>.</li>
 </ol>
 <p>Marks allow you to quickly navigate between important points in your file without needing to rely on line numbers or searching.</p>
-<h2>The <code>:reg</code> Command</h2>
+<h2 id="the-reg-command">The <code>:reg</code> Command</h2>
 <p>The <code>:reg</code> command in Vim allows you to view and manage the contents of Vim&#39;s <strong>registers</strong>. Registers are temporary storage areas where text is stored when you cut, copy, or paste in Vim. This command helps you access these stored texts, allowing for easy retrieval and reuse.</p>
-<h3><strong>Viewing Registers</strong></h3>
+<h3 id="viewing-registers"><strong>Viewing Registers</strong></h3>
 <ul>
 <li>To view the contents of all registers, type <code>:reg</code> and press Enter.</li>
 <li>This will display a list of registers and their contents.</li>
 </ul>
-<h3><strong>Using Specific Registers</strong></h3>
+<h3 id="using-specific-registers"><strong>Using Specific Registers</strong></h3>
 <ul>
 <li>You can access specific registers by typing <code>:reg</code> followed by the register name. For example, <code>:reg a</code> shows the contents of register <code>a</code>.</li>
 </ul>
-<h3><strong>Types of Registers:</strong></h3>
+<h3 id="types-of-registers"><strong>Types of Registers:</strong></h3>
 <ol>
 <li><strong>Unnamed Register</strong> (<code>&quot;&quot;</code>): Stores text that was last yanked or deleted.</li>
 <li><strong>Named Registers</strong> (<code>a-z</code>): These are registers that you can explicitly specify when yanking or deleting. You can yank or delete to a specific register with <code>&quot;a</code>, <code>&quot;b</code>, etc.</li>
@@ -564,7 +565,7 @@ inoremap jj &lt;Esc&gt;        &quot; Press &#39;jj&#39; to exit Insert mode
 </li>
 <li><strong>Macro Registers</strong> (<code>q</code>-<code>z</code>): These registers are used to store <strong>macros</strong> (sequences of commands). By recording a macro, you can save a sequence of commands to a register and replay them later.</li>
 </ol>
-<h3><strong>Examples:</strong></h3>
+<h3 id="examples"><strong>Examples:</strong></h3>
 <ol>
 <li><strong>Copying to a Register</strong>:<ul>
 <li><code>&quot;ayw</code>: Yank a word into register <code>a</code>.</li>
@@ -590,4 +591,4 @@ inoremap jj &lt;Esc&gt;        &quot; Press &#39;jj&#39; to exit Insert mode
 </li>
 </ol>
 <p>The <code>:reg</code> command, along with macro functionality, gives you powerful tools to manage and reuse text and commands in Vim, enhancing your productivity and workflow.</p>
-5:[["$","$Ld",null,{"id":"MathJax-config","dangerouslySetInnerHTML":{"__html":"\n            window.MathJax = {\n              tex: {\n                inlineMath: [['$', '$']],\n                displayMath: [['$$', '$$']],\n                processEscapes: true\n              },\n              options: {\n                ignoreHtmlClass: 'no-mathjax',\n                processHtmlClass: 'mathjax'\n              }\n            };\n          "}}],["$","$Ld",null,{"id":"MathJax-script","async":true,"src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"}],["$","article",null,{"className":"max-w-3xl mx-auto break-words hyphens-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-3xl md:text-4xl font-bold text-white mb-2","children":"Learning VIM"}],["$","p",null,{"className":"text-gray-400","children":"2024-12-05"}]]}],["$","$Le",null,{"html":"$f"}],["$","div",null,{"className":"mt-12 pt-6 border-t border-gray-700","children":["$","$L10",null,{"href":"/","className":"text-blue-400 hover:text-blue-300 inline-flex items-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","className":"h-5 w-5 mr-2","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to all posts"]}]}]]}]]
+5:[["$","$Ld",null,{"id":"MathJax-config","dangerouslySetInnerHTML":{"__html":"\n            window.MathJax = {\n              tex: {\n                inlineMath: [['$', '$']],\n                displayMath: [['$$', '$$']],\n                processEscapes: true\n              },\n              options: {\n                ignoreHtmlClass: 'no-mathjax',\n                processHtmlClass: 'mathjax'\n              }\n            };\n          "}}],["$","$Ld",null,{"id":"MathJax-script","async":true,"src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"}],["$","div",null,{"className":"container mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-4 gap-12","children":[["$","div",null,{"className":"hidden lg:block lg:col-span-1"}],["$","article",null,{"className":"lg:col-span-2 break-words hyphens-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-3xl md:text-4xl font-bold text-white mb-2","children":"Learning VIM"}],["$","p",null,{"className":"text-gray-400","children":"2024-12-05"}],["$","div",null,{"className":"lg:hidden mt-8","children":[" ",["$","$Le",null,{"toc":[{"level":2,"text":"Installing VIM","id":"installing-vim"},{"level":2,"text":"Understanding vim Modes","id":"understanding-vim-modes"},{"level":3,"text":"1. Normal Mode","id":"1-normal-mode"},{"level":4,"text":"Features in Normal Mode:","id":"features-in-normal-mode"},{"level":4,"text":"Exiting Normal Mode:","id":"exiting-normal-mode"},{"level":3,"text":"2. Insert Mode","id":"2-insert-mode"},{"level":4,"text":"i vs. I","id":"i-vs-i"},{"level":5,"text":"Example:","id":"example"},{"level":4,"text":"a vs. A","id":"a-vs-a"},{"level":5,"text":"Example:","id":"example-1"},{"level":4,"text":"o vs. O","id":"o-vs-o"},{"level":5,"text":"Example:","id":"example-2"},{"level":4,"text":"Why Capitalization Matters","id":"why-capitalization-matters"},{"level":4,"text":"Features in Insert Mode:","id":"features-in-insert-mode"},{"level":4,"text":"Exiting Insert Mode:","id":"exiting-insert-mode"},{"level":3,"text":"3. Visual Mode","id":"3-visual-mode"},{"level":4,"text":"Features in Visual Mode:","id":"features-in-visual-mode"},{"level":4,"text":"Exiting Visual Mode:","id":"exiting-visual-mode"},{"level":3,"text":"4. Command-Line Mode","id":"4-command-line-mode"},{"level":4,"text":"Examples of Commands:","id":"examples-of-commands"},{"level":4,"text":"Exiting Command-Line Mode:","id":"exiting-command-line-mode"},{"level":2,"text":"Combining Multiple Commands","id":"combining-multiple-commands"},{"level":3,"text":"Commands Cheat Sheet","id":"commands-cheat-sheet"},{"level":3,"text":"Using Command Combinations","id":"using-command-combinations"},{"level":3,"text":"Examples of Command Combinations:","id":"examples-of-command-combinations"},{"level":3,"text":"Combining Commands with Count Prefixes:","id":"combining-commands-with-count-prefixes"},{"level":2,"text":"The :set Command","id":"the-set-command"},{"level":3,"text":"1. Enable Line Numbers","id":"1-enable-line-numbers"},{"level":3,"text":"2. Highlight Search Results","id":"2-highlight-search-results"},{"level":3,"text":"3. Auto-Indentation","id":"3-auto-indentation"},{"level":3,"text":"4. Tab and Space Settings","id":"4-tab-and-space-settings"},{"level":3,"text":"5. Line Wrapping","id":"5-line-wrapping"},{"level":3,"text":"6. Search Case Sensitivity","id":"6-search-case-sensitivity"},{"level":3,"text":"7. Auto-Completion","id":"7-auto-completion"},{"level":3,"text":"8. Backup and Swap Files","id":"8-backup-and-swap-files"},{"level":3,"text":"9. Status Line Customization","id":"9-status-line-customization"},{"level":3,"text":"10. Show Line and Column Number","id":"10-show-line-and-column-number"},{"level":3,"text":"11. Mouse Support","id":"11-mouse-support"},{"level":3,"text":"12. Vim Colorscheme","id":"12-vim-colorscheme"},{"level":3,"text":"13. Line Break Characters","id":"13-line-break-characters"},{"level":2,"text":".vimrc File","id":"vimrc-file"},{"level":3,"text":"Basic Structure","id":"basic-structure"},{"level":4,"text":"Explanation of Comments:","id":"explanation-of-comments"},{"level":2,"text":"Waypoints in Vim","id":"waypoints-in-vim"},{"level":3,"text":"Setting and Using Marks:","id":"setting-and-using-marks"},{"level":3,"text":"Example:","id":"example-3"},{"level":2,"text":"The :reg Command","id":"the-reg-command"},{"level":3,"text":"Viewing Registers","id":"viewing-registers"},{"level":3,"text":"Using Specific Registers","id":"using-specific-registers"},{"level":3,"text":"Types of Registers:","id":"types-of-registers"},{"level":3,"text":"Examples:","id":"examples"}],"displayType":"inline"}]]}]]}],["$","$Lf",null,{"html":"$10"}],["$","div",null,{"className":"mt-12 pt-6 border-t border-gray-700","children":["$","$L11",null,{"href":"/","className":"text-blue-400 hover:text-blue-300 inline-flex items-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","className":"h-5 w-5 mr-2","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to all posts"]}]}]]}],["$","div",null,{"className":"hidden lg:block lg:col-span-1","children":["$","$Le",null,{"toc":"$5:2:props:children:1:props:children:0:props:children:2:props:children:1:props:toc","displayType":"sidebar"}]}]]}]]
