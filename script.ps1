@@ -1,3 +1,5 @@
+$ErrorActionPreference = "Stop"
+
 # Step 8: Push the public folder to the gh-pages branch using subtree split and force push
 Write-Host "Deploying to GitHub pages..."
 
