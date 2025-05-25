@@ -5,6 +5,7 @@ date: 2025-04-09
 tags:
   - Electronics
 draft: "false"
+toc: "true"
 ---
 PID controllers are the most common control method in modern control systems. They form the foundation of feedback control architecture that engineers rely on across countless applications. In this post, we'll explore how these controllers work, breaking down each component to understand their individual contributions and how they function together as a unified system.
 

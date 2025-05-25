@@ -18,6 +18,7 @@
     "isomorphic-dompurify": "^2.25.0",
     "jsdom": "^26.1.0",
     "marked": "^15.0.12",
+    "marked-gfm-heading-id": "^4.1.1",
     "next": "15.1.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

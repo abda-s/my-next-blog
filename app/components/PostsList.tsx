@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import Pagination from './Pagination';
 import { Post } from '../types';
+import PostCard from './PostCard';
 
 interface PostsListProps {
   posts: Post[];
@@ -45,18 +46,9 @@ export default function PostsList({ posts }: PostsListProps) {
     setCurrentPage(1); // Reset to first page when changing tags
   };
 
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    });
-  };
-
   return (
-    <div>
-      <div className="flex flex-col space-y-6 mb-8">
+    <div className='container mx-auto max-w-5xl'>
+      <div className="flex flex-col space-y-6 mx-auto mb-8 px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <h2 className="text-2xl font-bold text-white">
             {selectedTag ? `Posts tagged with "${selectedTag}"` : 'Recent Posts'}
@@ -95,29 +87,9 @@ export default function PostsList({ posts }: PostsListProps) {
         </div>
       </div>
 
-      <div className="space-y-6">
+      <div className="space-y-6 px-4 sm:px-6 lg:px-8">
         {paginatedPosts.map((post) => (
-          <article key={post.slug} className="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors">
-            <Link href={`/posts/${post.slug}`}>
-              <h3 className="text-xl font-semibold text-white mb-2 hover:text-blue-400 transition-colors">
-                {post.title}
-              </h3>
-            </Link>
-            <p className="text-gray-400 mb-2">{formatDate(post.date)}</p>
-            <p className="text-gray-300 mb-3">{post.description}</p>
-            {post.tags && post.tags.length > 0 && (
-              <div className="flex flex-wrap gap-2">
-                {post.tags.map(tag => (
-                  <span
-                    key={tag}
-                    className="text-xs px-2 py-1 rounded-full bg-gray-700 text-gray-300"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            )}
-          </article>
+          <PostCard key={post.slug} post={post} />
         ))}
       </div>
 

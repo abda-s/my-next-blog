@@ -8,6 +8,7 @@ import { useRouter } from 'next/navigation';
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
   const router = useRouter();
 
   const navLinks: NavLink[] = [
@@ -46,6 +47,27 @@ export default function Navbar() {
             </svg>
           </Link>
         </div>
+        {/* Search Bar */}
+        <form onSubmit={(e) => {
+          e.preventDefault();
+          if (searchQuery.trim()) {
+            router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+            setSearchQuery(''); // Clear search input after navigating
+          }
+        }} className="relative hidden lg:flex ml-6 items-center">
+          <input
+            type="text"
+            placeholder="Search posts..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="px-3 py-1 pr-10 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500"
+          />
+          <button type="submit" className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-300 hover:text-white transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
+        </form>
         <div className="hidden lg:flex space-x-6 items-center">
           {navLinks.map((link) => (
             <Link
@@ -56,31 +78,17 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          {/* Search Bar */}
-          <form onSubmit={(e) => {
-            e.preventDefault();
-            if (searchQuery.trim()) {
-              router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
-              setSearchQuery(''); // Clear search input after navigating
-            }
-          }} className="hidden lg:flex ml-6 items-center">
-            <input
-              type="text"
-              placeholder="Search posts..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="px-3 py-1 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500"
-            />
-            <button type="submit" className="ml-2 text-gray-300 hover:text-white transition-colors">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
-            </button>
-          </form>
         </div>
-        <div className="lg:hidden">
-          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-white focus:outline-none">
-            {/* Hamburger icon */}
+        {/* Mobile Menu and Search Icon */}
+        <div className="flex items-center lg:hidden">
+          {/* Mobile Search Icon - visible on mobile, opens full-screen search */}
+          <button onClick={() => setIsMobileSearchOpen(true)} className="text-gray-300 hover:text-white transition-colors mr-4 focus:outline-none" aria-label="Open search">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
+          {/* Hamburger Icon - visible on mobile, opens menu */}
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-white focus:outline-none" aria-label="Open menu">
             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
@@ -89,7 +97,8 @@ export default function Navbar() {
         {/* Sliding panel menu */}
         <div className={`lg:hidden fixed top-0 right-0 h-full w-64 bg-gray-800 shadow-xl z-50 transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           <div className="p-4">
-            {/* Search Bar in Mobile Menu */}
+            {/* Removed Search Bar from Mobile Menu */}
+            {/*
             <form onSubmit={(e) => {
               e.preventDefault();
               if (searchQuery.trim()) {
@@ -105,8 +114,9 @@ export default function Navbar() {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full px-3 py-2 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500"
               />
-              <button type="submit" className="hidden">Submit</button> {/* Hidden submit button */}
+              <button type="submit" className="hidden">Submit</button> 
             </form>
+            */}
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -131,6 +141,47 @@ export default function Navbar() {
           />
         )}
       </nav>
+      
+      {/* Full-screen Mobile Search Overlay */}
+      {isMobileSearchOpen && (
+        <motion.div
+          className="fixed inset-0 bg-gray-900 z-[60] flex flex-col p-4"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.2 }}
+        >
+          <div className="flex justify-end mb-4">
+            <button onClick={() => setIsMobileSearchOpen(false)} className="text-gray-400 hover:text-white focus:outline-none" aria-label="Close search">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+          <form onSubmit={(e) => {
+            e.preventDefault();
+            if (searchQuery.trim()) {
+              router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+              setSearchQuery('');
+              setIsMobileSearchOpen(false); // Close search after navigating
+            }
+          }} className="flex items-center bg-gray-800 border border-gray-700 rounded-lg focus-within:border-blue-500 transition-colors pr-3">
+            <input
+              type="text"
+              placeholder="Search posts..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="flex-grow p-2 bg-transparent text-gray-300 focus:outline-none text-lg"
+              autoFocus // Automatically focus input when opened
+            />
+            <button type="submit" className="p-1 text-gray-400 hover:text-white transition-colors" aria-label="Perform search">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </button>
+          </form>
+        </motion.div>
+      )}
     </header>
   );
 }

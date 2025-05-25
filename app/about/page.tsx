@@ -5,9 +5,14 @@ export const metadata = {
   description: "Learn more about me and my blog",
 };
 
-export default function About() {
+export default function AboutPage() {
   return (
-    <main className="container mx-auto px-4 py-8 max-w-4xl">
+    <div className="container mx-auto px-4 py-8">
+      <header className="text-center mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Abdullah Salameh</h1>
+        <p className="text-blue-400 text-xl md:text-2xl">Full Stack Developer</p>
+      </header>
+
       {/* Hero Section */}
       <section className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
@@ -106,29 +111,29 @@ export default function About() {
 
       {/* Contact Section */}
       <section>
-        <h2 className="text-2xl font-bold text-white mb-4">Get in Touch</h2>
-        <p className="text-gray-300 mb-4">
-          I&apos;m always interested in hearing about new projects and opportunities in embedded systems, 
-          control engineering, and software development. Feel free to reach out through any of the 
-          following platforms:
-        </p>
-        <div className="flex flex-wrap gap-4">
-          <Link 
-            href="https://github.com/abda-s" 
-            target="_blank"
-            className="px-4 py-2 rounded-full bg-gray-800 text-white hover:bg-gray-700 transition-colors"
-          >
-            GitHub
-          </Link>
-          <Link 
-            href="https://www.linkedin.com/in/abdullah-salameh/" 
-            target="_blank"
-            className="px-4 py-2 rounded-full bg-gray-800 text-white hover:bg-gray-700 transition-colors"
-          >
-            LinkedIn
-          </Link>
-        </div>
+        <h2 className="text-3xl font-bold text-white mb-6">Contact</h2>
+        <p className="text-gray-300 mb-4">Feel free to reach out to me:</p>
+        <ul className="flex justify-center space-x-6">
+          <li>
+            <a 
+              href="https://github.com/abda-s" 
+              target="_blank"
+              className="px-4 py-2 rounded-full bg-gray-800 text-white hover:bg-gray-700 transition-colors"
+            >
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://www.linkedin.com/in/abdullah-salameh/" 
+              target="_blank"
+              className="px-4 py-2 rounded-full bg-gray-800 text-white hover:bg-gray-700 transition-colors"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
-    </main>
+    </div>
   );
 }

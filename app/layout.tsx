@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 
 export const metadata = {
   title: 'Salameh',
-  description: 'A personal blog built with Next.js',
+  description: 'A personal blog built with love by Abdullah Salameh',
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className="bg-gray-900 text-gray-100 min-h-screen">
         <Navbar />
-        <main className="container mx-auto px-4 py-8">
+        <main>
           {children}
         </main>
         <footer className="bg-gray-800 text-gray-400 py-8">

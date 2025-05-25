@@ -189,7 +189,7 @@ The ROS 2 graph represents the network of ROS 2 elements (nodes, topics, service
 - Single or Multiple Nodes per Executable:  
     A single ROS 2 executable (written in C++ or Python) can contain multiple nodes.
 
-![Image Description](Pasted%20image%2020241215001625.png)
+![](/images/Pasted%20image%2020241215001625.png)
 
 ---
 
@@ -245,7 +245,8 @@ ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle
 * What is a topic
 	A topic in ROS 2 is a communication channel through which nodes can publish and subscribe to messages, enabling data exchange between them.
 
-![Image Description](Pasted%20image%2020241215005244.png)
+![](/images/Pasted%20image%2020241215005244.png)
+
 
 ---
 ### 1. rqt_graph (Graphical Tool): 
@@ -374,7 +375,7 @@ ros2 topic find geometry_msgs/msg/Twist
 
 Services in ROS 2 follow a call-and-response model, where nodes request data from a service and receive a response. Unlike topics, services only provide data when specifically called by a client.
 
-![Image Description](Pasted%20image%2020241215010056.png)
+![](/images/Pasted%20image%2020241215010056.png)
 
 ---
 
@@ -547,7 +548,7 @@ Here's the version without any tabs before the code blocks:
 - Actions are a combination of Goal, Feedback, and Result.
 - They use a client-server model similar to topics but allow steady feedback and cancellation.
 - Action Client sends goals to the Action Server, which processes the goal and sends feedback/results.
-![Image Description](Pasted%20image%2020241215011642.png)
+![](/images/Pasted%20image%2020241215011642.png)
 ---
 
 ### 1. ros2 node info 

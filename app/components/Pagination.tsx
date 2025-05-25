@@ -10,7 +10,7 @@ interface Props {
 
 export default function Pagination({ currentPage, totalPages, totalItems, pageSize, onPageChange }: Props) {
   return (
-    <section className="mt-8">
+    <section className="mt-8 mb-4">
       <div className="flex flex-col items-center space-y-4">
         {/* Page navigation */}
         <div className="flex items-center space-x-2">
@@ -44,7 +44,7 @@ export default function Pagination({ currentPage, totalPages, totalItems, pageSi
         </div>
 
         {/* Total items info */}
-        <div className="text-gray-400 text-sm">
+        <div className="text-gray-400 text-sm ">
           Showing {Math.min((currentPage - 1) * pageSize + 1, totalItems)} to {Math.min(currentPage * pageSize, totalItems)} of {totalItems} items
         </div>
       </div>

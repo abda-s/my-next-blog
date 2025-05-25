@@ -9,7 +9,7 @@ export default function Hero({ tags }: HeroProps) {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-500/10 via-transparent to-transparent opacity-50"></div>
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
       
-      <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
+      <div className="relative z-10 max-w-4xl mx-auto text-center">
         <h1 className="text-5xl md:text-6xl font-bold mb-6 pb-3 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
           Welcome to My Blog
         </h1>

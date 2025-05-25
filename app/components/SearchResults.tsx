@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useState, useEffect, useRef } from 'react';
+import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import type { Post } from '../types';
+import PostCard from './PostCard';
 
 interface SearchResultsProps {
   posts: Post[];
@@ -61,58 +62,71 @@ function searchPosts(posts: Post[], query: string) {
 
 export default function SearchResults({ posts }: SearchResultsProps) {
   const searchParams = useSearchParams();
-  const searchQuery = searchParams.get('q') || '';
+  const router = useRouter();
+  const initialSearchQuery = searchParams.get('q') || '';
   const [filteredPosts, setFilteredPosts] = useState<Post[]>([]);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const pathname = usePathname();
 
+  // State to manage the input field's value
+  const [searchTerm, setSearchTerm] = useState(initialSearchQuery);
+
+  // Effect to update filtered posts when the URL search query changes
   useEffect(() => {
-    const results = searchPosts(posts, searchQuery);
+    const results = searchPosts(posts, initialSearchQuery); // Use initialSearchQuery from URL
     setFilteredPosts(results);
-  }, [searchQuery, posts]);
+  }, [initialSearchQuery, posts]); // Depend on initialSearchQuery (from URL)
+
+  // Function to handle search submission
+  const handleSearchSubmit = () => {
+    const params = new URLSearchParams(searchParams);
+    if (searchTerm) {
+      params.set('q', searchTerm);
+    } else {
+      params.delete('q');
+    }
+    // Use push instead of replace if you want search results to be in browser history
+    router.push(`${pathname}?${params.toString()}`);
+  };
 
   return (
-    <>
-      {searchQuery === '' ? (
-        <p className="text-gray-300">Please enter a search query.</p>
-      ) : filteredPosts.length > 0 ? (
-        <div className="space-y-6">
-          <p className="text-gray-400">
-            Found {filteredPosts.length} result{filteredPosts.length === 1 ? '' : 's'} for &quot;{searchQuery}&quot;
-          </p>
-          <ul className="space-y-4">
-            {filteredPosts.map((post) => (
-              <li key={post.slug} className="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition-colors">
-                <a href={`/posts/${post.slug}`} className="block">
-                  <h2 className="text-xl font-semibold text-blue-400 hover:text-blue-300 transition-colors">
-                    {post.title}
-                  </h2>
-                  <p className="text-gray-400 text-sm mt-1">
-                    {formatDate(post.date)}
-                  </p>
-                  {post.description && (
-                    <p className="text-gray-300 mt-3 leading-relaxed">
-                      {post.description}
-                    </p>
-                  )}
-                  {post.tags && post.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-2 mt-3">
-                      {post.tags.map((tag) => (
-                        <span
-                          key={tag}
-                          className="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded-full"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : (
-        <p className="text-gray-300">No results found for &quot;{searchQuery}&quot;.</p>
-      )}
-    </>
+    <div className="max-w-3xl mx-auto py-8">
+      <h1 className="text-3xl font-bold text-white mb-8">Search Results</h1>
+      
+      {/* Search Bar */}
+      <div className="flex items-center bg-gray-800 border border-gray-700 rounded-lg focus-within:border-blue-500 transition-colors pr-3">
+        <input
+          type="text"
+          ref={inputRef}
+          value={searchTerm} // Use local state
+          onChange={(e) => {
+            setSearchTerm(e.target.value); // Update local state only
+          }}
+          onKeyPress={(e) => {
+            if (e.key === 'Enter') {
+              handleSearchSubmit(); // Trigger search on Enter key press
+            }
+          }}
+          placeholder="Search..."
+          className="flex-grow p-2 bg-transparent text-gray-300 focus:outline-none"
+        />
+        <button onClick={handleSearchSubmit} className="p-1 text-gray-400 hover:text-white transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </button>
+      </div>
+      
+      {/* Search Results */}
+      <div className="space-y-6 mt-8">
+        {filteredPosts.length === 0 ? (
+          <p className="text-gray-400">No results found for &quot;{searchTerm}&quot;.</p>
+        ) : (
+          filteredPosts.map((post) => (
+            <PostCard key={post.slug} post={post} />
+          ))
+        )}
+      </div>
+    </div>
   );
 } 
