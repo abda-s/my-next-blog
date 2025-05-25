@@ -3,9 +3,12 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { NavLink } from '../types';
+import { useRouter } from 'next/navigation';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const router = useRouter();
 
   const navLinks: NavLink[] = [
     { name: 'Home', href: '/' },
@@ -53,6 +56,27 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
+          {/* Search Bar */}
+          <form onSubmit={(e) => {
+            e.preventDefault();
+            if (searchQuery.trim()) {
+              router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+              setSearchQuery(''); // Clear search input after navigating
+            }
+          }} className="hidden lg:flex ml-6 items-center">
+            <input
+              type="text"
+              placeholder="Search posts..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="px-3 py-1 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500"
+            />
+            <button type="submit" className="ml-2 p-1 rounded-md bg-blue-600 text-white hover:bg-blue-700 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </button>
+          </form>
         </div>
         <div className="lg:hidden">
           <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-white focus:outline-none">
@@ -65,6 +89,24 @@ export default function Navbar() {
         {/* Sliding panel menu */}
         <div className={`lg:hidden fixed top-0 right-0 h-full w-64 bg-gray-800 shadow-xl z-50 transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           <div className="p-4">
+            {/* Search Bar in Mobile Menu */}
+            <form onSubmit={(e) => {
+              e.preventDefault();
+              if (searchQuery.trim()) {
+                router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+                setSearchQuery(''); // Clear search input after navigating
+                setIsMenuOpen(false); // Close menu after search
+              }
+            }} className="mb-4">
+              <input
+                type="text"
+                placeholder="Search posts..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full px-3 py-2 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500"
+              />
+              <button type="submit" className="hidden">Submit</button> {/* Hidden submit button */}
+            </form>
             {navLinks.map((link) => (
               <Link
                 key={link.name}

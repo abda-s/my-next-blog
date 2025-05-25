@@ -2,7 +2,7 @@ import './globals.css';
 import Navbar from './components/Navbar';
 
 export const metadata = {
-  title: 'My Blog',
+  title: 'Salameh',
   description: 'A personal blog built with Next.js',
 };
 
