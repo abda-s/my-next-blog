@@ -2,16 +2,14 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { Post } from '../types';
 import Pagination from './Pagination';
+import { Post } from '../types';
 
 interface PostsListProps {
   posts: Post[];
 }
 
 export default function PostsList({ posts }: PostsListProps) {
-  const router = useRouter();
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(5);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);

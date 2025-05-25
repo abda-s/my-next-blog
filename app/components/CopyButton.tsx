@@ -17,29 +17,10 @@ const CopyButton: React.FC<CopyButtonProps> = ({ text }) => {
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
         return;
-      } catch (err) {
-        // If it fails, try fallback below
-        console.warn('navigator.clipboard failed, falling back to execCommand.', err);
+      } catch (e) {
+        console.error('Failed to copy text: ', e);
       }
-    }
-
-    // Fallback for older browsers or restricted environments
-    try {
-      const textarea = document.createElement('textarea');
-      textarea.value = text;
-      textarea.style.position = 'fixed'; // Prevent scrolling to bottom of page in MS Edge.
-      document.body.appendChild(textarea);
-      textarea.focus();
-      textarea.select();
-      const successful = document.execCommand('copy');
-      document.body.removeChild(textarea);
-      if (successful) {
-        setCopied(true);
-        setTimeout(() => setCopied(false), 2000);
-      } else {
-        alert('Copy to clipboard is not supported in this browser.');
-      }
-    } catch (err) {
+    } else {
       alert('Copy to clipboard is not supported in this browser.');
     }
   };

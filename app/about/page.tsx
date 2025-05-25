@@ -38,7 +38,7 @@ export default function About() {
       <section className="mb-12">
         <h2 className="text-2xl font-bold text-white mb-4">About Me</h2>
         <p className="text-gray-300 leading-relaxed">
-          I'm an Electrical Engineering student with a deep passion for embedded systems and control engineering. 
+          I&apos;m an Electrical Engineering student with a deep passion for embedded systems and control engineering. 
           My journey combines the theoretical foundations of electrical engineering with practical applications 
           in software development and IoT. I specialize in creating smart, efficient solutions that bridge the 
           gap between hardware and software, from embedded systems to full-stack applications.
@@ -108,7 +108,7 @@ export default function About() {
       <section>
         <h2 className="text-2xl font-bold text-white mb-4">Get in Touch</h2>
         <p className="text-gray-300 mb-4">
-          I'm always interested in hearing about new projects and opportunities in embedded systems, 
+          I&apos;m always interested in hearing about new projects and opportunities in embedded systems, 
           control engineering, and software development. Feel free to reach out through any of the 
           following platforms:
         </p>

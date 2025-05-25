@@ -107,7 +107,7 @@ export default function Contact() {
           <div>
             <h2 className="text-2xl font-semibold mb-4 text-white">Connect With Me</h2>
             <p className="text-gray-300 mb-6">
-              Feel free to reach out through any of these platforms. I'm always interested in hearing about new projects and opportunities.
+              Feel free to reach out through any of these platforms. I&apos;m always interested in hearing about new projects and opportunities.
             </p>
             <div className="space-y-4">
               <Link

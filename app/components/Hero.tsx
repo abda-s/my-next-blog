@@ -1,5 +1,3 @@
-import { Post } from '../types';
-
 interface HeroProps {
   tags: string[];
 }

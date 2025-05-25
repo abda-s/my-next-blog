@@ -46,7 +46,7 @@ async function getPostData(slug: string) {
       content: htmlContent,
       draft,
     };
-  } catch (error) {
+  } catch {
     return null;
   }
 }
@@ -75,7 +75,6 @@ export default async function Page(props: PageProps) {
   if (postData.draft) {
     return (
       <>
-        <Script src="https://polyfill.io/v3/polyfill.min.js?features=es6" />
         <Script
           id="MathJax-config"
           dangerouslySetInnerHTML={{
@@ -123,7 +122,6 @@ export default async function Page(props: PageProps) {
 
   return (
     <>
-      <Script src="https://polyfill.io/v3/polyfill.min.js?features=es6" />
       <Script
         id="MathJax-config"
         dangerouslySetInnerHTML={{

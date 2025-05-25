@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { Post } from '../app/types'
 
@@ -13,7 +13,6 @@ interface Props {
 
 export default function PostsPage({ posts, page, totalPages, pageSize }: Props) {
   const router       = useRouter()
-  const searchParams = useSearchParams()
   const [size, setSize] = useState(pageSize)
 
   function onSizeChange(e: React.ChangeEvent<HTMLSelectElement>) {

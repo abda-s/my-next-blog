@@ -1,8 +1,7 @@
 import { Metadata } from 'next';
-import { Post } from './types'
-import PostsList from './components/PostsList'
-import Hero from './components/Hero'
 import { getPosts } from './lib/posts';
+import PostsList from './components/PostsList';
+import Hero from './components/Hero';
 
 export const dynamic = 'force-dynamic';
 
