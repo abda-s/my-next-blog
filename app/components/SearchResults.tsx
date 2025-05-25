@@ -17,24 +17,56 @@ function formatDate(dateString: string) {
   });
 }
 
+function searchPosts(posts: Post[], query: string) {
+  if (!query.trim()) return [];
+  
+  const searchTerms = query.toLowerCase().trim().split(/\s+/);
+  
+  // Score each post
+  const scoredPosts = posts.map(post => {
+    let score = 0;
+    const title = post.title.toLowerCase();
+    const description = post.description?.toLowerCase() || '';
+    const tags = post.tags?.map(tag => tag.toLowerCase()) || [];
+    
+    // Check each search term
+    searchTerms.forEach(term => {
+      // Title matches get highest priority (3 points per term)
+      if (title.includes(term)) {
+        score += 3;
+      }
+      
+      // Tag matches get second priority (2 points per term per tag)
+      tags.forEach(tag => {
+        if (tag.includes(term)) {
+          score += 2;
+        }
+      });
+      
+      // Description matches get lowest priority (1 point per term)
+      if (description.includes(term)) {
+        score += 1;
+      }
+    });
+    
+    return { post, score };
+  });
+  
+  // Filter out posts with no matches and sort by score
+  return scoredPosts
+    .filter(({ score }) => score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map(({ post }) => post);
+}
+
 export default function SearchResults({ posts }: SearchResultsProps) {
   const searchParams = useSearchParams();
   const searchQuery = searchParams.get('q') || '';
   const [filteredPosts, setFilteredPosts] = useState<Post[]>([]);
 
   useEffect(() => {
-    // Filter posts whenever search query changes
-    if (searchQuery) {
-      const lowerCaseQuery = searchQuery.toLowerCase();
-      const results = posts.filter(
-        (post) =>
-          post.title.toLowerCase().includes(lowerCaseQuery) ||
-          (post.description && post.description.toLowerCase().includes(lowerCaseQuery))
-      );
-      setFilteredPosts(results);
-    } else {
-      setFilteredPosts([]); // Show no results if query is empty
-    }
+    const results = searchPosts(posts, searchQuery);
+    setFilteredPosts(results);
   }, [searchQuery, posts]);
 
   return (
