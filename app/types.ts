@@ -10,4 +10,5 @@ export interface Post {
   description: string;
   draft?: boolean;
   tags?: string[];
+  content?: string;
 }
