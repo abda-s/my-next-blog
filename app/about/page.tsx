@@ -8,10 +8,6 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <header className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Abdullah Salameh</h1>
-        <p className="text-blue-400 text-xl md:text-2xl">Full Stack Developer</p>
-      </header>
 
       {/* Hero Section */}
       <section className="text-center mb-12">
