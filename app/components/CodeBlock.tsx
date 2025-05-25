@@ -59,6 +59,20 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ html }) => {
     // Convert the HTML string to React elements with copy buttons
     const parser = new DOMParser();
     const doc = parser.parseFromString(tempDiv.innerHTML, 'text/html');
+
+    // Add break-all to all <a> tags
+    doc.querySelectorAll('a').forEach(a => {
+      a.classList.add('break-all');
+    });
+
+    // Wrap all tables in a div for horizontal scrolling
+    doc.querySelectorAll('table').forEach(table => {
+      const wrapper = doc.createElement('div');
+      wrapper.className = 'overflow-x-auto w-full';
+      table.parentNode?.insertBefore(wrapper, table);
+      wrapper.appendChild(table);
+    });
+
     const elements = Array.from(doc.body.childNodes);
     
     // Process each element

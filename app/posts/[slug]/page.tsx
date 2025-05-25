@@ -18,31 +18,35 @@ marked.setOptions({ gfm: true, breaks: true });
  */
 export function generateStaticParams() {
   const postsDir = path.join(process.cwd(), 'posts');
-  const files    = readdirSync(postsDir);
+  const files = readdirSync(postsDir);
   return files.map((f) => ({ slug: f.replace(/\.md$/, '') }));
 }
 
-/** Load & parse one markdown file */
 async function getPostData(slug: string) {
   const fullPath = path.join(process.cwd(), 'posts', `${slug}.md`);
   try {
-    const raw = await fs.readFile(fullPath, 'utf8');
-    const { data, content } = matter(raw);
-    const html = marked.parse(content);
+    const fileContents = await fs.readFile(fullPath, 'utf8');
+    const { data, content } = matter(fileContents);
+    const htmlContent = marked(content);
 
-    const dateStr = data.date instanceof Date
-      ? data.date.toLocaleDateString()
+    // Ensure date is a string in ISO format
+    const date = data.date instanceof Date 
+      ? data.date.toISOString()
       : String(data.date);
+
+    // Convert draft field to boolean if it's a string
+    const draft = typeof data.draft === 'string' 
+      ? data.draft.toLowerCase() === 'true'
+      : Boolean(data.draft);
 
     return {
       slug,
-      title:       data.title,
-      date:        dateStr,
-      description: data.description ?? '',
-      content:     html,
+      title: data.title,
+      date,
+      content: htmlContent,
+      draft,
     };
-  } catch (err) {
-    console.error(`Error loading "${slug}":`, err);
+  } catch (error) {
     return null;
   }
 }
@@ -60,6 +64,62 @@ export default async function Page(props: PageProps) {
 
   const postData = await getPostData(slug);
   if (!postData) return notFound();
+
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
+    // Use a fixed format to avoid hydration mismatch
+    return date.toISOString().slice(0, 10); // e.g., 2024-06-07
+  };
+
+  // If it's a draft post, we still show it but with a draft indicator
+  if (postData.draft) {
+    return (
+      <>
+        <Script src="https://polyfill.io/v3/polyfill.min.js?features=es6" />
+        <Script
+          id="MathJax-config"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.MathJax = {
+                tex: {
+                  inlineMath: [['$', '$']],
+                  displayMath: [['$$', '$$']],
+                  processEscapes: true
+                },
+                options: {
+                  ignoreHtmlClass: 'no-mathjax',
+                  processHtmlClass: 'mathjax'
+                }
+              };
+            `,
+          }}
+        />
+        <Script
+          id="MathJax-script"
+          async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+        />
+        <article className="max-w-3xl mx-auto break-words hyphens-auto">
+          <div className="bg-yellow-500 text-black px-4 py-2 mb-4 rounded">
+            This is a draft post
+          </div>
+          <header className="mb-8">
+            <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">{postData.title}</h1>
+            <p className="text-gray-400">{formatDate(postData.date)}</p>
+          </header>
+          <CodeBlock html={postData.content} />
+          <div className="mt-12 pt-6 border-t border-gray-700">
+            <Link href="/" className="text-blue-400 hover:text-blue-300 inline-flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              Back to all posts
+            </Link>
+          </div>
+        </article>
+      </>
+    );
+  }
 
   return (
     <>
@@ -87,12 +147,11 @@ export default async function Page(props: PageProps) {
         async
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
       />
-      <article className="max-w-3xl mx-auto">
+      <article className="max-w-3xl mx-auto break-words hyphens-auto">
         <header className="mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">{postData.title}</h1>
-          <p className="text-gray-400">{postData.date}</p>
+          <p className="text-gray-400">{formatDate(postData.date)}</p>
         </header>
-        {/* Use the CodeBlock component to render the content with copy buttons and syntax highlighting */}
         <CodeBlock html={postData.content} />
         <div className="mt-12 pt-6 border-t border-gray-700">
           <Link href="/" className="text-blue-400 hover:text-blue-300 inline-flex items-center">

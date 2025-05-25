@@ -55,8 +55,13 @@ async function syncPosts() {
           fs.promises.stat(src),
           fs.promises.stat(dest).catch(() => null)
         ]);
-        // if no dest or source is newer
-        return !dStat || sStat.mtimeMs > dStat.mtimeMs;
+        if (!dStat) return true;
+        // Compare file contents
+        const [srcContent, destContent] = await Promise.all([
+          fs.promises.readFile(src),
+          fs.promises.readFile(dest)
+        ]);
+        return !srcContent.equals(destContent);
       } catch {
         return true;
       }
