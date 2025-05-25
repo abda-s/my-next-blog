@@ -8,9 +8,7 @@ export default async function SearchPage() {
   return (
     <main>
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-white mb-6">
-          Search Results
-        </h1>
+
         <Suspense fallback={<div className="text-gray-300">Loading search results...</div>}>
           <SearchResults posts={allPosts} />
         </Suspense>
