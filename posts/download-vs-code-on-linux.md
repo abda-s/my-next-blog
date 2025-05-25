@@ -8,7 +8,7 @@ description: This guide explains downloading and installing Visual Studio Code o
 ---
 
 1. Visit the [Visual Studio Code download page](https://code.visualstudio.com/download).
-	![](/my-next-blog/images/Pasted%20image%2020241202122253.png)
+	![](/images/Pasted%20image%2020241202122253.png)
     
 2. Download the appropriate `.deb` file for your system.
     
@@ -20,5 +20,5 @@ description: This guide explains downloading and installing Visual Studio Code o
     
     _(Replace `./the-vscode-.deb-file` with the actual file name you downloaded.)_
     
-    ![](/my-next-blog/images/daa701f0-5f39-4852-a887-61a7d942ea7d.jpg)
+    ![](/images/daa701f0-5f39-4852-a887-61a7d942ea7d.jpg)
 4. The installation process might take a while, so feel free to grab a snack while it completes.

@@ -8,20 +8,20 @@ a:I[86213,[],"ViewportBoundary"]
 c:I[34835,[],""]
 :HL["/_next/static/css/1898c3acbbc06a56.css","style"]
 :HL["/_next/static/css/5eacd01f773eed7f.css","style"]
-0:{"P":null,"b":"iYz9VV0Ou1DZxOkFE0hHx","p":"","c":["","posts","Starting-a-blog",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","Starting-a-blog","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1898c3acbbc06a56.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","$L2",null,{}],["$","main",null,{"className":"container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","Starting-a-blog","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","osKshqH8L1TNT8nQOHQdQ",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"BkEg7aELS-XuqN4tNGRXq","p":"","c":["","posts","Starting-a-blog",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","Starting-a-blog","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1898c3acbbc06a56.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"bg-gray-900 text-gray-100 min-h-screen","children":[["$","$L2",null,{}],["$","main",null,{"className":"container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-gray-400 py-8","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":["$","p",null,{"children":["© ",2025," My Blog. All rights reserved."]}]}]}]]}]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","Starting-a-blog","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","yEspzBb8hygUqOoZgFWmg",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
 b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 9:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Salameh"}],["$","meta","2",{"name":"description","content":"A personal blog built with Next.js"}]]
 7:null
 d:I[53704,["173","static/chunks/173-824ba44f669ab771.js","92","static/chunks/92-3a4bbb0660b93f9c.js","858","static/chunks/app/posts/%5Bslug%5D/page-2594f1be67b20696.js"],""]
 e:I[88722,["173","static/chunks/173-824ba44f669ab771.js","92","static/chunks/92-3a4bbb0660b93f9c.js","858","static/chunks/app/posts/%5Bslug%5D/page-2594f1be67b20696.js"],"default"]
 10:I[48173,["173","static/chunks/173-824ba44f669ab771.js","92","static/chunks/92-3a4bbb0660b93f9c.js","858","static/chunks/app/posts/%5Bslug%5D/page-2594f1be67b20696.js"],""]
-f:T53af,<p>This image illustrates the workflow of this blog.</p>
-<p><img src="/my-next-blog/images/Starting%20a%20blog%20with%20Hugo.png" alt=""></p>
+f:T5313,<p>This image illustrates the workflow of this blog.</p>
+<p><img src="/images/Starting%20a%20blog%20with%20Hugo.png" alt=""></p>
 <h2>Setting Up</h2>
 <p>Before starting, ensure that you have <strong>Git</strong>, <strong>Go</strong> and <strong>Python</strong> installed on your system.</p>
 <h2>Create Folder for Posts</h2>
 <p>First, create a folder in your Obsidian vault named <code>posts</code>.</p>
-<p><img src="/my-next-blog/images/Pasted%20image%2020241206164602.png" alt=""></p>
+<p><img src="/images/Pasted%20image%2020241206164602.png" alt=""></p>
 <h2>Install Hugo</h2>
 <p>Next, install Hugo and add it to your environment variables.<br>Link: <a href="https://gohugo.io/installation/">https://gohugo.io/installation/</a></p>
 <pre><code class="language-powershell">## Verify Hugo works
@@ -171,12 +171,12 @@ summaryLength = 50  # number of words for article summaries
     home = [&quot;HTML&quot;, &quot;JSON&quot;]
 </code></pre>
 <p>you can use the previous configuration in your <code>hugo.toml</code> file:</p>
-<p><img src="/my-next-blog/images/Pasted%20image%2020241206143800.png" alt=""></p>
+<p><img src="/images/Pasted%20image%2020241206143800.png" alt=""></p>
 <h2>Test the Hugo Site Locally</h2>
 <p>Run the Hugo server to test if everything is set up correctly:</p>
 <pre><code class="language-powershell">hugo server -t [themename]
 </code></pre>
-<p>It&#39;s working but there isn&#39;t any posts <img src="/my-next-blog/images/Pasted%20image%2020241206144110.png" alt=""></p>
+<p>It&#39;s working but there isn&#39;t any posts <img src="/images/Pasted%20image%2020241206144110.png" alt=""></p>
 <h2>Add Posts</h2>
 <p>If everything is working but you don’t see any posts, create a <code>posts</code> folder inside the <code>content</code> directory:</p>
 <pre><code class="language-powershell">cd content
@@ -186,7 +186,7 @@ mkdir posts
 <p>To sync your Obsidian notes with the Hugo posts folder, use the <code>robocopy</code> command:</p>
 <pre><code class="language-powershell">robocopy [sourcepath] [destination] /mir
 </code></pre>
-<p><img src="/my-next-blog/images/Pasted%20image%2020241206144306.png" alt=""></p>
+<p><img src="/images/Pasted%20image%2020241206144306.png" alt=""></p>
 <h2>Add Metadata for New Posts</h2>
 <p>When starting a new post, make sure to add the following metadata at the top of your markdown file:</p>
 <pre><code>---
@@ -198,7 +198,7 @@ tags:
   - tag2
 ---
 </code></pre>
-<p><img src="/my-next-blog/images/Pasted%20image%2020241206175820.png" alt=""></p>
+<p><img src="/images/Pasted%20image%2020241206175820.png" alt=""></p>
 <h2>Add Images to Hugo</h2>
 <p>When you add images to your Obsidian notes, they won’t appear in the Hugo site because the image source is only in Obsidian. To fix this, use the following Python script to copy the images to the Hugo static folder.</p>
 <pre><code class="language-python">import os
@@ -246,13 +246,13 @@ print(&quot;Markdown files processed and images copied successfully.&quot;)
 <p>To upload your Hugo site to GitHub, follow these steps:</p>
 <h3>Step 1: Create a New Repository</h3>
 <ol>
-<li><p>Click the <strong>plus icon</strong> in GitHub.<br> <img src="/my-next-blog/images/Pasted%20image%2020241206145729.png" alt=""></p>
+<li><p>Click the <strong>plus icon</strong> in GitHub.<br> <img src="/images/Pasted%20image%2020241206145729.png" alt=""></p>
 </li>
-<li><p>Select <strong>New repository</strong> from the dropdown menu.<br> <img src="/my-next-blog/images/Pasted%20image%2020241206145803.png" alt=""></p>
+<li><p>Select <strong>New repository</strong> from the dropdown menu.<br> <img src="/images/Pasted%20image%2020241206145803.png" alt=""></p>
 </li>
-<li><p>Name your repository. For example, you could use <code>salamehBlog</code>, Set the repository to <strong>Public</strong>.<br> <img src="/my-next-blog/images/Pasted%20image%2020241206150019.png" alt=""></p>
+<li><p>Name your repository. For example, you could use <code>salamehBlog</code>, Set the repository to <strong>Public</strong>.<br> <img src="/images/Pasted%20image%2020241206150019.png" alt=""></p>
 </li>
-<li><p>Click <strong>Create repository</strong>.<br> <img src="/my-next-blog/images/Pasted%20image%2020241206150113.png" alt=""></p>
+<li><p>Click <strong>Create repository</strong>.<br> <img src="/images/Pasted%20image%2020241206150113.png" alt=""></p>
 </li>
 </ol>
 <hr>
@@ -296,9 +296,9 @@ git branch -D gh-pages-deploy
 </li>
 <li><p>Select <strong>Pages</strong> from the left-hand menu.</p>
 </li>
-<li><p>Choose the <code>gh-pages</code> branch and set your custom domain.<br> <img src="/my-next-blog/images/Pasted%20image%2020241206182531.png" alt=""></p>
+<li><p>Choose the <code>gh-pages</code> branch and set your custom domain.<br> <img src="/images/Pasted%20image%2020241206182531.png" alt=""></p>
 </li>
-<li><p>In the <code>public</code> folder of your Hugo project, create a file named <code>CNAME</code>.<br> <img src="/my-next-blog/images/Pasted%20image%2020241206182922.png" alt=""></p>
+<li><p>In the <code>public</code> folder of your Hugo project, create a file named <code>CNAME</code>.<br> <img src="/images/Pasted%20image%2020241206182922.png" alt=""></p>
 </li>
 <li><p>Add your custom domain (e.g., <code>blog.salameh.top</code>) inside the <code>CNAME</code> file.</p>
 </li>

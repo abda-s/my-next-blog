@@ -6,7 +6,7 @@ tags:
   - Electronics
 draft: "true"
 ---
-![](/my-next-blog/images/Pasted%20image%2020250121012703.png)
+![](/images/Pasted%20image%2020250121012703.png)
 
 we learnt that when the time is equal to 5J the capacitor must be fully charged.
 
@@ -22,13 +22,13 @@ the function of the capacitor $V(t) = V_{max}(1-e^{-t/RC})$
 - $V_{max}$ is the maximum voltage the capacitor can charge to (12 V in your case) 
 - $t$ is the time elapsed
 - $RC$ is the time constant of the circuit
-![](/my-next-blog/images/Pasted%20image%2020250121015614.png)
+![](/images/Pasted%20image%2020250121015614.png)
 
 It would take an infinite amount of time for the capacitor to reach exactly 12V because $e^{-t/RC}$ approaches zero asymptotically
-![](/my-next-blog/images/Pasted%20image%2020250121015737.png)
+![](/images/Pasted%20image%2020250121015737.png)
 
 but also in the simulation it showed that the voltage across the capacitor reach the maximum witch is 12v witch we already said it should not reach it
-![](/my-next-blog/images/Pasted%20image%2020250121020039.png)
+![](/images/Pasted%20image%2020250121020039.png)
 
 ok why it reached the max?
 - Oscilloscopes typically display voltages with a limited precision, and when the voltage is close enough (e.g., within microvolts of 12 V), the device rounds the value to 12 V.
