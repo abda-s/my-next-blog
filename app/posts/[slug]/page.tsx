@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { readdirSync } from 'fs';
 import fs from 'fs/promises';
@@ -10,6 +11,8 @@ import Script from 'next/script';
 import Link from 'next/link';
 import CodeBlock from '../../components/CodeBlock';
 import TocSidebar from '../../components/TocSidebar';
+import ScrollToTop from '../../components/ScrollToTop';
+import { Post } from '../../types';
 
 // Configure marked
 marked.setOptions({ gfm: true, breaks: true });
@@ -91,25 +94,25 @@ export default async function Page(props: PageProps) {
   if (postData.draft) {
     return (
       <>
+        <ScrollToTop />
         <Script
           id="MathJax-config"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.MathJax = {
-                tex: {
-                  inlineMath: [['$', '$']],
-                  displayMath: [['$$', '$$']],
-                  processEscapes: true
-                },
-                options: {
-                  ignoreHtmlClass: 'no-mathjax',
-                  processHtmlClass: 'mathjax'
-                }
-              };
-            `,
-          }}
-        />
+          strategy="beforeInteractive"
+        >
+          {`
+            window.MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+              },
+              svg: {
+                fontCache: 'global'
+              }
+            };
+          `}
+        </Script>
         <Script
+          type="text/javascript"
           id="MathJax-script"
           async
           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
@@ -140,25 +143,25 @@ export default async function Page(props: PageProps) {
 
   return (
     <>
+      <ScrollToTop />
       <Script
         id="MathJax-config"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.MathJax = {
-              tex: {
-                inlineMath: [['$', '$']],
-                displayMath: [['$$', '$$']],
-                processEscapes: true
-              },
-              options: {
-                ignoreHtmlClass: 'no-mathjax',
-                processHtmlClass: 'mathjax'
-              }
-            };
-          `,
-        }}
-      />
+        strategy="beforeInteractive"
+      >
+        {`
+          window.MathJax = {
+            tex: {
+              inlineMath: [['$', '$'], ['\\(', '\\)']],
+              displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            },
+            svg: {
+              fontCache: 'global'
+            }
+          };
+        `}
+      </Script>
       <Script
+        type="text/javascript"
         id="MathJax-script"
         async
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
