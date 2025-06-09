@@ -35,13 +35,13 @@ Follow these steps to set up and run the project locally:
 
 3.  **Run the development server:**
 
-    ```bash
-    npm run dev
+```bash
+npm run dev
     # or using yarn
     # yarn dev
     # or using pnpm
     # pnpm dev
-    ```
+```
 
     The blog will be available at `http://localhost:3000`.
 

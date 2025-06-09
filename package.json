@@ -11,6 +11,7 @@
     "copy-posts-from-obsidian": "node scripts/copyFilesFromObsidian.js"
   },
   "dependencies": {
+    "@excalidraw/excalidraw": "^0.18.0",
     "dompurify": "^3.2.6",
     "framer-motion": "^12.12.2",
     "gray-matter": "^4.0.3",

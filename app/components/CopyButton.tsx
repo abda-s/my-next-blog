@@ -12,9 +12,9 @@ const CopyButton: React.FC<CopyButtonProps> = ({ text }) => {
   const handleCopy = async () => {
     // Try modern clipboard API first
     if (typeof navigator !== 'undefined' && navigator.clipboard) {
-      try {
-        await navigator.clipboard.writeText(text);
-        setCopied(true);
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
         setTimeout(() => setCopied(false), 2000);
         return;
       } catch (e) {

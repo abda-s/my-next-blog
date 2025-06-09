@@ -47,59 +47,59 @@ export default function Contact() {
         <div className="bg-gray-800 rounded-lg p-6">
           <h2 className="text-2xl font-semibold mb-6 text-white">Send a Message</h2>
           <form id="myForm" onSubmit={handleSubmit} className="space-y-4">
-            <div>
+          <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">
                 Full Name
-              </label>
-              <input
-                type="text"
-                id="name"
+            </label>
+            <input
+              type="text"
+              id="name"
                 name="name"
                 required
                 className="w-full px-4 py-2 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500"
-                placeholder="Your name"
-              />
-            </div>
-            <div>
+              placeholder="Your name"
+            />
+          </div>
+          <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
+              Email
+            </label>
+            <input
+              type="email"
+              id="email"
                 name="email"
                 required
                 className="w-full px-4 py-2 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500"
-                placeholder="your.email@example.com"
-              />
-            </div>
-            <div>
+              placeholder="your.email@example.com"
+            />
+          </div>
+          <div>
               <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
-                Message
-              </label>
-              <textarea
-                id="message"
+              Message
+            </label>
+            <textarea
+              id="message"
                 name="message"
                 required
                 rows={4}
                 className="w-full px-4 py-2 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500"
                 placeholder="Your message..."
               />
-            </div>
-            <button
-              type="submit"
+          </div>
+          <button
+            type="submit"
               disabled={isSubmitting}
               className="w-full px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-            >
+          >
               {isSubmitting ? 'Sending...' : 'Send Message'}
-            </button>
+          </button>
             {submitStatus === 'success' && (
               <p className="text-green-400 text-center">Message sent successfully!</p>
             )}
             {submitStatus === 'error' && (
               <p className="text-red-400 text-center">Failed to send message. Please try again.</p>
             )}
-          </form>
+        </form>
         </div>
 
         {/* Contact Information */}

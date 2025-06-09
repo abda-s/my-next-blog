@@ -76,7 +76,7 @@ export default function Navbar() {
               className="text-gray-300 hover:text-white transition-colors"
             >
               {link.name}
-            </Link>
+        </Link>
           ))}
         </div>
         {/* Mobile Menu and Search Icon */}
