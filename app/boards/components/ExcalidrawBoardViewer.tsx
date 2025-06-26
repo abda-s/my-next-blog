@@ -3,7 +3,6 @@
 import dynamic from "next/dynamic";
 import "@excalidraw/excalidraw/index.css";
 import { useEffect, useState } from "react";
-import brotliPromise from "brotli-wasm";
 import type { ExcalidrawInitialDataState } from '@excalidraw/excalidraw/types';
 
 const Excalidraw = dynamic(
@@ -35,13 +34,10 @@ export default function ExcalidrawBoardViewer({ board, drawing }: { board: strin
       setIsLoading(true);
       setError(null);
       try {
-        const brPath = `/drawing-compressed/${encodeURIComponent(board)}/${encodeURIComponent(drawing)}.excalidraw.br`;
-        const response = await fetch(brPath);
+        const jsonPath = `/drawings-json/${encodeURIComponent(board)}/${encodeURIComponent(drawing)}.json`;
+        const response = await fetch(jsonPath);
         if (!response.ok) throw new Error('Failed to fetch file');
-        const arrayBuffer = await response.arrayBuffer();
-        const brotli = await brotliPromise;
-        const decompressed = brotli.decompress(new Uint8Array(arrayBuffer));
-        const text = new TextDecoder().decode(decompressed);
+        const text = await response.text();
         const data = JSON.parse(text);
         const initialConfig: ExcalidrawInitialDataState = {
           ...(data as ExcalidrawInitialDataState),
