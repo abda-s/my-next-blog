@@ -637,7 +637,7 @@ medianBedrooms = housing_df.BEDROOMS.median()
 housing_df.BEDROOMS = housing_df.BEDROOMS.fillna(medianBedrooms)
 ```
 
-we found the median of the `BEDROOMS` column and we filled the NA values with the median, there are better ways to do this, but this is one of them
+we found the median of the `BEDROOMS` column and we filled the NA values with the median,***there are better ways to do this***, but this is one of them
 
 ## 4. Data Exploration (EDA)
 we preform expletory data analysis (EDA) to understand the data and find patterns and relationships between the data.
@@ -647,14 +647,6 @@ from what I've understood we just have to visualize the data, and find relations
 ```python
 pd.pivot_table(housing_df,index=["REMODEL"],values=["TOTAL_VALUE"],aggfunc=[np.mean,np.std])
 ```
-    C:\Users\3adas\AppData\Local\Temp\ipykernel_15288\4102967791.py:1: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
-      pd.pivot_table(housing_df,index=["REMODEL"],values=["TOTAL_VALUE"],aggfunc=[np.mean,np.std])
-    C:\Users\3adas\AppData\Local\Temp\ipykernel_15288\4102967791.py:1: FutureWarning: The provided callable <function mean at 0x00000191FE309AB0> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
-      pd.pivot_table(housing_df,index=["REMODEL"],values=["TOTAL_VALUE"],aggfunc=[np.mean,np.std])
-    C:\Users\3adas\AppData\Local\Temp\ipykernel_15288\4102967791.py:1: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
-      pd.pivot_table(housing_df,index=["REMODEL"],values=["TOTAL_VALUE"],aggfunc=[np.mean,np.std])
-    C:\Users\3adas\AppData\Local\Temp\ipykernel_15288\4102967791.py:1: FutureWarning: The provided callable <function std at 0x00000191FE309BD0> is currently using DataFrameGroupBy.std. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "std" instead.
-      pd.pivot_table(housing_df,index=["REMODEL"],values=["TOTAL_VALUE"],aggfunc=[np.mean,np.std])
 
 <div>
 <style scoped>
@@ -892,7 +884,7 @@ housing_df.describe()
 
 
 
-the `describe` method is a pandas method that returns a summary of the data in the dataframe, which includes the count, mean, standard deviation, minimum, maximum, and quartiles
+the `describe` method is a pandas method that returns a summary of the data in the data frame, which includes the count, mean, standard deviation, minimum, maximum, and quartiles
 
 
 ```python
@@ -905,18 +897,12 @@ plt.show()
     
 
 
-the `hist` method is used for the columns of the dataframe, it returns a histogram of the data, and the `set_xlabel` and `set_ylabel` methods are used to set the labels of the x and y axes, and the `plt.show` method is used to show the plot
+the `hist` method is used for the columns of the data frame, it returns a histogram of the data, and the `set_xlabel` and `set_ylabel` methods are used to set the labels of the x and y axes, and the `plt.show` method is used to show the plot
 
 
 ```python
 housing_df.plot.scatter(x="ROOMS",y="TOTAL_VALUE")
-```
-    <Axes: xlabel='ROOMS', ylabel='TOTAL_VALUE'>
-
-
-
-
-    
+```    
 ![](/images/Pasted%20image%2020250526150235.png)
 
 
@@ -924,8 +910,6 @@ housing_df.plot.scatter(x="ROOMS",y="TOTAL_VALUE")
 ```python
 sns.pairplot(housing_df, x_vars=["ROOMS","FLOORS"], y_vars="TOTAL_VALUE", hue="REMODEL",height=5, aspect=.8, kind="reg")
 ```
-    <seaborn.axisgrid.PairGrid at 0x191b115a230>
-    
 ![](/images/Pasted%20image%2020250526150248.png)
     
 
@@ -934,8 +918,6 @@ sns.pairplot(housing_df, x_vars=["ROOMS","FLOORS"], y_vars="TOTAL_VALUE", hue="R
 ```python
 sns.scatterplot(x="LOT_SQFT",y="TOTAL_VALUE",size="FULL_BATH",data=housing_df)
 ```
-    <Axes: xlabel='LOT_SQFT', ylabel='TOTAL_VALUE'>
-    
 ![](/images/Pasted%20image%2020250526150256.png)
     
 
@@ -944,8 +926,6 @@ sns.scatterplot(x="LOT_SQFT",y="TOTAL_VALUE",size="FULL_BATH",data=housing_df)
 ```python
 sns.scatterplot(x="LOT_SQFT",y="TOTAL_VALUE",size="FULL_BATH",hue="REMODEL",data=housing_df)
 ```
-    <Axes: xlabel='LOT_SQFT', ylabel='TOTAL_VALUE'>
-
 ![](/images/Pasted%20image%2020250526150304.png)
     
 
@@ -957,11 +937,9 @@ ax.set_ylabel("Total Value")
 plt.suptitle('')
 plt.title('')
 ```
-    Text(0.5, 1.0, '')
-
 ![](/images/Pasted%20image%2020250526150313.png)
 
-here is Youtube [video](https://www.youtube.com/watch?v=nV8jR8M8C74) explaining the above code
+here is Youtube [video](https://www.youtube.com/watch?v=nV8jR8M8C74) explaining the above plot
 
 ![](/images/Pasted%20image%2020250526150429.png)
 
@@ -1119,7 +1097,7 @@ Select suitable algorithms and build predictive or prescriptive models. This inv
 
 In this step, dataset is split into:
 -  Training set (used to build/train multiple models)
-- Validation set (used to tune parameters, compare models and select the best model)
+-  Validation set (used to tune parameters, compare models and select the best model)
 -  Testing set (held back until final model evaluation to assess the  performance of the chosen model).
 
 **pay attention to overfitting**
@@ -1182,8 +1160,6 @@ plt.show()
 
 
 This code calculates the residuals (differences between actual and predicted values) of a linear regression model and visualizes them as a histogram with 25 bins.
-
-
 
 We visualize the residuals to check the assumptions of linear regression, specifically:
 
