@@ -1,5 +1,5 @@
 const nextConfig = {
-  output: 'export', // Enable static HTML export
+  // output: 'export', // Enable static HTML export
   basePath: '', // Replace with your GitHub repo name if deploying under a subpath
   assetPrefix: '',
   trailingSlash: true, // Required for GitHub Pages to handle static routes

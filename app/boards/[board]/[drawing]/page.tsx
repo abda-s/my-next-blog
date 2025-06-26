@@ -46,4 +46,6 @@ export default async function DrawingPage({ params }: { params: Promise<{ board:
       <ExcalidrawBoardViewer board={board} drawing={drawing} />
     </div>
   );
-} 
+}
+
+export const dynamic = "force-dynamic"; 

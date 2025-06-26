@@ -5,7 +5,8 @@ import { Post } from '../types';
 
 export async function getPosts(includeDrafts: boolean = false): Promise<Post[]> {
   const postsDirectory = path.join(process.cwd(), 'posts');
-  const filenames = await fs.readdir(postsDirectory);
+  const dirents = await fs.readdir(postsDirectory, { withFileTypes: true });
+  const filenames = dirents.filter(d => d.isFile()).map(d => d.name);
 
   const posts: Post[] = await Promise.all(
     filenames.map(async (filename) => {
