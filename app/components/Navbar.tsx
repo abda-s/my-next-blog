@@ -14,6 +14,7 @@ export default function Navbar() {
   const navLinks: NavLink[] = [
     { name: 'Home', href: '/' },
     { name: 'Posts', href: '/all-posts' },
+    { name: 'Boards', href: '/boards' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
   ];
@@ -76,7 +77,7 @@ export default function Navbar() {
               className="text-gray-300 hover:text-white transition-colors"
             >
               {link.name}
-        </Link>
+            </Link>
           ))}
         </div>
         {/* Mobile Menu and Search Icon */}

@@ -13,9 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className="bg-gray-900 text-gray-100 min-h-screen">
+      <body className="bg-gray-900 text-gray-100 min-h-screen flex flex-col">
         <Navbar />
-        <main>
+        <main className="flex-1">
           {children}
         </main>
         <footer className="bg-gray-800 text-gray-400 py-8">
