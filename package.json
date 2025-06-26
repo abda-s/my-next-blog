@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "process-images": "node scripts/processMarkdownImages.js",
+    "process-drawings": "node scripts/compressExcalidraw.js",
     "copy-posts-from-obsidian": "node scripts/copyFilesFromObsidian.js"
   },
   "dependencies": {

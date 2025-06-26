@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import "@excalidraw/excalidraw/index.css";
 import { useEffect, useState } from "react";
 import brotliPromise from "brotli-wasm";
+import type { ExcalidrawInitialDataState } from '@excalidraw/excalidraw/types';
 
 const Excalidraw = dynamic(
   async () => (await import("@excalidraw/excalidraw")).Excalidraw,
@@ -24,7 +25,7 @@ function ExcalidrawSkeletonLoader() {
 }
 
 export default function ExcalidrawBoardViewer({ board, drawing }: { board: string, drawing: string }) {
-  const [excalidrawData, setExcalidrawData] = useState<any>(null);
+  const [excalidrawData, setExcalidrawData] = useState<ExcalidrawInitialDataState | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -42,21 +43,12 @@ export default function ExcalidrawBoardViewer({ board, drawing }: { board: strin
         const decompressed = brotli.decompress(new Uint8Array(arrayBuffer));
         const text = new TextDecoder().decode(decompressed);
         const data = JSON.parse(text);
-        const elements = data.elements || [];
-        const appState = {
-          ...(data.appState || {}),
-          zoom: { value: 0.5 },
-          scrollX: 0,
-          scrollY: 0,
-        };
-        const files = data.files || {};
-        const initialConfig: any = {
-          elements: elements,
-          appState: appState,
-          files: files,
+        const initialConfig: ExcalidrawInitialDataState = {
+          ...(data as ExcalidrawInitialDataState),
+          appState: { ...(data.appState || {}), zoom: { value: 0.5 }, scrollX: 0, scrollY: 0 },
         };
         if (isMounted) setExcalidrawData(initialConfig);
-      } catch (err: any) {
+      } catch (err: unknown) {
         console.error('Error loading Excalidraw file:', err);
         if (isMounted) setError('Failed to load drawing.');
       } finally {

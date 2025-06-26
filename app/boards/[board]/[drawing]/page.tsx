@@ -12,10 +12,10 @@ export async function generateStaticParams() {
       const fullPath = path.join(drawingsDir, name);
       return fs.statSync(fullPath).isDirectory();
     });
-  } catch (e) {
+  } catch {
     boards = [];
   }
-  let params: { board: string; drawing: string }[] = [];
+  const params: { board: string; drawing: string }[] = [];
   for (const board of boards) {
     const boardDir = path.join(drawingsDir, board);
     let drawings: string[] = [];
@@ -23,7 +23,7 @@ export async function generateStaticParams() {
       drawings = fs.readdirSync(boardDir)
         .filter((name) => name.endsWith('.excalidraw'))
         .map((name) => name.replace(/\.excalidraw$/, ''));
-    } catch (e) {
+    } catch {
       drawings = [];
     }
     for (const drawing of drawings) {
@@ -33,8 +33,8 @@ export async function generateStaticParams() {
   return params;
 }
 
-export default function DrawingPage({ params }: { params: { board: string, drawing: string } }) {
-  const { board, drawing } = params;
+export default async function DrawingPage({ params }: { params: Promise<{ board: string, drawing: string }> }) {
+  const { board, drawing } = await params;
   return (
     <div className="p-4 mx-4 md:mx-0">
         <div className="flex flex-row items-center mb-4 gap-x-4">

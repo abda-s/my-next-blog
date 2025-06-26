@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { readdirSync } from 'fs';
 import fs from 'fs/promises';
@@ -12,7 +11,7 @@ import Link from 'next/link';
 import CodeBlock from '../../components/CodeBlock';
 import TocSidebar from '../../components/TocSidebar';
 import ScrollToTop from '../../components/ScrollToTop';
-import { Post } from '../../types';
+
 
 // Configure marked
 marked.setOptions({ gfm: true, breaks: true });

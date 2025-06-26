@@ -16,6 +16,7 @@ Write-Host "/-/-/--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/--/-/-/-/-/-/-/--/
 Write-Host "Running npm scripts..."
 npm run copy-posts-from-obsidian
 npm run process-images
+npm run process-drawings
 npm run build
 
 Write-Host "Finished npm scripts..."
