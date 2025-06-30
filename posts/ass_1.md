@@ -1,12 +1,12 @@
 ---
-title: Intro to AI
-description: test
-date: 2025-05-26
+title: "Predicting Home Values: A Full Data Science Project Walkthrough"
+description: "Follow my step-by-step data science project: predicting West Roxbury home values. From problem definition and data preparation to building and evaluating a linear regression model"
+date: 2025-05-25
 tags:
   - AI
-draft: "true"
+draft: "false"
 ---
-The first step we have to do is
+In this blog post, I've taken you on a comprehensive, step-by-step journey through a real-world data science project: predicting home values in West Roxbury, Boston. I started by defining the core problem and outlining our industry, stakeholders, goals, and the benefits of achieving them. From there, I walked through the crucial stages of data collection, showing how I loaded and prepared the WestRoxbury.csv file. You've seen my approach to data cleaning, where I tackled missing values and standardized column names to ensure our dataset was pristine. Then, we dove deep into data exploration (EDA), visualizing relationships and uncovering insights before moving on to feature engineering to prepare our data for modeling.
 
 ## 1. Problem Definition
 
@@ -1237,4 +1237,5 @@ and that's it we predicted the values
 ## 10. Monitoring and Maintenance
 Continuously monitor the model’s performance to ensure it remains accurate over time. Regular updates may be needed as new data becomes available or if the business problem evolves
 
-
+## Conclusion
+As we conclude this project, I hope I've clearly illustrated the complete data science lifecycle, from our initial problem definition all the way to model deployment. We've meticulously cleaned and explored our raw data, transforming it into meaningful features, and then built and rigorously evaluated our linear regression model. The successful prediction of new home values at the end, as shown with our new_data DataFrame, truly showcases the tangible outcome of this systematic process. Remember, data science isn't a one-and-done deal; continuous monitoring and maintenance are absolutely key to ensuring our models remain accurate and impactful in a dynamic real-world environment.
