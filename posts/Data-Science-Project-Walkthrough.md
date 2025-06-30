@@ -492,7 +492,6 @@ The `loc` method takes a range and it shows the data from the range you selected
 
 ```python
 housing_df.iloc[0:9,1]
-
 ```
     0    4330
     1    5190
@@ -572,7 +571,6 @@ we can use this to see if the data is categorical or not, like with the `REMODEL
 
 ```python
 housing_df.loc[0:9,"REMODEL"]
-
 ```
     0      None
     1    Recent
