@@ -771,6 +771,13 @@
       "url": "/images/RS232.png"
     },
     {
+      "id": "/images/01-class-generation.png",
+      "name": "01-class-generation.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/01-class-generation.png"
+    },
+    {
       "id": "/images/Pasted image 20241202122253.png",
       "name": "Pasted image 20241202122253.png",
       "val": 15,
@@ -4279,6 +4286,11 @@
       "source": "zipwn-how-to-crack-archive-passwords-winrar",
       "target": "https://github.com/crunchsec/crunch",
       "type": "external"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/01-class-generation.png",
+      "type": "asset"
     },
     {
       "source": "altium-pcb-rules-jlcpcb",

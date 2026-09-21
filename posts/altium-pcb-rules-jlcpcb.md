@@ -40,7 +40,7 @@ Two quick settings to change before we touch any rules.
 2. Click the **Class Generation** tab at the top of the window.
 3. Turn **off** the automatic options for component classes and net classes.
 
-![Class Generation tab in Project Options](01-class-generation.png)
+![](/images/01-class-generation.png)
 
 **Why do this?** By default, Altium creates extra component classes and layout rooms on its own. On a normal board you don't need them, and they just make the design messy. Only turn this back on if you're working on a multi-channel design or a circuit that repeats many times, where you really want those classes.
 
