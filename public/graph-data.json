@@ -183,6 +183,13 @@
       "slug": "Zipwn-How-to-Crack-Archive-Passwords-WINRAR"
     },
     {
+      "id": "altium-pcb-rules-jlcpcb",
+      "name": "altium-pcb-rules-jlcpcb",
+      "val": 20,
+      "type": "post",
+      "slug": "altium-pcb-rules-jlcpcb"
+    },
+    {
       "id": "download-vs-code-on-linux",
       "name": "Download VS-Code on Linux",
       "val": 20,
@@ -2489,6 +2496,34 @@
       "url": "https://github.com/crunchsec/crunch"
     },
     {
+      "id": "https://jlcpcb.com/capabilities/pcb-capabilities",
+      "name": "jlcpcb.com",
+      "val": 10,
+      "type": "external",
+      "url": "https://jlcpcb.com/capabilities/pcb-capabilities"
+    },
+    {
+      "id": "https://jlcpcb.com/pcb-impedance-calculator/",
+      "name": "jlcpcb.com",
+      "val": 10,
+      "type": "external",
+      "url": "https://jlcpcb.com/pcb-impedance-calculator/"
+    },
+    {
+      "id": "https://jlcpcb.com/impedance",
+      "name": "jlcpcb.com",
+      "val": 10,
+      "type": "external",
+      "url": "https://jlcpcb.com/impedance"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=raG6piNjtxE&t=445s",
+      "name": "www.youtube.com",
+      "val": 10,
+      "type": "external",
+      "url": "https://www.youtube.com/watch?v=raG6piNjtxE&t=445s"
+    },
+    {
       "id": "https://code.visualstudio.com/download",
       "name": "code.visualstudio.com",
       "val": 10,
@@ -4227,6 +4262,31 @@
     {
       "source": "zipwn-how-to-crack-archive-passwords-winrar",
       "target": "https://github.com/crunchsec/crunch",
+      "type": "external"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "https://jlcpcb.com/capabilities/pcb-capabilities",
+      "type": "external"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "https://jlcpcb.com/pcb-impedance-calculator/",
+      "type": "external"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "https://jlcpcb.com/impedance",
+      "type": "external"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "https://jlcpcb.com/impedance",
+      "type": "external"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "https://www.youtube.com/watch?v=raG6piNjtxE&t=445s",
       "type": "external"
     },
     {

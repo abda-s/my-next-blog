@@ -5,6 +5,7 @@ date: 2026-01-27
 tags:
   - ESP
   - FreeRTOS
+  - Embedded
 draft: "true"
 ---
 I’m diving into FreeRTOS on the ESP32-S3. Honestly, the tutorial starts by showing how to install FreeRTOS for everything, but since I’m using the ESP32-S3, the ESP platform already has a forked version of FreeRTOS pre-installed. We’re skipping the fluff and getting straight to the good stuff.
@@ -336,5 +337,6 @@ it's just like the code we did earlier bu this time we created a new task that c
 ## If you need more answers
 
 1. Check `FreeRTOSConfig.h`.
-2. Check [Mastering the FreeRTOS Real Time Kernel](file:///home/abdas/Downloads/Mastering-the-FreeRTOS-Real-Time-Kernel.v1.1.0.pdf) (Chapter 4 for Tasks, Chapter 13 for Stack Overflow).
+2. Check [Mastering the FreeRTOS Real Time Kernel](https://github.com/FreeRTOS/FreeRTOS-Kernel-Book/releases/download/V1.1.0/Mastering-the-FreeRTOS-Real-Time-Kernel.v1.1.0.pdf) (Chapter 4 for Tasks, Chapter 13 for Stack Overflow).
 3. Check the [Espressif Docs](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/freertos_idf.html).
+
