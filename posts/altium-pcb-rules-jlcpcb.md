@@ -1,5 +1,12 @@
-# Altium PCB Rules for JLCPCB
-
+---
+title: Altium PCB Rules for JLCPCB
+description: This guide shows you how to set up Altium Designer so your board follows JLCPCB's rules. We're building a 4-layer board with JLCPCB's standard stackup, JLC04161H-7628
+date: 2026-09-20
+tags:
+  - PCB
+  - Electronics
+draft: "false"
+---
 This guide shows you how to set up Altium Designer so your board follows JLCPCB's rules. We're building a **4-layer board** with JLCPCB's standard stackup, **JLC04161H-7628**.
 
 **What we'll do:**

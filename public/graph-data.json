@@ -184,7 +184,7 @@
     },
     {
       "id": "altium-pcb-rules-jlcpcb",
-      "name": "altium-pcb-rules-jlcpcb",
+      "name": "Altium PCB Rules for JLCPCB",
       "val": 20,
       "type": "post",
       "slug": "altium-pcb-rules-jlcpcb"
@@ -2097,6 +2097,12 @@
       "type": "tag"
     },
     {
+      "id": "tag:PCB",
+      "name": "PCB",
+      "val": 22,
+      "type": "tag"
+    },
+    {
       "id": "https://www.youtube.com/watch?v=rJrd2QMVbGM&list=PLkRVBxEUZmoNK_p0dLusm5pD5Us8cs6fq&index=2",
       "name": "www.youtube.com",
       "val": 10,
@@ -3517,6 +3523,16 @@
     {
       "source": "tag:Pentesting",
       "target": "zipwn-how-to-crack-archive-passwords-winrar",
+      "type": "tagged"
+    },
+    {
+      "source": "tag:PCB",
+      "target": "altium-pcb-rules-jlcpcb",
+      "type": "tagged"
+    },
+    {
+      "source": "tag:Electronics",
+      "target": "altium-pcb-rules-jlcpcb",
       "type": "tagged"
     },
     {
