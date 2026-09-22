@@ -51,7 +51,7 @@ Two quick settings to change before we touch any rules.
 3. Scroll down to the **Other** section.
 4. Under **Units**, pick **mm**.
 
-![Setting the units to mm in the Properties panel](02-units-mm.png)
+![](/images/02-units-mm.png)
 
 **Why do this?** Every number in this guide is in mm, so working in mm means you can type the values straight in without converting.
 
@@ -81,7 +81,7 @@ Go to **Electrical > Clearance** and fill in the matrix with these values (all i
 
 The table is mirrored, so you only fill in half of it. Track-to-SMD-pad is the same rule as SMD-pad-to-track.
 
-![Clearance rule with the matrix filled in](03-clearance-rule.png)
+![](/images/03-clearance-rule.png)
 
 **Why these numbers?**
 
@@ -98,7 +98,7 @@ The table is mirrored, so you only fill in half of it. Track-to-SMD-pad is the s
 
 Go to **Electrical > Un-Routed Net > UnRoutedNet** and make sure **Check for incomplete connections** is turned on.
 
-![UnRoutedNet rule with "Check for incomplete connections" enabled](04-unrouted-net-rule.png)
+![](/images/04-unrouted-net-rule.png)
 
 **Why do this?** It's easy to forget one wire on a busy board, and a board with a missing connection can be useless. This rule catches it before you order.
 
@@ -114,7 +114,7 @@ Go to **Routing > Width > Width** and set:
 | Preferred | 0.3 mm |
 | Maximum | 1 mm |
 
-![Width rule with min, preferred and max values](05-width-rule.png)
+![](/images/05-width-rule.png)
 
 **Why these numbers?**
 
@@ -135,7 +135,7 @@ Go to **Routing > Routing Via Style > RoutingVias** and set:
 | **Via diameter** | 0.45 mm | 0.6 mm | 1 mm |
 | **Via hole size** | 0.2 mm | 0.3 mm | 0.5 mm |
 
-![RoutingVias rule with diameter and hole size values](06-routing-vias-rule.png)
+![](/images/06-routing-vias-rule.png)
 
 **Why these numbers?** The copper ring around the hole is called the **annular ring**, and it's half the difference between the diameter and the hole size:
 
@@ -150,7 +150,7 @@ The ring has to be big enough to survive drilling, because drills are never perf
 
 Go to **Plane > Polygon Connect Style > PolygonConnect** and pick the connect style you want. In this guide we use **Direct Connect**.
 
-![PolygonConnect rule set to Direct Connect](07-polygon-connect-rule.png)
+![](/images/07-polygon-connect-rule.png)
 
 **Why?** It depends on your project:
 
@@ -163,7 +163,7 @@ Go to **Plane > Polygon Connect Style > PolygonConnect** and pick the connect st
 
 Go to **Mask > Solder Mask Expansion > SolderMaskExpansion** and set the expansion to **0.05 mm**.
 
-![SolderMaskExpansion rule set to 0.05 mm](08-solder-mask-expansion-rule.png)
+![](/images/08-solder-mask-expansion-rule.png)
 
 **Why?** The mask is never lined up perfectly with the copper. With a small extra gap (0.05 mm, about 2 mil), a tiny shift won't cover part of your pad.
 
@@ -173,7 +173,7 @@ Go to **Mask > Solder Mask Expansion > SolderMaskExpansion** and set the expansi
 
 Go to **Manufacturing > Minimum Solder Mask Sliver > MinimumSolderMaskSliver** and set it to **0.1 mm**.
 
-![MinimumSolderMaskSliver rule set to 0.1 mm](09-solder-mask-sliver-rule.png)
+![](/images/09-solder-mask-sliver-rule.png)
 
 **Why 0.1 mm?** If you order the standard colors from JLCPCB (Green, Blue, Red, Yellow, Purple), 0.1 mm is their normal capability. Setting it correctly also stops Altium from giving you false DRC errors around fine-pitch ICs.
 
@@ -195,7 +195,7 @@ A multi-layer PCB is made of copper layers glued together with insulating materi
 
 JLCPCB has a few standard stackups. They all end up with the same total board thickness (for example 1.6 mm), but they split that thickness differently between the copper and insulating layers.
 
-![JLCPCB stackup layers table](10-jlc-stackup-layers.png)
+![](/images/10-jlc-stackup-layers.png)
 
 Here's our stackup, from top to bottom (this is the standard **JLC04161H-7628**):
 
@@ -222,7 +222,7 @@ You can find it here: <https://jlcpcb.com/pcb-impedance-calculator/>
 
 > **Note:** Scroll to the right on the JLCPCB stackup menu to find this option.
 
-![JLCPCB stackup selector with JLC04161H-7628 highlighted](11-jlc-stackup-selector.png)
+![](/images/11-jlc-stackup-selector.png)
 
 > **Note:** On this stackup the outer layers are **1 oz** copper and the inner layers are **0.5 oz**.
 
@@ -248,25 +248,25 @@ You only need another stackup when the standard one can't do what your design ne
 
 While you're in the PCB editor, go to **Design > Layer Stack Manager...** You'll see the default two-layer setup:
 
-![Default layer stack in Layer Stack Manager](12-default-layer-stack.png)
+![](/images/12-default-layer-stack.png)
 
 **Step 2: Apply the 4-layer preset**
 
 In the top menu bar, choose **Tools > Presets > 4 Layers**. This gives you a basic 4-layer stackup to start from:
 
-![4-layer preset applied](13-four-layer-preset.png)
+![](/images/13-four-layer-preset.png)
 
 **Step 3: Delete the extra prepreg layers**
 
 JLCPCB only uses **one** prepreg layer between a signal layer and a plane layer, but the preset has two. Right-click each extra prepreg layer (the red boxes in the screenshot) and choose **Delete**. Altium may remove the matching duplicate layer for you when you delete the upper one.
 
-![Extra prepreg layers highlighted for deletion](14-delete-extra-prepreg.png)
+![](/images/14-delete-extra-prepreg.png)
 
 **Step 4: Get the thickness values from JLCPCB**
 
 Open JLCPCB's impedance page, <https://jlcpcb.com/impedance>, and look at the **JLC04161H-7628** stackup:
 
-![JLC04161H-7628 layer thicknesses on the JLCPCB impedance page](15-jlc-7628-thickness-table.png)
+![](/images/15-jlc-7628-thickness-table.png)
 
 The same table is on the calculator page from [section 3.3](#33-why-we-picked-jlc04161h-7628). It shows the thickness in both mil and mm, so you can copy whichever you need.
 
@@ -274,7 +274,7 @@ The same table is on the calculator page from [section 3.3](#33-why-we-picked-jl
 
 Enter those values in the Layer Stack Manager:
 
-![Layer thicknesses entered in Altium](16-thickness-entered.png)
+![](/images/16-thickness-entered.png)
 
 **Step 6: Get the dielectric constants (Dk)**
 
@@ -282,11 +282,11 @@ The Dk tells Altium how the insulating material affects the signals. Get the Dk 
 
 For our stackup that's **4.4** for the 7628 prepreg and **4.6** for the core.
 
-![Dk values for prepreg and core on the JLCPCB impedance page](17-jlc-dk-values.png)
+![](/images/17-jlc-dk-values.png)
 
 **Step 7: Type the Dk values into Altium**
 
-![Dk values entered in Altium](18-dk-entered.png)
+![](/images/18-dk-entered.png)
 
 This makes Altium's impedance calculations match what JLCPCB will actually build.
 
@@ -294,7 +294,7 @@ This makes Altium's impedance calculations match what JLCPCB will actually build
 
 Change the copper weight of the inner layers (**Int1** and **Int2**) from **1 oz** to **1/2 oz**. This matches JLCPCB's standard inner layers.
 
-![Inner layers changed to 1/2 oz](19-inner-copper-half-oz.png)
+![](/images/19-inner-copper-half-oz.png)
 
 > **Heads up:** In our screenshot, Altium changed the inner copper thickness to 0.0175 mm when we switched to 1/2 oz. JLCPCB's value is **0.0152 mm**, so after you change the weight, type 0.0152 mm back in.
 
@@ -307,7 +307,7 @@ Change the copper weight of the inner layers (**Int1** and **Int2**) from **1 oz
 
 Change the type of the inner layers from Plane to **Signal**. We'll add our ground and power planes later as copper pours.
 
-![Inner layers changed to the Signal type](20-inner-layers-signal.png)
+![](/images/20-inner-layers-signal.png)
 
 **Why?** If you leave them as Plane, Altium exports them as *negative* layers in the Gerber files. That works, but it's easy to get wrong and it's not ideal. Using Signal layers with polygon pours avoids the problem.
 
@@ -321,13 +321,13 @@ Altium has its own impedance calculator. Before using it, it helps to know how t
 
 Source: <https://www.youtube.com/watch?v=raG6piNjtxE&t=445s>
 
-| Method | Accuracy | Difficulty | Time it takes |
-| :--- | :--- | :--- | :--- |
-| **IPC-2141** | Lowest | Lowest | Lowest |
-| **Wadell's equations** | Moderate | Moderate | Moderate to high |
-| **2D field solver (no losses)** | High | Low | Low |
-| **2D field solver (with losses)** | High | Low | Moderate |
-| **3D field solver** | Highest | Highest | Highest |
+| Method                            | Accuracy | Difficulty | Time it takes    |
+| :-------------------------------- | :------- | :--------- | :--------------- |
+| **IPC-2141**                      | Lowest   | Lowest     | Lowest           |
+| **Wadell's equations**            | Moderate | Moderate   | Moderate to high |
+| **2D field solver (no losses)**   | High     | Low        | Low              |
+| **2D field solver (with losses)** | High     | Low        | Moderate         |
+| **3D field solver**               | Highest  | Highest    | Highest          |
 
 What this means in simple terms:
 
@@ -347,7 +347,7 @@ What this means in simple terms:
 3. In the **Properties** panel, set **Type** to **Differential** and **Target Impedance** to **90** (Ω).
 4. Altium calculates the trace width for you.
 
-![Altium impedance calculator set up for a 90 Ω differential pair](21-altium-impedance-calculator.png)
+![](/images/21-altium-impedance-calculator.png)
 
 In our screenshot, Altium gives a trace width of about **0.281 mm** for a 90 Ω pair (it shows 89.98 Ω), with a 0.2032 mm gap.
 

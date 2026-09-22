@@ -778,6 +778,146 @@
       "url": "/images/01-class-generation.png"
     },
     {
+      "id": "/images/02-units-mm.png",
+      "name": "02-units-mm.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/02-units-mm.png"
+    },
+    {
+      "id": "/images/03-clearance-rule.png",
+      "name": "03-clearance-rule.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/03-clearance-rule.png"
+    },
+    {
+      "id": "/images/04-unrouted-net-rule.png",
+      "name": "04-unrouted-net-rule.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/04-unrouted-net-rule.png"
+    },
+    {
+      "id": "/images/05-width-rule.png",
+      "name": "05-width-rule.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/05-width-rule.png"
+    },
+    {
+      "id": "/images/06-routing-vias-rule.png",
+      "name": "06-routing-vias-rule.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/06-routing-vias-rule.png"
+    },
+    {
+      "id": "/images/07-polygon-connect-rule.png",
+      "name": "07-polygon-connect-rule.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/07-polygon-connect-rule.png"
+    },
+    {
+      "id": "/images/08-solder-mask-expansion-rule.png",
+      "name": "08-solder-mask-expansion-rule.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/08-solder-mask-expansion-rule.png"
+    },
+    {
+      "id": "/images/09-solder-mask-sliver-rule.png",
+      "name": "09-solder-mask-sliver-rule.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/09-solder-mask-sliver-rule.png"
+    },
+    {
+      "id": "/images/10-jlc-stackup-layers.png",
+      "name": "10-jlc-stackup-layers.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/10-jlc-stackup-layers.png"
+    },
+    {
+      "id": "/images/11-jlc-stackup-selector.png",
+      "name": "11-jlc-stackup-selector.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/11-jlc-stackup-selector.png"
+    },
+    {
+      "id": "/images/12-default-layer-stack.png",
+      "name": "12-default-layer-stack.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/12-default-layer-stack.png"
+    },
+    {
+      "id": "/images/13-four-layer-preset.png",
+      "name": "13-four-layer-preset.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/13-four-layer-preset.png"
+    },
+    {
+      "id": "/images/14-delete-extra-prepreg.png",
+      "name": "14-delete-extra-prepreg.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/14-delete-extra-prepreg.png"
+    },
+    {
+      "id": "/images/15-jlc-7628-thickness-table.png",
+      "name": "15-jlc-7628-thickness-table.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/15-jlc-7628-thickness-table.png"
+    },
+    {
+      "id": "/images/16-thickness-entered.png",
+      "name": "16-thickness-entered.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/16-thickness-entered.png"
+    },
+    {
+      "id": "/images/17-jlc-dk-values.png",
+      "name": "17-jlc-dk-values.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/17-jlc-dk-values.png"
+    },
+    {
+      "id": "/images/18-dk-entered.png",
+      "name": "18-dk-entered.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/18-dk-entered.png"
+    },
+    {
+      "id": "/images/19-inner-copper-half-oz.png",
+      "name": "19-inner-copper-half-oz.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/19-inner-copper-half-oz.png"
+    },
+    {
+      "id": "/images/20-inner-layers-signal.png",
+      "name": "20-inner-layers-signal.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/20-inner-layers-signal.png"
+    },
+    {
+      "id": "/images/21-altium-impedance-calculator.png",
+      "name": "21-altium-impedance-calculator.png",
+      "val": 15,
+      "type": "asset",
+      "url": "/images/21-altium-impedance-calculator.png"
+    },
+    {
       "id": "/images/Pasted image 20241202122253.png",
       "name": "Pasted image 20241202122253.png",
       "val": 15,
@@ -4290,6 +4430,106 @@
     {
       "source": "altium-pcb-rules-jlcpcb",
       "target": "/images/01-class-generation.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/02-units-mm.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/03-clearance-rule.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/04-unrouted-net-rule.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/05-width-rule.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/06-routing-vias-rule.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/07-polygon-connect-rule.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/08-solder-mask-expansion-rule.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/09-solder-mask-sliver-rule.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/10-jlc-stackup-layers.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/11-jlc-stackup-selector.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/12-default-layer-stack.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/13-four-layer-preset.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/14-delete-extra-prepreg.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/15-jlc-7628-thickness-table.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/16-thickness-entered.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/17-jlc-dk-values.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/18-dk-entered.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/19-inner-copper-half-oz.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/20-inner-layers-signal.png",
+      "type": "asset"
+    },
+    {
+      "source": "altium-pcb-rules-jlcpcb",
+      "target": "/images/21-altium-impedance-calculator.png",
       "type": "asset"
     },
     {
